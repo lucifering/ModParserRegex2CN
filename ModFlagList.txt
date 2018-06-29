@@ -1,0 +1,8 @@
+["斧类攻击"] = { flags = ModFlag.Axe }, 
+["弓类攻击"] = { flags = ModFlag.Bow },
+["爪类攻击"] = { flags = ModFlag.Claw },
+["匕首攻击"] = { flags = ModFlag.Dagger },
+["锤类攻击"] = { flags = ModFlag.Mace },
+["长杖攻击"] = { flags = ModFlag.Staff },
+["剑类攻击"] = { flags = ModFlag.Sword },
+["法杖攻击"] = { flags = ModFlag.Wand }, 

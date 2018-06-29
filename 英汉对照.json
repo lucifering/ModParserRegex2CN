@@ -1,0 +1,171 @@
+{"en":"^(%d+)%% increased","cn":"提高 (%d+)%%"}
+{ "en":"^(%d+)%% reduced","cn":"降低 (%d+)%%"}
+{ "en":"^(%d+)%% more","cn":"([^\\\\x00-\\\\xff]*)总([^\\\\x00-\\\\xff]*)额外提高 (%d+)%%"}
+{ "en":"^(%d+)%% less","cn":"([^\\\\x00-\\\\xff]*)总([^\\\\x00-\\\\xff]*)额外降低 (%d+)%%"}
+{ "en":"^(%d+) to (%d+) (%a+) damage","cn":"^(%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+) to (%d+) (%a+) damage","cn":"附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+)%-(%d+) (%a+) damage","cn":"附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+) to (%d+) (%a+) damage to attacks","cn":"攻击附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+)%-(%d+) (%a+) damage to attacks","cn":"攻击附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+) to (%d+) (%a+) attack damage","cn":"攻击附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+)%-(%d+) (%a+) attack damage","cn":"攻击附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+) to (%d+) (%a+) damage to spells","cn":"法术附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+)%-(%d+) (%a+) damage to spells","cn":"法术附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+) to (%d+) (%a+) spell damage","cn":"法术附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+)%-(%d+) (%a+) spell damage","cn":"法术附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+) to (%d+) (%a+) damage to attacks and spells","cn":"攻击和法术附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+)%-(%d+) (%a+) damage to attacks and spells","cn":"攻击和法术附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+) to (%d+) (%a+) damage to spells and attacks","cn":"攻击和法术附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"adds (%d+)%-(%d+) (%a+) damage to spells and attacks","cn":"攻击和法术附加 (%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
+{ "en":"^([%+%-]?[%d%.]+)%%? additional","cn":"额外(.*) ([%+%-]?[%d%.]+)%%? (.*)"}
+{ "en":"^you gain ([%d%.]+)","cn":"你获得 ([%d%.]+)"}
+{ "en":"^gain ([%d%.]+)%% of","cn":"^获得([^\\\\x00-\\\\xff]*)， 其数值等同于([^\\\\x00-\\\\xff]*)的 ([%d%.]+)%%"}
+{ "en":"strength","cn":"力量"}
+{ "en":"dexterity","cn":"敏捷"}
+{ "en":"intelligence","cn":"智慧"}
+{ "en":"strength and dexterity","cn":"力量和敏捷"}
+{ "en":"strength and intelligence","cn":"力量和智慧"}
+{ "en":"dexterity and intelligence","cn":"敏捷和智慧"}
+{ "en":"attributes","cn":"属性"}
+{ "en":"all attributes","cn":"全属性"}
+{ "en":"life","cn":"生命"}
+{ "en":"maximum life","cn":"最大生命"}
+{ "en":"mana","cn":"魔力"}
+{ "en":"maximum mana","cn":"最大魔力"}
+{ "en":"mana regeneration","cn":"魔力回复"}
+{ "en":"mana regeneration rate","cn":"魔力回复速度"}
+{ "en":"mana cost","cn":"魔力消耗"}
+{ "en":"mana cost of","cn":"魔力消耗"}
+{ "en":"mana cost of skills","cn":"技能魔力消耗"}
+{ "en":"total mana cost of skills","cn":"技能的总魔力消耗"}
+{ "en":"mana reserved","cn":"魔力保留"}
+{ "en":"mana reservation","cn":"魔力保留"}
+{ "en":"mana reservation of skills","cn":"技能的魔力保留"}
+{ "en":"maximum energy shield","cn":"最大能量护盾"}
+{ "en":"energy shield recharge rate","cn":"能量护盾的回复速度"}
+{ "en":"start of energy shield recharge","cn":"能量护盾启动回复比平常"}
+{ "en":"armour","cn":"护甲"}
+{ "en":"evasion","cn":"闪避"}
+{ "en":"evasion rating","cn":"闪避值"}
+{ "en":"energy shield","cn":"能量护盾"}
+{ "en":"armour and evasion","cn":"护甲和闪避"}
+{ "en":"armour and evasion rating","cn":"护甲和闪避值"}
+{ "en":"evasion rating and armour","cn":"闪避值和护甲"}
+{ "en":"armour and energy shield","cn":""护甲和能量护盾}
+{ "en":"evasion rating and energy shield","cn":"闪避值和能量护盾"}
+{ "en":"evasion and energy shield","cn":"闪避和能量护盾"}
+{ "en":"armour, evasion and energy shield","cn":"护甲、闪避和能量护盾"}
+{ "en":"defences","cn":"防御"}
+{ "en":"damage","cn":"伤害"}
+{ "en":"physical damage","cn":"物理伤害"}
+{ "en":"lightning damage","cn":"闪电伤害"}
+{ "en":"cold damage","cn":"冰霜伤害"}
+{ "en":"fire damage","cn":"火焰伤害"}
+{ "en":"chaos damage","cn":"混沌伤害"}
+{ "en":"non-chaos damage","cn":"非混沌伤害"}
+{ "en":"elemental damage","cn":"火焰、冰霜、闪电伤害"}
+{ "en":"attack damage","cn":"攻击伤害"}
+{ "en":"attack physical damage","cn":"攻击物理伤害"}
+{ "en":"physical attack damage","cn":"物理攻击伤害"}
+{ "en":"physical weapon damage","cn":"武器的物理伤害"}
+{ "en":"physical damage with weapons","cn":"武器上的*+物理伤害"}
+{ "en":"physical melee damage","cn":"物理近战伤害"}
+{ "en":"melee physical damage","cn":"近战物理伤害"}
+{ "en":"projectile damage","cn":"投射物伤害"}
+{ "en":"projectile attack damage","cn":"投射物攻击伤害"}
+{ "en":"damage over time","cn":"持续伤害"}
+{ "en":"physical damage over time","cn":"物理持续伤害"}
+{ "en":"burning damage","cn":"燃烧伤害"}
+{ "en":"damage with ignite","cn":"点燃伤害"}
+{ "en":"fire resistance","cn":"火焰抗性"}
+{ "en":"maximum fire resistance","cn":"火焰抗性上限"}
+{ "en":"cold resistance","cn":"冰霜抗性"}
+{ "en":"maximum cold resistance","cn":"冰霜抗性上限"}
+{ "en":"lightning resistance","cn":"闪电抗性"}
+{ "en":"maximum lightning resistance","cn":"闪电抗性上限"}
+{ "en":"chaos resistance","cn":"混沌抗性"}
+{ "en":"fire and cold resistances","cn":"火焰和冰霜抗性"}
+{ "en":"fire and lightning resistances","cn":"火焰和闪电抗性"}
+{ "en":"cold and lightning resistances","cn":"冰霜和闪电抗性"}
+{ "en":"elemental resistances","cn":"火焰、冰霜、闪电抗性"}
+{ "en":"all elemental resistances","cn":"火焰、冰霜、闪电抗性"}
+{ "en":"elemental resistance","cn":"火焰、冰霜、闪电抗性"}
+{ "en":"all resistances","cn":"所有抗性"}
+{ "en":"all maximum elemental resistances","cn":"火焰、冰霜、闪电抗性上限"}
+{ "en":"all maximum resistances","cn":"所有属性的最大抗性上限"}
+{ "en":"maximum power charge","cn":"暴击球数量上限"}
+{ "en":"maximum power charges","cn":"暴击球数量上限"}
+{ "en":"power charge duration","cn":"暴击球的持续时间"}
+{ "en":"maximum frenzy charge","cn":"狂怒球数量上限"}
+{ "en":"maximum frenzy charges","cn":"狂怒球数量上限"}
+{ "en":"frenzy charge duration","cn":"狂怒球持续时间"}
+{ "en":"maximum endurance charge","cn":"耐力球数量上限"}
+{ "en":"maximum endurance charges","cn":"耐力球数量上限"}
+{ "en":"endurance charge duration","cn":"耐力球持续时间"}
+{ "en":"endurance, frenzy and power charge duration","cn":"耐力球，狂怒球，以及暴击球的持续时间"}
+{ "en":"maximum siphoning charge","cn":"最大轮回球"}
+{ "en":"maximum siphoning charges","cn":"最大轮回球"}
+{ "en":"maximum number of crab barriers","cn":"【深海屏障】数量上限"}
+{ "en":"life leeched per second","cn":"每秒生命偷取"}
+{ "en":"mana leeched per second","cn":"每秒魔力偷取"}
+{ "en":"projectile","cn":"投射物"}
+{ "en":"projectiles","cn":"投射物"}
+{ "en":"projectile speed","cn":"投射物速度"}
+{ "en":"totem placement speed","cn":"图腾放置速度"}
+{ "en":"totem life","cn":"图腾的生命"}
+{ "en":"totem duration","cn":"图腾的持续时间"}
+{ "en":"trap throwing speed","cn":"陷阱投掷速度"}
+{ "en":"trap trigger area of effect","cn":"陷阱触发范围"}
+{ "en":"trap duration","cn":"陷阱持续时间"}
+{ "en":"cooldown recovery speed for throwing traps","cn":"陷阱冷却回复速度"}
+{ "en":"mine laying speed","cn":"地雷放置速度"}
+{ "en":"mine detonation area of effect","cn":"地雷引爆范围"}
+{ "en":"mine duration","cn":"地雷持续时间"}
+{ "en":"maximum number of skeletons","cn":"魔侍数量上限"}
+{ "en":"maximum number of zombies","cn":"魔卫数量上限"}
+{ "en":"number of zombies allowed","cn":"魔卫数量上限"}
+{ "en":"maximum number of spectres","cn":"灵体数量上限"}
+{ "en":"maximum number of golems","cn":"魔像数量上限"}
+{ "en":"maximum number of summoned raging spirits","cn":"召唤愤怒狂灵的最大数量"}
+{ "en":"minion duration","cn":"召唤生物持续时间"}
+{ "en":"skeleton duration","cn":"魔侍的持续时间"}
+{ "en":"mine","cn":"地雷"}
+{ "en":"area","cn":"范围"}
+{ "en":"fire","cn":"火焰"}
+{ "en":"trap","cn":"陷阱"}
+{ "en":"vaal","cn":"瓦尔"}
+{ "en":"cold","cn":"冰霜"}
+{ "en":"spell","cn":"法术"}
+{ "en":"chaos","cn":"混沌"}
+{ "en":"melee","cn":"近战"}
+{ "en":"golem","cn":"魔像"}
+{ "en":"totem","cn":"图腾"}
+{ "en":"^take ","cn":"^承受"}
+{ "en":"radius","cn":"范围"}
+{ "en":"effect","cn":"效果"}
+{ "en":"weapon","cn":"武器"}
+{ "en":"zombie","cn":"魔卫"}
+{ "en":"warcry","cn":"战吼"}
+{ "en":"phasing","cn":"【迷踪】状态"}
+{ "en":"physical","cn":"物理"}
+{ "en":"with swords","cn":"剑类攻击的"}
+{ "en":"with maces","cn":"锤类攻击的"}
+{ "en":"with staves","cn":"长杖攻击的"}
+{ "en":"with daggers","cn":"匕首攻击的"}
+{ "en":"with claws","cn":"爪类攻击的"}
+{ "en":"with wands","cn":"法杖攻击的"}
+{ "en":"with axes","cn":"斧类攻击的"}
+{ "en":"with bows","cn":"弓类攻击的"}
+{ "en":"while wielding a claw","cn":"持爪时，"}
+{ "en":"while wielding a wand","cn":"持法杖时，"}
+{ "en":"while wielding an axe","cn":"持斧时，"}
+{ "en":"while wielding a mace","cn":"持锤时，"}
+{ "en":"while wielding a bow","cn":"持弓时，"}
+{ "en":"while wielding a staff","cn":"持长杖时，"}
+{ "en":"while wielding a sword","cn":"持剑时，"}
+{ "en":"while wielding a dagger","cn":"持匕首时，"}
+{ "en":"attack speed","cn":"攻击速度"}
+{ "en":"cast speed","cn":"施法速度"}
+{ "en":"critical strike chance","cn":"暴击率"}
+{ "en":"critical strike multiplier","cn":"暴击伤害加成"}
+{ "en":"with unarmed attacks","cn":"空手攻击时的"}
