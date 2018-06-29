@@ -31,7 +31,7 @@ ModParser.lua文件的正则表达式汉化文档工程
 填入【英汉对照.json】中。
 
 
-在pob中，能够正确解析的词缀会以【绿色】显示（红色的就是不支持的 或者正则表达式错误的）。
+在pob中，能够正确解析的词缀会以【蓝色】显示（红色的就是不支持的 或者正则表达式错误的）。
 
 
 ![image](https://github.com/lucifering/ModParserRegex2CN/blob/master/ScreenShot/showline.png)
