@@ -156,16 +156,54 @@
 { "en":"with wands","cn":"法杖攻击的"}
 { "en":"with axes","cn":"斧类攻击的"}
 { "en":"with bows","cn":"弓类攻击的"}
-{ "en":"while wielding a claw","cn":"持爪时，"}
-{ "en":"while wielding a wand","cn":"持法杖时，"}
-{ "en":"while wielding an axe","cn":"持斧时，"}
-{ "en":"while wielding a mace","cn":"持锤时，"}
-{ "en":"while wielding a bow","cn":"持弓时，"}
-{ "en":"while wielding a staff","cn":"持长杖时，"}
-{ "en":"while wielding a sword","cn":"持剑时，"}
-{ "en":"while wielding a dagger","cn":"持匕首时，"}
+{ "en":"while wielding a claw","cn":"持爪时"}
+{ "en":"while wielding a wand","cn":"持法杖时"}
+{ "en":"while wielding an axe","cn":"持斧时"}
+{ "en":"while wielding a mace","cn":"持锤时"}
+{ "en":"while wielding a bow","cn":"持弓时"}
+{ "en":"while wielding a staff","cn":"持长杖时"}
+{ "en":"while wielding a sword","cn":"持剑时"}
+{ "en":"while wielding a dagger","cn":"持匕首时"}
 { "en":"attack speed","cn":"攻击速度"}
 { "en":"cast speed","cn":"施法速度"}
 { "en":"critical strike chance","cn":"暴击率"}
 { "en":"critical strike multiplier","cn":"暴击伤害加成"}
 { "en":"with unarmed attacks","cn":"空手攻击时的"}
+{ "en":"movement speed","cn":"移动速度"}
+{ "en":"while leeching","cn":"偷取时"}
+{ "en":"while poisoned","cn":"中毒时"}
+{ "en":"while stationary","cn":"静止时"}
+{ "en":"while not cursed","cn":"未被诅咒时"}
+{ "en":"while dual wielding","cn":"双持时"}
+{ "en":"while using a flask","cn":"使用药剂时"}
+{ "en":"while holding a shield","cn":"持盾牌时"}
+{ "en":"while you have fortify","cn":"当你拥有护体时"}
+{ "en":"while you have a totem","cn":"当你有图腾存在时"}
+{ "en":"while you have tailwind","cn":"拥有【提速尾流】时"}
+{ "en":"while dual wielding claws","cn":"双持爪时"}
+{ "en":"while on consecrated ground","cn":"在奉献地面上时"}
+{ "en":"while you have cat's stealth","cn":"拥有【猫之隐匿】时"}
+{ "en":"while you have avian's might","cn":"拥有【鸟之力量】时"}
+{ "en":"while your off hand is empty","cn":"你的副手未装备武器时"}
+{ "en":"while you have avian's flight","cn":"拥有【鸟之斗魄】时"}
+{ "en":"while you have a power charge","cn":"你拥有暴击球时"}
+{ "en":"while you have a frenzy charge","cn":"你拥有狂怒球时"}
+{ "en":"while you have an endurance charge","cn":"你拥有耐力球时"}
+{ "en":"while at maximum power charges","cn":"当暴击球达到上限时"}
+{ "en":"while at maximum frenzy charges","cn":"当狂怒球达到上限时"}
+{ "en":"while at maximum endurance charges","cn":"当耐力球达到上限时"}
+{ "en":"while you have no power charges","cn":"当你没有暴击球时"}
+{ "en":"while you have no frenzy charges","cn":"当你没有狂怒球时"}
+{ "en":"while you have no endurance charges","cn":"当你没有耐力球时"}
+{ "en":"while affected by auras you cast","cn":"你和友军受你的光环影响时"}
+{ "en":"while moving","cn":"移动时"}
+{ "en":"while wielding a melee weapon","cn":"持近战武器时"}
+{ "en":"while wielding a one handed weapon","cn":"持单手武器时"}
+{ "en":"while wielding a two handed weapon","cn":"持双手武器时"}
+{ "en":"while frozen","cn":"冰冻时"}
+{ "en":"while cursed","cn":"被诅咒时"}
+{ "en":"while shocked","cn":"被感电时"}
+{ "en":"while ignited","cn":"被点燃时"}
+{ "en":"while unarmed","cn":"空手时"}
+{ "en":"while phasing","cn":"【迷踪】状态时"}
+{ "en":"while bleeding","cn":"流血时"}
