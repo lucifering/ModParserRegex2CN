@@ -3,1017 +3,992 @@
 { "en":"global","cn":""}
 { "en":"spectre","cn":""}
 { "en":"unarmed","cn":""}
-{ "en":"^witch: ","cn":""}
-{ "en":"^scion: ","cn":""}
-{ "en":"skeleton","cn":""}
-{ "en":"to shock","cn":""}
+{ "en":"duration","cn":""}
 { "en":"to evade","cn":""}
 { "en":"to block","cn":""}
-{ "en":"duration","cn":""}
-{ "en":"^ranger: ","cn":""}
-{ "en":"to ignite","cn":""}
+{ "en":"^witch: ","cn":""}
+{ "en":"skeleton","cn":""}
+{ "en":"^scion: ","cn":""}
 { "en":"to poison","cn":""}
-{ "en":"^shadow: ","cn":""}
-{ "en":"iron will","cn":""}
-{ "en":"onslaught","cn":""}
-{ "en":"for traps","cn":""}
-{ "en":"per totem","cn":""}
 { "en":"^minions ","cn":""}
-{ "en":"prefixes:","cn":""}
-{ "en":"with hits","cn":""}
-{ "en":"lightning","cn":""}
-{ "en":"per level","cn":""}
-{ "en":"ice golem","cn":""}
-{ "en":"^"..k.."$","cn":""}
+{ "en":"to ignite","cn":""}
 { "en":"to freeze","cn":""}
 { "en":"suffixes:","cn":""}
-{ "en":"bow damage","cn":""}
-{ "en":"for curses","cn":""}
-{ "en":"vaal skill","cn":""}
-{ "en":"on enemies","cn":""}
-{ "en":"for spells","cn":""}
-{ "en":"^templar: ","cn":""}
-{ "en":"^duelist: ","cn":""}
-{ "en":"with traps","cn":""}
-{ "en":"primordial","cn":""}
+{ "en":"prefixes:","cn":""}
+{ "en":"iron will","cn":""}
+{ "en":"^"..k.."$","cn":""}
+{ "en":"ice golem","cn":""}
+{ "en":"with hits","cn":""}
+{ "en":"for traps","cn":""}
+{ "en":"onslaught","cn":""}
+{ "en":"per level","cn":""}
+{ "en":"^ranger: ","cn":""}
+{ "en":"per totem","cn":""}
+{ "en":"lightning","cn":""}
+{ "en":"^shadow: ","cn":""}
 { "en":"with mines","cn":""}
+{ "en":"^duelist: ","cn":""}
+{ "en":"vaal skill","cn":""}
+{ "en":"with traps","cn":""}
+{ "en":"for spells","cn":""}
+{ "en":"primordial","cn":""}
+{ "en":"bow damage","cn":""}
+{ "en":"^templar: ","cn":""}
+{ "en":"on enemies","cn":""}
+{ "en":"for attacks","cn":""}
 { "en":"with poison","cn":""}
 { "en":"with spells","cn":""}
-{ "en":"chaos golem","cn":""}
+{ "en":"^when hit, ","cn":""}
+{ "en":"stone golem","cn":""}
+{ "en":"^hits deal ","cn":""}
+{ "en":"in off hand","cn":""}
 { "en":"arrow speed","cn":""}
 { "en":"buff effect","cn":""}
-{ "en":"^when hit, ","cn":""}
 { "en":"wand damage","cn":""}
-{ "en":"in off hand","cn":""}
-{ "en":"stone golem","cn":""}
 { "en":"flame golem","cn":""}
-{ "en":"aura effect","cn":""}
-{ "en":"for attacks","cn":""}
-{ "en":"^hits deal ","cn":""}
-{ "en":"curse effect","cn":""}
+{ "en":"chaos golem","cn":""}
 { "en":"with attacks","cn":""}
-{ "en":"block chance","cn":""}
-{ "en":"in main hand","cn":""}
 { "en":"charges used","cn":""}
-{ "en":"on melee hit","cn":""}
+{ "en":"weapon range","cn":""}
+{ "en":"curse effect","cn":""}
 { "en":"grants (%D+)","cn":""}
-{ "en":"shock chance","cn":""}
 { "en":"while active","cn":""}
 { "en":"damage taken","cn":""}
+{ "en":"in main hand","cn":""}
+{ "en":"on melee hit","cn":""}
 { "en":"with weapons","cn":""}
-{ "en":"weapon range","cn":""}
-{ "en":"freeze chance","cn":""}
-{ "en":"extra charges","cn":""}
+{ "en":"shock chance","cn":""}
 { "en":"warcry effect","cn":""}
-{ "en":"ignite chance","cn":""}
-{ "en":"recovery rate","cn":""}
-{ "en":"raised zombie","cn":""}
-{ "en":"with off hand","cn":""}
-{ "en":"with bleeding","cn":""}
-{ "en":"during effect","cn":""}
-{ "en":"with ailments","cn":""}
-{ "en":"life and mana","cn":""}
-{ "en":"poisonous hit","cn":""}
 { "en":"item quantity","cn":""}
+{ "en":"extra charges","cn":""}
+{ "en":"recovery rate","cn":""}
+{ "en":"ignite chance","cn":""}
+{ "en":"poisonous hit","cn":""}
+{ "en":"life and mana","cn":""}
+{ "en":"with off hand","cn":""}
+{ "en":"during effect","cn":""}
+{ "en":"freeze chance","cn":""}
+{ "en":"raised zombie","cn":""}
+{ "en":"with bleeding","cn":""}
+{ "en":"with ailments","cn":""}
 { "en":"curse duration","cn":""}
-{ "en":"chill duration","cn":""}
-{ "en":"block recovery","cn":""}
 { "en":"has no sockets","cn":""}
-{ "en":"shock duration","cn":""}
-{ "en":"as fire damage","cn":""}
-{ "en":"raised spectre","cn":""}
-{ "en":"at close range","cn":""}
-{ "en":"as cold damage","cn":""}
-{ "en":"culling strike","cn":""}
-{ "en":"mana recovered","cn":""}
-{ "en":"life recovered","cn":""}
-{ "en":"to axe attacks","cn":""}
 { "en":"to bow attacks","cn":""}
-{ "en":"recovery speed","cn":""}
-{ "en":"with main hand","cn":""}
 { "en":"damage as life","cn":""}
-{ "en":"bleed duration","cn":""}
+{ "en":"raised spectre","cn":""}
+{ "en":"as cold damage","cn":""}
+{ "en":"with main hand","cn":""}
+{ "en":"as fire damage","cn":""}
 { "en":"per red socket","cn":""}
-{ "en":"per blue socket","cn":""}
-{ "en":"charge recovery","cn":""}
-{ "en":"per buff on you","cn":""}
-{ "en":"immune to shock","cn":""}
-{ "en":"immune to chill","cn":""}
-{ "en":"poison duration","cn":""}
-{ "en":"to cause poison","cn":""}
-{ "en":"to wand attacks","cn":""}
-{ "en":"^(%d+)%% faster","cn":""}
+{ "en":"life recovered","cn":""}
+{ "en":"at close range","cn":""}
+{ "en":"recovery speed","cn":""}
+{ "en":"mana recovered","cn":""}
+{ "en":"culling strike","cn":""}
+{ "en":"chill duration","cn":""}
+{ "en":"bleed duration","cn":""}
+{ "en":"to axe attacks","cn":""}
 { "en":"maximum charges","cn":""}
-{ "en":"to claw attacks","cn":""}
-{ "en":"to mace attacks","cn":""}
-{ "en":"lightning golem","cn":""}
-{ "en":"^minions leech ","cn":""}
 { "en":"no block chance","cn":""}
-{ "en":"effect of shock","cn":""}
+{ "en":"per buff on you","cn":""}
+{ "en":"per blue socket","cn":""}
+{ "en":"to cause poison","cn":""}
 { "en":"ignite duration","cn":""}
 { "en":"freeze duration","cn":""}
+{ "en":"lightning golem","cn":""}
+{ "en":"charge recovery","cn":""}
+{ "en":"poison duration","cn":""}
+{ "en":"to mace attacks","cn":""}
+{ "en":"to wand attacks","cn":""}
+{ "en":"^(%d+)%% faster","cn":""}
 { "en":"effect of chill","cn":""}
-{ "en":"to dodge spells","cn":""}
-{ "en":"as chaos damage","cn":""}
-{ "en":"to block spells","cn":""}
-{ "en":"leeched as life","cn":""}
-{ "en":"leeched as mana","cn":""}
-{ "en":"chance to evade","cn":""}
+{ "en":"effect of shock","cn":""}
+{ "en":"to claw attacks","cn":""}
 { "en":"radius of auras","cn":""}
+{ "en":"to dodge spells","cn":""}
+{ "en":"immune to shock","cn":""}
+{ "en":"chance to evade","cn":""}
+{ "en":"leeched as mana","cn":""}
+{ "en":"immune to chill","cn":""}
+{ "en":"as chaos damage","cn":""}
 { "en":"^(%d+)%% slower","cn":""}
-{ "en":"instant recovery","cn":""}
-{ "en":"you have fortify","cn":""}
-{ "en":"to evade attacks","cn":""}
-{ "en":"to staff attacks","cn":""}
-{ "en":"to poison on hit","cn":""}
-{ "en":"when in off hand","cn":""}
+{ "en":"leeched as life","cn":""}
+{ "en":"per green socket","cn":""}
+{ "en":"immune to ignite","cn":""}
+{ "en":"per white socket","cn":""}
 { "en":"to block attacks","cn":""}
-{ "en":"dealt with claws","cn":""}
+{ "en":"fortify duration","cn":""}
+{ "en":"onslaught effect","cn":""}
+{ "en":"with this weapon","cn":""}
+{ "en":"when in off hand","cn":""}
 { "en":"amount recovered","cn":""}
 { "en":"effect of flasks","cn":""}
-{ "en":"fortify duration","cn":""}
-{ "en":"to dodge attacks","cn":""}
-{ "en":"onslaught effect","cn":""}
 { "en":"to sword attacks","cn":""}
-{ "en":"per white socket","cn":""}
-{ "en":"during onslaught","cn":""}
-{ "en":"with this weapon","cn":""}
-{ "en":"immune to freeze","cn":""}
-{ "en":"immune to ignite","cn":""}
-{ "en":"per green socket","cn":""}
-{ "en":"per curse on you","cn":""}
+{ "en":"dealt with claws","cn":""}
+{ "en":"to staff attacks","cn":""}
 { "en":"cannot be frozen","cn":""}
-{ "en":"per power charge","cn":""}
-{ "en":"per crab barrier","cn":""}
+{ "en":"to evade attacks","cn":""}
+{ "en":"immune to freeze","cn":""}
+{ "en":"to dodge attacks","cn":""}
+{ "en":"to poison on hit","cn":""}
 { "en":"radius of curses","cn":""}
-{ "en":"to you and allies","cn":""}
-{ "en":"to avoid bleeding","cn":""}
-{ "en":"bleeding duration","cn":""}
+{ "en":"instant recovery","cn":""}
+{ "en":"per crab barrier","cn":""}
+{ "en":"during onslaught","cn":""}
+{ "en":"per curse on you","cn":""}
+{ "en":"you have fortify","cn":""}
 { "en":"to cause bleeding","cn":""}
-{ "en":"when in main hand","cn":""}
-{ "en":"on burning ground","cn":""}
-{ "en":"on shocked ground","cn":""}
-{ "en":"animated guardian","cn":""}
-{ "en":"per frenzy charge","cn":""}
-{ "en":"^left ring slot: ","cn":""}
-{ "en":"to frozen enemies","cn":""}
-{ "en":"on chilled ground","cn":""}
-{ "en":"to dagger attacks","cn":""}
-{ "en":"per poison on you","cn":""}
-{ "en":"cold damage taken","cn":""}
-{ "en":"fire damage taken","cn":""}
-{ "en":"cannot be shocked","cn":""}
-{ "en":"cannot be stunned","cn":""}
-{ "en":"cannot leech mana","cn":""}
-{ "en":"cannot be ignited","cn":""}
 { "en":"cannot be chilled","cn":""}
-{ "en":"cooldown recovery","cn":""}
+{ "en":"animated guardian","cn":""}
+{ "en":"when in main hand","cn":""}
+{ "en":"bleeding duration","cn":""}
+{ "en":"cold damage taken","cn":""}
+{ "en":"cannot be stunned","cn":""}
+{ "en":"cannot be shocked","cn":""}
+{ "en":"on shocked ground","cn":""}
+{ "en":"to avoid bleeding","cn":""}
+{ "en":"on burning ground","cn":""}
+{ "en":"on chilled ground","cn":""}
+{ "en":"cannot leech mana","cn":""}
 { "en":"cannot leech life","cn":""}
-{ "en":"per curse on enemy","cn":""}
-{ "en":"flask charges used","cn":""}
-{ "en":"to shocked enemies","cn":""}
-{ "en":"to chilled enemies","cn":""}
+{ "en":"cooldown recovery","cn":""}
+{ "en":"to you and allies","cn":""}
+{ "en":"per poison on you","cn":""}
+{ "en":"cannot be ignited","cn":""}
+{ "en":"per frenzy charge","cn":""}
+{ "en":"fire damage taken","cn":""}
+{ "en":"to dagger attacks","cn":""}
+{ "en":"to frozen enemies","cn":""}
+{ "en":"^left ring slot: ","cn":""}
+{ "en":"is leeched as mana","cn":""}
 { "en":"spell block chance","cn":""}
-{ "en":"per (%d+) strength","cn":""}
-{ "en":"melee weapon range","cn":""}
-{ "en":"^right ring slot: ","cn":""}
-{ "en":"has (%d+) sockets?","cn":""}
-{ "en":"is leeched as life","cn":""}
-{ "en":"no physical damage","cn":""}
-{ "en":"as physical damage","cn":""}
-{ "en":"every %d+ seconds:","cn":""}
-{ "en":"chaos damage taken","cn":""}
 { "en":"with melee attacks","cn":""}
 { "en":"to ignited enemies","cn":""}
-{ "en":"is leeched as mana","cn":""}
+{ "en":"chaos damage taken","cn":""}
 { "en":"to unarmed attacks","cn":""}
+{ "en":"to chilled enemies","cn":""}
+{ "en":"as physical damage","cn":""}
+{ "en":"no physical damage","cn":""}
+{ "en":"per (%d+) strength","cn":""}
+{ "en":"^right ring slot: ","cn":""}
+{ "en":"melee weapon range","cn":""}
+{ "en":"has (%d+) sockets?","cn":""}
+{ "en":"to shocked enemies","cn":""}
+{ "en":"per curse on enemy","cn":""}
+{ "en":"every %d+ seconds:","cn":""}
+{ "en":"is leeched as life","cn":""}
 { "en":"mana recovery rate","cn":""}
 { "en":"life recovery rate","cn":""}
 { "en":"knockback distance","cn":""}
-{ "en":"as lightning damage","cn":""}
-{ "en":"damage with ignites","cn":""}
-{ "en":"^your flasks grant ","cn":""}
 { "en":"with ranged weapons","cn":""}
+{ "en":"^your flasks grant ","cn":""}
 { "en":"penetrates? (%d+)%%","cn":""}
-{ "en":"during flask effect","cn":""}
-{ "en":"to poisoned enemies","cn":""}
 { "en":"flask recovery rate","cn":""}
+{ "en":"to dodge spell hits","cn":""}
+{ "en":"cannot block spells","cn":""}
+{ "en":" on critical strike","cn":""}
+{ "en":"per (%d+) dexterity","cn":""}
+{ "en":"^([%+%-][%d%.]+)%%?","cn":""}
+{ "en":"to bleeding enemies","cn":""}
+{ "en":"damage with ignites","cn":""}
+{ "en":"life gained on kill","cn":""}
+{ "en":"during flask effect","cn":""}
 { "en":"mana gained on kill","cn":""}
 { "en":"^golem skills have ","cn":""}
-{ "en":"to dodge spell hits","cn":""}
-{ "en":"to bleeding enemies","cn":""}
-{ "en":"life gained on kill","cn":""}
-{ "en":"^([%+%-][%d%.]+)%%?","cn":""}
-{ "en":"cannot block spells","cn":""}
-{ "en":"per (%d+) dexterity","cn":""}
 { "en":"to inflict bleeding","cn":""}
-{ "en":" on critical strike","cn":""}
-{ "en":"added as fire damage","cn":""}
-{ "en":"flask charges gained","cn":""}
-{ "en":"hits can't be evaded","cn":""}
-{ "en":"per endurance charge","cn":""}
-{ "en":"per siphoning charge","cn":""}
-{ "en":"as extra cold damage","cn":""}
-{ "en":"added as cold damage","cn":""}
-{ "en":"to dodge attack hits","cn":""}
-{ "en":"unaffected by curses","cn":""}
-{ "en":"as extra fire damage","cn":""}
-{ "en":"from equipped shield","cn":""}
-{ "en":"enemy stun threshold","cn":""}
-{ "en":"cannot block attacks","cn":""}
-{ "en":"strength requirement","cn":""}
-{ "en":"claw physical damage","cn":""}
-{ "en":"maximum block chance","cn":""}
-{ "en":"wand physical damage","cn":""}
+{ "en":"as lightning damage","cn":""}
+{ "en":"to poisoned enemies","cn":""}
 { "en":"arrows always pierce","cn":""}
-{ "en":"duration of ailments","cn":""}
+{ "en":"to dodge attack hits","cn":""}
+{ "en":"per endurance charge","cn":""}
+{ "en":"unaffected by curses","cn":""}
+{ "en":"as extra cold damage","cn":""}
+{ "en":"as extra fire damage","cn":""}
+{ "en":"added as cold damage","cn":""}
+{ "en":"per siphoning charge","cn":""}
 { "en":"^melee attacks have ","cn":""}
-{ "en":"flask recovery speed","cn":""}
+{ "en":"added as fire damage","cn":""}
+{ "en":"hits can't be evaded","cn":""}
+{ "en":"cannot block attacks","cn":""}
+{ "en":"maximum block chance","cn":""}
+{ "en":"strength requirement","cn":""}
+{ "en":"wand physical damage","cn":""}
+{ "en":"claw physical damage","cn":""}
+{ "en":"duration of ailments","cn":""}
+{ "en":"enemy stun threshold","cn":""}
 { "en":"to block with staves","cn":""}
-{ "en":"physical damage taken","cn":""}
-{ "en":"as extra chaos damage","cn":""}
-{ "en":"effect of your curses","cn":""}
-{ "en":"rarity of items found","cn":""}
-{ "en":"added as chaos damage","cn":""}
+{ "en":"flask charges gained","cn":""}
+{ "en":"flask recovery speed","cn":""}
 { "en":"area of effect radius","cn":""}
-{ "en":"increased flame golem","cn":""}
-{ "en":"skill effect duration","cn":""}
-{ "en":"to avoid being frozen","cn":""}
-{ "en":"to deal double damage","cn":""}
 { "en":"sword physical damage","cn":""}
-{ "en":"to dodge spell damage","cn":""}
-{ "en":"flask effect duration","cn":""}
-{ "en":"warcries cost no mana","cn":""}
-{ "en":"dexterity requirement","cn":""}
-{ "en":"penetrates (%d+)%% of","cn":""}
 { "en":"radius of area skills","cn":""}
+{ "en":"warcries cost no mana","cn":""}
+{ "en":"to avoid being frozen","cn":""}
+{ "en":"physical damage taken","cn":""}
+{ "en":"added as chaos damage","cn":""}
+{ "en":"to deal double damage","cn":""}
 { "en":"damage taken when hit","cn":""}
-{ "en":"to targets they pierce","cn":""}
+{ "en":"as extra chaos damage","cn":""}
+{ "en":"increased flame golem","cn":""}
+{ "en":"to dodge spell damage","cn":""}
+{ "en":"penetrates (%d+)%% of","cn":""}
+{ "en":"rarity of items found","cn":""}
+{ "en":"dexterity requirement","cn":""}
 { "en":"^trap and mine damage ","cn":""}
 { "en":"against frozen enemies","cn":""}
-{ "en":"added as energy shield","cn":""}
-{ "en":"against maimed enemies","cn":""}
-{ "en":"^auras you cast grant ","cn":""}
-{ "en":"lightning damage taken","cn":""}
-{ "en":"causes bleeding on hit","cn":""}
+{ "en":"per (%d+) intelligence","cn":""}
+{ "en":"to avoid being chilled","cn":""}
 { "en":"converted to lightning","cn":""}
-{ "en":"elemental damage taken","cn":""}
-{ "en":"attribute requirements","cn":""}
-{ "en":"against cursed enemies","cn":""}
+{ "en":"to targets they pierce","cn":""}
+{ "en":"damage with arrow hits","cn":""}
+{ "en":"added as energy shield","cn":""}
 { "en":"to avoid being stunned","cn":""}
 { "en":"when cast on frostbolt","cn":""}
-{ "en":"damage with arrow hits","cn":""}
+{ "en":"attribute requirements","cn":""}
+{ "en":"against cursed enemies","cn":""}
 { "en":"effect of chill on you","cn":""}
-{ "en":"effect of auras on you","cn":""}
-{ "en":"to avoid being chilled","cn":""}
-{ "en":"per (%d+) intelligence","cn":""}
-{ "en":"to avoid being shocked","cn":""}
-{ "en":"to avoid being ignited","cn":""}
 { "en":"with hits and ailments","cn":""}
-{ "en":"effect of buffs on you","cn":""}
+{ "en":"lightning damage taken","cn":""}
+{ "en":"to avoid being shocked","cn":""}
+{ "en":"effect of auras on you","cn":""}
+{ "en":"against maimed enemies","cn":""}
 { "en":"^([%+%-][%d%.]+)%%? to","cn":""}
-{ "en":"^([%+%-]?%d+)%% chance","cn":""}
-{ "en":"during any flask effect","cn":""}
-{ "en":"chance to evade attacks","cn":""}
+{ "en":"^auras you cast grant ","cn":""}
+{ "en":"to avoid being ignited","cn":""}
+{ "en":"causes bleeding on hit","cn":""}
+{ "en":"elemental damage taken","cn":""}
+{ "en":"effect of buffs on you","cn":""}
+{ "en":"grants level (%d+) (.+)","cn":""}
+{ "en":"block and stun recovery","cn":""}
 { "en":"counts as dual wielding","cn":""}
-{ "en":"(%d+) additional arrows","cn":""}
-{ "en":"against shocked enemies","cn":""}
-{ "en":"quantity of items found","cn":""}
-{ "en":"against chilled enemies","cn":""}
-{ "en":"against ignited enemies","cn":""}
-{ "en":"effect of flasks on you","cn":""}
-{ "en":"against blinded enemies","cn":""}
-{ "en":"against burning enemies","cn":""}
+{ "en":"per elder item equipped","cn":""}
 { "en":"^([%+%-]?[%d%.]+)%%? of","cn":""}
 { "en":"cooldown recovery speed","cn":""}
-{ "en":"^critical strikes deal ","cn":""}
 { "en":"against pierced targets","cn":""}
-{ "en":"per elder item equipped","cn":""}
-{ "en":"against taunted enemies","cn":""}
-{ "en":"^minions' attacks deal ","cn":""}
-{ "en":"deal no physical damage","cn":""}
-{ "en":"effect of curses on you","cn":""}
 { "en":"per (%d+) player levels","cn":""}
-{ "en":"block and stun recovery","cn":""}
-{ "en":"grants level (%d+) (.+)","cn":""}
+{ "en":"against chilled enemies","cn":""}
+{ "en":"(%d+) additional arrows","cn":""}
+{ "en":"against ignited enemies","cn":""}
+{ "en":"against burning enemies","cn":""}
+{ "en":"against taunted enemies","cn":""}
+{ "en":"deal no physical damage","cn":""}
+{ "en":"^minions' attacks deal ","cn":""}
+{ "en":"^critical strikes deal ","cn":""}
+{ "en":"against blinded enemies","cn":""}
+{ "en":"chance to evade attacks","cn":""}
+{ "en":"quantity of items found","cn":""}
+{ "en":"effect of curses on you","cn":""}
+{ "en":"during any flask effect","cn":""}
 { "en":"stun and block recovery","cn":""}
-{ "en":"per (%d+) evasion rating","cn":""}
-{ "en":"against bleeding enemies","cn":""}
-{ "en":"effect of heralds on you","cn":""}
-{ "en":"per shaper item equipped","cn":""}
-{ "en":"against poisoned enemies","cn":""}
-{ "en":"per (%d+)%% block chance","cn":""}
-{ "en":"^([%+%-][%d%.]+)%%? base","cn":""}
-{ "en":"against hindered enemies","cn":""}
-{ "en":"wh[ie][ln]e? on low life","cn":""}
-{ "en":"leeched as life and mana","cn":""}
-{ "en":"while you have onslaught","cn":""}
-{ "en":"armour and energy shield","cn":""}
-{ "en":"if you were hit recently","cn":""}
-{ "en":"deal no elemental damage","cn":""}
-{ "en":"to cause bleeding on hit","cn":""}
-{ "en":"effect of fortify on you","cn":""}
-{ "en":"stun duration on enemies","cn":""}
-{ "en":"arrows pierce one target","cn":""}
-{ "en":"converted to cold damage","cn":""}
-{ "en":"your spells are disabled","cn":""}
-{ "en":"converted to fire damage","cn":""}
-{ "en":"attacks have blood magic","cn":""}
+{ "en":"against shocked enemies","cn":""}
 { "en":"reserves (%d+)%% of life","cn":""}
-{ "en":"deal no non%-fire damage","cn":""}
-{ "en":"flask mana recovery rate","cn":""}
+{ "en":"block chance with staves","cn":""}
+{ "en":"attacks have blood magic","cn":""}
+{ "en":"your spells are disabled","cn":""}
+{ "en":"leeched as life and mana","cn":""}
+{ "en":"to cause bleeding on hit","cn":""}
+{ "en":"against poisoned enemies","cn":""}
+{ "en":"per shaper item equipped","cn":""}
+{ "en":"effect of heralds on you","cn":""}
 { "en":"adds an additional arrow","cn":""}
 { "en":"flask life recovery rate","cn":""}
 { "en":"intelligence requirement","cn":""}
-{ "en":"block chance with staves","cn":""}
+{ "en":"deal no elemental damage","cn":""}
+{ "en":"against hindered enemies","cn":""}
+{ "en":"flask mana recovery rate","cn":""}
+{ "en":"arrows pierce one target","cn":""}
+{ "en":"against bleeding enemies","cn":""}
+{ "en":"effect of fortify on you","cn":""}
+{ "en":"per (%d+) evasion rating","cn":""}
+{ "en":"per (%d+)%% block chance","cn":""}
+{ "en":"wh[ie][ln]e? on low life","cn":""}
+{ "en":"while you have onslaught","cn":""}
+{ "en":"if you were hit recently","cn":""}
+{ "en":"armour and energy shield","cn":""}
+{ "en":"stun duration on enemies","cn":""}
 { "en":"area of effect of skills","cn":""}
-{ "en":"with a rare item equipped","cn":""}
-{ "en":" "..skillName:lower().." ","cn":""}
-{ "en":"as extra lightning damage","cn":""}
-{ "en":"effect of socketed jewels","cn":""}
-{ "en":"per (%d+) accuracy rating","cn":""}
-{ "en":"effect of tailwind on you","cn":""}
-{ "en":"added as lightning damage","cn":""}
-{ "en":"mana recovery from flasks","cn":""}
-{ "en":"life recovery from flasks","cn":""}
-{ "en":"wh[ie][ln]e? on full life","cn":""}
+{ "en":"deal no non%-fire damage","cn":""}
+{ "en":"converted to cold damage","cn":""}
+{ "en":"converted to fire damage","cn":""}
 { "en":"skills chain %+(%d) times","cn":""}
-{ "en":"^golems [hd][ae][va][el] ","cn":""}
-{ "en":"^spells [hd][ae][va][el] ","cn":""}
-{ "en":"physical damage reduction","cn":""}
+{ "en":"with a rare item equipped","cn":""}
+{ "en":"wh[ie][ln]e? on full life","cn":""}
 { "en":"arrows pierce all targets","cn":""}
 { "en":"cannot knock enemies back","cn":""}
-{ "en":"converted to chaos damage","cn":""}
-{ "en":"^arrows [hd][ae][va][el] ","cn":""}
 { "en":"always pierce with arrows","cn":""}
-{ "en":"effect of offering spells","cn":""}
+{ "en":" "..skillName:lower().." ","cn":""}
+{ "en":"added as lightning damage","cn":""}
+{ "en":"as extra lightning damage","cn":""}
 { "en":"enemies which are chilled","cn":""}
 { "en":"your hits can't be evaded","cn":""}
-{ "en":"^attacks [hd][ae][va][el] ","cn":""}
-{ "en":"cold damage taken when hit","cn":""}
-{ "en":"^attacks with this weapon ","cn":""}
+{ "en":"per (%d+) accuracy rating","cn":""}
+{ "en":"converted to chaos damage","cn":""}
+{ "en":"^arrows [hd][ae][va][el] ","cn":""}
+{ "en":"^golems [hd][ae][va][el] ","cn":""}
+{ "en":"effect of tailwind on you","cn":""}
+{ "en":"effect of socketed jewels","cn":""}
+{ "en":"physical damage reduction","cn":""}
+{ "en":"effect of offering spells","cn":""}
+{ "en":"^spells [hd][ae][va][el] ","cn":""}
 { "en":"you are immune to bleeding","cn":""}
+{ "en":"flasks do not apply to you","cn":""}
+{ "en":"cold damage taken when hit","cn":""}
+{ "en":"converted to energy shield","cn":""}
+{ "en":"cannot evade enemy attacks","cn":""}
+{ "en":"has (%d+) abyssal sockets?","cn":""}
 { "en":"per poison affecting enemy","cn":""}
 { "en":"accuracy rating is doubled","cn":""}
-{ "en":"flasks do not apply to you","cn":""}
 { "en":"with a magic item equipped","cn":""}
-{ "en":"converted to energy shield","cn":""}
-{ "en":"fire damage taken when hit","cn":""}
-{ "en":"cannot evade enemy attacks","cn":""}
-{ "en":"^minions [hd][ae][va][el] ","cn":""}
-{ "en":"has (%d+) abyssal sockets?","cn":""}
 { "en":"^zombies [hd][ae][va][el] ","cn":""}
-{ "en":"with a unique item equipped","cn":""}
-{ "en":"with a normal item equipped","cn":""}
-{ "en":"energy shield recovery rate","cn":""}
-{ "en":"melee attacks poison on hit","cn":""}
+{ "en":"fire damage taken when hit","cn":""}
+{ "en":"^attacks [hd][ae][va][el] ","cn":""}
+{ "en":"^attacks with this weapon ","cn":""}
+{ "en":"penetrates (%d+)%% of enemy","cn":""}
+{ "en":"against enemies on low life","cn":""}
 { "en":"your chaos damage can shock","cn":""}
-{ "en":"to avoid elemental ailments","cn":""}
-{ "en":"with (%d+) or more strength","cn":""}
+{ "en":"melee attacks poison on hit","cn":""}
+{ "en":"^spectres [hd][ae][va][el] ","cn":""}
+{ "en":"use level (%d+) (.+) on %a+","cn":""}
 { "en":"your cold damage can ignite","cn":""}
-{ "en":"fire damage from hits taken","cn":""}
-{ "en":"cold damage taken over time","cn":""}
+{ "en":"with (%d+) or more strength","cn":""}
+{ "en":"with a unique item equipped","cn":""}
+{ "en":"with melee critical strikes","cn":""}
+{ "en":"chaos skill effect duration","cn":""}
+{ "en":"with a normal item equipped","cn":""}
+{ "en":"at least (%d+) intelligence","cn":""}
+{ "en":"when hitting cursed enemies","cn":""}
+{ "en":"never deal critical strikes","cn":""}
+{ "en":"against targets they pierce","cn":""}
 { "en":"chaos damage taken when hit","cn":""}
 { "en":"fire damage taken over time","cn":""}
-{ "en":"use level (%d+) (.+) on %a+","cn":""}
-{ "en":"^spectres [hd][ae][va][el] ","cn":""}
-{ "en":"never deal critical strikes","cn":""}
-{ "en":"cold damage from hits taken","cn":""}
+{ "en":"fire damage from hits taken","cn":""}
 { "en":"gained as extra fire damage","cn":""}
-{ "en":"when hitting cursed enemies","cn":""}
-{ "en":"against targets they pierce","cn":""}
-{ "en":"chaos skill effect duration","cn":""}
-{ "en":"at least (%d+) intelligence","cn":""}
-{ "en":"to dodge attacks and spells","cn":""}
+{ "en":"to avoid elemental ailments","cn":""}
+{ "en":"energy shield recovery rate","cn":""}
 { "en":"gained as extra cold damage","cn":""}
-{ "en":"against enemies on low life","cn":""}
-{ "en":"with melee critical strikes","cn":""}
-{ "en":"penetrates (%d+)%% of enemy","cn":""}
 { "en":"for each equipped rare item","cn":""}
-{ "en":"bow knockback at close range","cn":""}
-{ "en":"poison cursed enemies on hit","cn":""}
-{ "en":"gained as extra chaos damage","cn":""}
-{ "en":"against enemies on full life","cn":""}
+{ "en":"cold damage from hits taken","cn":""}
+{ "en":"cold damage taken over time","cn":""}
+{ "en":"to dodge attacks and spells","cn":""}
 { "en":"inflicted on chilled enemies","cn":""}
-{ "en":"movement skills cost no mana","cn":""}
-{ "en":"arrows pierce (%d+) targets?","cn":""}
-{ "en":"wh[ie][ln]e? not on low life","cn":""}
-{ "en":"melee attacks cause bleeding","cn":""}
 { "en":"if you haven't crit recently","cn":""}
 { "en":"creates a smoke cloud on use","cn":""}
-{ "en":"^spells cast by totems have ","cn":""}
-{ "en":"with at least (%d+) strength","cn":""}
-{ "en":"chaos damage taken over time","cn":""}
 { "en":"^skeletons [hd][ae][va][el] ","cn":""}
-{ "en":"for each equipped magic item","cn":""}
-{ "en":"to knock enemies back on hit","cn":""}
+{ "en":"bow knockback at close range","cn":""}
 { "en":"chaos damage from hits taken","cn":""}
+{ "en":"wh[ie][ln]e? not on low life","cn":""}
+{ "en":"for each equipped magic item","cn":""}
+{ "en":"against enemies on full life","cn":""}
+{ "en":"chaos damage taken over time","cn":""}
+{ "en":"poison cursed enemies on hit","cn":""}
+{ "en":"to knock enemies back on hit","cn":""}
+{ "en":"movement skills cost no mana","cn":""}
+{ "en":"gained as extra chaos damage","cn":""}
+{ "en":"with at least (%d+) strength","cn":""}
+{ "en":"arrows pierce (%d+) targets?","cn":""}
+{ "en":"melee attacks cause bleeding","cn":""}
+{ "en":"socketed gems reserve no mana","cn":""}
+{ "en":"converted to lightning damage","cn":""}
+{ "en":"^ice golems [hd][ae][va][el] ","cn":""}
+{ "en":"unaffected by temporal chains","cn":""}
+{ "en":"if you[' ]h?a?ve hit recently","cn":""}
+{ "en":"chance to evade melee attacks","cn":""}
+{ "en":"minions poison enemies on hit","cn":""}
+{ "en":"area of effect of area skills","cn":""}
+{ "en":"creates chilled ground on use","cn":""}
+{ "en":"you have no life regeneration","cn":""}
+{ "en":"no critical strike multiplier","cn":""}
+{ "en":"has no attribute requirements","cn":""}
+{ "en":"for each equipped normal item","cn":""}
+{ "en":"cannot leech when on low life","cn":""}
+{ "en":"deal no non%-elemental damage","cn":""}
+{ "en":"for each equipped unique item","cn":""}
 { "en":"wh[ie][ln]e? not on full life","cn":""}
 { "en":"^marauder: melee skills have ","cn":""}
-{ "en":"^attacks used by totems have ","cn":""}
-{ "en":"for each equipped normal item","cn":""}
-{ "en":"for each equipped unique item","cn":""}
-{ "en":"you have no life regeneration","cn":""}
-{ "en":"if you[' ]h?a?ve hit recently","cn":""}
-{ "en":"deal no non%-elemental damage","cn":""}
-{ "en":"^ice golems [hd][ae][va][el] ","cn":""}
-{ "en":"converted to lightning damage","cn":""}
-{ "en":"unaffected by temporal chains","cn":""}
-{ "en":"chance to evade melee attacks","cn":""}
 { "en":"^movement attack skills have ","cn":""}
-{ "en":"no critical strike multiplier","cn":""}
-{ "en":"attack critical strike chance","cn":""}
-{ "en":"creates chilled ground on use","cn":""}
-{ "en":"area of effect of area skills","cn":""}
-{ "en":"has no attribute requirements","cn":""}
-{ "en":"minions poison enemies on hit","cn":""}
-{ "en":"socketed gems reserve no mana","cn":""}
-{ "en":"cannot leech when on low life","cn":""}
-{ "en":"melee weapon and unarmed range","cn":""}
-{ "en":"iron reflexes while stationary","cn":""}
-{ "en":"socketed gems have blood magic","cn":""}
-{ "en":"as extra maximum energy shield","cn":""}
-{ "en":"if you[' ]h?a?ve crit recently","cn":""}
-{ "en":"if you haven't killed recently","cn":""}
-{ "en":"if no worn items are corrupted","cn":""}
-{ "en":"if you wear no corrupted items","cn":""}
-{ "en":"maximum mana and energy shield","cn":""}
-{ "en":"life gained for each enemy hit","cn":""}
 { "en":"^vaal skills [hd][ae][va][el] ","cn":""}
-{ "en":"^cold skills [hd][ae][va][el] ","cn":""}
 { "en":"lose ([%d%.]+) mana per second","cn":""}
-{ "en":"^fire skills [hd][ae][va][el] ","cn":""}
-{ "en":"duration of elemental ailments","cn":""}
-{ "en":"your physical damage can shock","cn":""}
-{ "en":"block chance applied to spells","cn":""}
 { "en":"physical damage taken when hit","cn":""}
-{ "en":"elemental resistances are zero","cn":""}
-{ "en":"to dodge attack and spell hits","cn":""}
+{ "en":"as extra maximum energy shield","cn":""}
+{ "en":"duration of elemental ailments","cn":""}
+{ "en":"if you haven't killed recently","cn":""}
+{ "en":"life gained for each enemy hit","cn":""}
+{ "en":"melee weapon and unarmed range","cn":""}
+{ "en":"your physical damage can shock","cn":""}
 { "en":"your physical damage can chill","cn":""}
-{ "en":"that place mines or throw traps","cn":""}
-{ "en":"^stone golems [hd][ae][va][el] ","cn":""}
-{ "en":"if you detonated mines recently","cn":""}
-{ "en":"physical damage from hits taken","cn":""}
-{ "en":"against rare and unique enemies","cn":""}
-{ "en":"^flame golems [hd][ae][va][el] ","cn":""}
-{ "en":"^chaos golems [hd][ae][va][el] ","cn":""}
-{ "en":"^"..skillName:lower().." deals ","cn":""}
-{ "en":"effect of auras on your minions","cn":""}
-{ "en":"^skills [hdfg][aei][vari][eln] ","cn":""}
-{ "en":"aspect of the avian buff effect","cn":""}
-{ "en":"(%d+)%-(%d+) added (%a+) damage","cn":""}
-{ "en":"duration of poisons you inflict","cn":""}
-{ "en":"trigger (.+) on critical strike","cn":""}
-{ "en":"curse enemies with (%D+) on %a+","cn":""}
-{ "en":"lightning damage taken when hit","cn":""}
-{ "en":"if all worn items are corrupted","cn":""}
+{ "en":"^cold skills [hd][ae][va][el] ","cn":""}
+{ "en":"iron reflexes while stationary","cn":""}
+{ "en":"maximum mana and energy shield","cn":""}
+{ "en":"socketed gems have blood magic","cn":""}
+{ "en":"to dodge attack and spell hits","cn":""}
+{ "en":"if no worn items are corrupted","cn":""}
+{ "en":"elemental resistances are zero","cn":""}
+{ "en":"if you wear no corrupted items","cn":""}
+{ "en":"if you[' ]h?a?ve crit recently","cn":""}
+{ "en":"^fire skills [hd][ae][va][el] ","cn":""}
+{ "en":"block chance applied to spells","cn":""}
 { "en":"per (%d+) maximum energy shield","cn":""}
-{ "en":"attack, cast and movement speed","cn":""}
-{ "en":"you always ignite while burning","cn":""}
+{ "en":"physical damage from hits taken","cn":""}
+{ "en":"that place mines or throw traps","cn":""}
+{ "en":"^"..skillName:lower().." deals ","cn":""}
+{ "en":"if all worn items are corrupted","cn":""}
+{ "en":"^chaos golems [hd][ae][va][el] ","cn":""}
 { "en":"elemental damage taken when hit","cn":""}
-{ "en":"critical strikes deal no damage","cn":""}
-{ "en":"for each time they have chained","cn":""}
-{ "en":"physical damage taken over time","cn":""}
-{ "en":"your elemental damage can shock","cn":""}
+{ "en":"if you detonated mines recently","cn":""}
+{ "en":"duration of poisons you inflict","cn":""}
+{ "en":"attack, cast and movement speed","cn":""}
 { "en":"effect of non-damaging ailments","cn":""}
+{ "en":"against rare and unique enemies","cn":""}
+{ "en":"aspect of the avian buff effect","cn":""}
+{ "en":"for each time they have chained","cn":""}
+{ "en":"lightning damage taken when hit","cn":""}
+{ "en":"your elemental damage can shock","cn":""}
+{ "en":"physical damage taken over time","cn":""}
+{ "en":"curse enemies with (%D+) on %a+","cn":""}
+{ "en":"(%d+)%-(%d+) added (%a+) damage","cn":""}
+{ "en":"^skills [hdfg][aei][vari][eln] ","cn":""}
+{ "en":"trigger (.+) on critical strike","cn":""}
+{ "en":"critical strikes deal no damage","cn":""}
+{ "en":"^stone golems [hd][ae][va][el] ","cn":""}
+{ "en":"effect of auras on your minions","cn":""}
+{ "en":"you always ignite while burning","cn":""}
+{ "en":"^flame golems [hd][ae][va][el] ","cn":""}
+{ "en":"wh[ie][ln]e? no mana is reserved","cn":""}
 { "en":"gained as extra lightning damage","cn":""}
 { "en":"lightning damage taken over time","cn":""}
-{ "en":"your lightning damage can ignite","cn":""}
+{ "en":"if you[' ]h?a?ve killed recently","cn":""}
 { "en":"^"..skillName:lower().." damage ","cn":""}
 { "en":"wh[ie][ln]e? no life is reserved","cn":""}
-{ "en":"wh[ie][ln]e? no mana is reserved","cn":""}
-{ "en":"incinerate damage for each stage","cn":""}
-{ "en":"for each equipped corrupted item","cn":""}
-{ "en":"^"..skillName:lower().." grants ","cn":""}
 { "en":"y?o?u?r? ?cold damage can poison","cn":""}
+{ "en":"incinerate damage for each stage","cn":""}
+{ "en":"^"..skillName:lower().." grants ","cn":""}
+{ "en":"for each equipped corrupted item","cn":""}
 { "en":"y?o?u?r? ?fire damage can poison","cn":""}
 { "en":"elemental damage taken over time","cn":""}
-{ "en":"lightning damage from hits taken","cn":""}
-{ "en":"if you[' ]h?a?ve killed recently","cn":""}
+{ "en":"your lightning damage can ignite","cn":""}
 { "en":"^attack skills [hd][ae][va][el] ","cn":""}
-{ "en":"your chaos damage poisons enemies","cn":""}
-{ "en":"life regeneration has no effect%.","cn":""}
-{ "en":"cannot be inflicted with bleeding","cn":""}
-{ "en":"^([%+%-]?%d+)%% additional chance","cn":""}
-{ "en":"^bow attacks [hdf][aei][var][el] ","cn":""}
-{ "en":"^projectiles [hdf][aei][var][el] ","cn":""}
+{ "en":"lightning damage from hits taken","cn":""}
 { "en":"^"..skillName:lower().." has ?a? ","cn":""}
 { "en":"projectiles pierce (%d+) targets?","cn":""}
-{ "en":"zealot's oath during flask effect","cn":""}
-{ "en":"%+(%d+) to level of socketed gems","cn":""}
-{ "en":"^raised zombies' slam attack has ","cn":""}
-{ "en":"per abyssa?l? jewel affecting you","cn":""}
 { "en":"fire trap burning ground duration","cn":""}
+{ "en":"cannot be inflicted with bleeding","cn":""}
+{ "en":"^projectiles [hdf][aei][var][el] ","cn":""}
+{ "en":"^bow attacks [hdf][aei][var][el] ","cn":""}
+{ "en":"to dodge attacks and spell damage","cn":""}
+{ "en":"life regeneration has no effect%.","cn":""}
+{ "en":"^([%+%-]?%d+)%% additional chance","cn":""}
+{ "en":"for each corpse consumed recently","cn":""}
+{ "en":"your chaos damage poisons enemies","cn":""}
+{ "en":"per abyssa?l? jewel affecting you","cn":""}
+{ "en":"per elder or shaper item equipped","cn":""}
+{ "en":"%+(%d+) to level of socketed gems","cn":""}
+{ "en":"(%d+) to (%d+) added (%a+) damage","cn":""}
+{ "en":"zealot's oath during flask effect","cn":""}
+{ "en":"^raised zombies' slam attack has ","cn":""}
+{ "en":"creates consecrated ground on use","cn":""}
+{ "en":"^raging spirits [hd][ae][va][el] ","cn":""}
 { "en":"if you[' ]h?a?ve blocked recently","cn":""}
 { "en":"arrows that pierce cause bleeding","cn":""}
-{ "en":"for each corpse consumed recently","cn":""}
-{ "en":"^raging spirits [hd][ae][va][el] ","cn":""}
-{ "en":"(%d+) to (%d+) added (%a+) damage","cn":""}
-{ "en":"creates consecrated ground on use","cn":""}
-{ "en":"per elder or shaper item equipped","cn":""}
-{ "en":"to dodge attacks and spell damage","cn":""}
-{ "en":"^([%d%.]+) (%a+) damage per second","cn":""}
-{ "en":"damage taken from damage over time","cn":""}
-{ "en":"(%d+)%% increased decoy totem life","cn":""}
-{ "en":"aspect of the cat reserves no mana","cn":""}
-{ "en":"firestorm explosion area of effect","cn":""}
-{ "en":"for each spider's web on the enemy","cn":""}
-{ "en":"chance to block attacks and spells","cn":""}
-{ "en":"grants (%d+) passive skill points?","cn":""}
-{ "en":"raging spirits' hits always ignite","cn":""}
-{ "en":"damage taken from mana before life","cn":""}
-{ "en":"arrows pierce an additional target","cn":""}
-{ "en":"enemies you curse have malediction","cn":""}
-{ "en":"to avoid elemental status ailments","cn":""}
-{ "en":"effect of non-curse auras you cast","cn":""}
-{ "en":"wh[ie][ln]e? on full energy shield","cn":""}
-{ "en":"chance to evade projectile attacks","cn":""}
-{ "en":"if no equipped items are corrupted","cn":""}
-{ "en":"adds knockback during flask effect","cn":""}
-{ "en":"gain (%d+) mana per grand spectrum","cn":""}
-{ "en":"if you[' ]h?a?ve attacked recently","cn":""}
 { "en":"if you[' ]h?a?ve been hit recently","cn":""}
+{ "en":"chance to block attacks and spells","cn":""}
+{ "en":"firestorm explosion area of effect","cn":""}
+{ "en":"aspect of the cat reserves no mana","cn":""}
+{ "en":"(%d+)%% increased decoy totem life","cn":""}
+{ "en":"wh[ie][ln]e? on full energy shield","cn":""}
+{ "en":"effect of non-curse auras you cast","cn":""}
+{ "en":"raging spirits' hits always ignite","cn":""}
+{ "en":"grants (%d+) passive skill points?","cn":""}
+{ "en":"arrows pierce an additional target","cn":""}
+{ "en":"damage taken from damage over time","cn":""}
 { "en":"per (%d+) of your lowest attribute","cn":""}
+{ "en":"chance to evade projectile attacks","cn":""}
+{ "en":"^([%d%.]+) (%a+) damage per second","cn":""}
+{ "en":"damage taken from mana before life","cn":""}
+{ "en":"to avoid elemental status ailments","cn":""}
+{ "en":"adds knockback during flask effect","cn":""}
+{ "en":"if you[' ]h?a?ve attacked recently","cn":""}
+{ "en":"enemies you curse have malediction","cn":""}
+{ "en":"if no equipped items are corrupted","cn":""}
+{ "en":"gain (%d+) mana per grand spectrum","cn":""}
 { "en":"if you[' ]h?a?ve warcried recently","cn":""}
+{ "en":"for each spider's web on the enemy","cn":""}
+{ "en":"wh[ie][ln]e? you have energy shield","cn":""}
+{ "en":"while affected by aspect of the cat","cn":""}
+{ "en":"^socketed gems [hgd][ae][via][enl] ","cn":""}
+{ "en":"^lightning skills [hd][ae][va][el] ","cn":""}
 { "en":"aspect of the spider area of effect","cn":""}
-{ "en":"^animated weapons [hd][ae][va][el] ","cn":""}
 { "en":"physical damage reduction from hits","cn":""}
 { "en":"if all equipped items are corrupted","cn":""}
-{ "en":"^nearby allies [hgd][ae][via][enl] ","cn":""}
-{ "en":"ignited enemies burn (%d+)%% slower","cn":""}
 { "en":"gain %d+ rage when you use a warcry","cn":""}
-{ "en":"enemies can have 1 additional curse","cn":""}
-{ "en":"ignited enemies burn (%d+)%% faster","cn":""}
-{ "en":"if your other ring is an elder item","cn":""}
-{ "en":"^lightning golems [hd][ae][va][el] ","cn":""}
-{ "en":"^socketed gems [hgd][ae][via][enl] ","cn":""}
-{ "en":"wh[ie][ln]e? you have energy shield","cn":""}
 { "en":"you have no armour or energy shield","cn":""}
+{ "en":"^nearby allies [hgd][ae][via][enl] ","cn":""}
+{ "en":"^lightning golems [hd][ae][va][el] ","cn":""}
+{ "en":"ignited enemies burn (%d+)%% faster","cn":""}
 { "en":"if your other ring is a shaper item","cn":""}
-{ "en":"^lightning skills [hd][ae][va][el] ","cn":""}
-{ "en":"while affected by aspect of the cat","cn":""}
-{ "en":"immune to curses during flask effect","cn":""}
-{ "en":"while there is only one nearby enemy","cn":""}
-{ "en":"cannot be slowed to below base speed","cn":""}
+{ "en":"ignited enemies burn (%d+)%% slower","cn":""}
+{ "en":"^animated weapons [hd][ae][va][el] ","cn":""}
+{ "en":"enemies can have 1 additional curse","cn":""}
+{ "en":"if your other ring is an elder item","cn":""}
 { "en":"skills fire an additional projectile","cn":""}
-{ "en":"aspect of the spider debuff duration","cn":""}
-{ "en":"your aura buffs do not affect allies","cn":""}
-{ "en":"your offering skills also affect you","cn":""}
-{ "en":"your maximum resistances are (%d+)%%","cn":""}
+{ "en":"cannot be slowed to below base speed","cn":""}
 { "en":"gain shocking conflux for %d seconds","cn":""}
-{ "en":"gain igniting conflux for %d seconds","cn":""}
-{ "en":"against enemies that are on low life","cn":""}
-{ "en":"gain chilling conflux for %d seconds","cn":""}
-{ "en":"immune to poison during flask effect","cn":""}
-{ "en":"bow attacks fire an additional arrow","cn":""}
-{ "en":"for each rare item you have equipped","cn":""}
 { "en":"you have onslaught while on low life","cn":""}
-{ "en":"gain %d+ rage when you kill an enemy","cn":""}
-{ "en":"maximum life leech rate is doubled%.","cn":""}
-{ "en":"life leeched per second is doubled%.","cn":""}
 { "en":"spells have an additional projectile","cn":""}
-{ "en":"[ct][ar][si][tg]g?e?r?s? (.+) on %a+","cn":""}
-{ "en":"gain (%d+) armour per grand spectrum","cn":""}
+{ "en":"your offering skills also affect you","cn":""}
 { "en":"(%d+)%-(%d+) additional (%a+) damage","cn":""}
 { "en":"your critical strike chance is lucky","cn":""}
-{ "en":"while not ignited, frozen or shocked","cn":""}
-{ "en":"^you and allies [hgd][ae][via][enl] ","cn":""}
+{ "en":"gain igniting conflux for %d seconds","cn":""}
 { "en":"allies' aura buffs do not affect you","cn":""}
+{ "en":"bow attacks fire an additional arrow","cn":""}
+{ "en":"gain chilling conflux for %d seconds","cn":""}
+{ "en":"your aura buffs do not affect allies","cn":""}
+{ "en":"gain %d+ rage when you kill an enemy","cn":""}
+{ "en":"your maximum resistances are (%d+)%%","cn":""}
+{ "en":"immune to poison during flask effect","cn":""}
+{ "en":"while not ignited, frozen or shocked","cn":""}
+{ "en":"for each rare item you have equipped","cn":""}
+{ "en":"maximum life leech rate is doubled%.","cn":""}
+{ "en":"life leeched per second is doubled%.","cn":""}
+{ "en":"against enemies that are on low life","cn":""}
+{ "en":"[ct][ar][si][tg]g?e?r?s? (.+) on %a+","cn":""}
+{ "en":"immune to curses during flask effect","cn":""}
+{ "en":"aspect of the spider debuff duration","cn":""}
+{ "en":"^you and allies [hgd][ae][via][enl] ","cn":""}
+{ "en":"gain (%d+) armour per grand spectrum","cn":""}
+{ "en":"while there is only one nearby enemy","cn":""}
+{ "en":"you are cursed with level (%d+) (%D+)","cn":""}
 { "en":"against enemies that are on full life","cn":""}
+{ "en":"melee weapon and unarmed attack range","cn":""}
+{ "en":"immunity to shock during flask effect","cn":""}
+{ "en":"duration of elemental status ailments","cn":""}
+{ "en":"^"..skillName:lower().." totem deals ","cn":""}
+{ "en":"per freeze, shock and ignite on enemy","cn":""}
+{ "en":"if you have ?n[o']t been hit recently","cn":""}
+{ "en":"if you were damaged by a hit recently","cn":""}
+{ "en":"y?o?u?r? ?lightning damage can poison","cn":""}
+{ "en":"^animated guardians [hd][ae][va][el] ","cn":""}
+{ "en":"projectiles pierce all nearby targets","cn":""}
 { "en":"for each magic item you have equipped","cn":""}
 { "en":"(%d+)%% of recovery applied instantly","cn":""}
-{ "en":"damage is taken from mana before life","cn":""}
-{ "en":"^animated guardians [hd][ae][va][el] ","cn":""}
-{ "en":"melee weapon and unarmed attack range","cn":""}
+{ "en":"^socketed spells [hgd][ae][via][enl] ","cn":""}
+{ "en":"melee critical strikes cause bleeding","cn":""}
+{ "en":"^regenerate ([%d%.]+) (.+) per second","cn":""}
 { "en":"critical strikes do not always freeze","cn":""}
 { "en":"per (%d+) maximum mana, up to (%d+)%%","cn":""}
-{ "en":"projectiles pierce all nearby targets","cn":""}
-{ "en":"you are cursed with level (%d+) (%D+)","cn":""}
-{ "en":"if you were damaged by a hit recently","cn":""}
-{ "en":"melee critical strikes cause bleeding","cn":""}
-{ "en":"^"..skillName:lower().." totem deals ","cn":""}
-{ "en":"y?o?u?r? ?lightning damage can poison","cn":""}
+{ "en":"damage is taken from mana before life","cn":""}
 { "en":"gain unholy might during flask effect","cn":""}
-{ "en":"^socketed spells [hgd][ae][via][enl] ","cn":""}
-{ "en":"^regenerate ([%d%.]+) (.+) per second","cn":""}
-{ "en":"duration of elemental status ailments","cn":""}
-{ "en":"immunity to shock during flask effect","cn":""}
-{ "en":"if you have ?n[o']t been hit recently","cn":""}
-{ "en":"per freeze, shock and ignite on enemy","cn":""}
-{ "en":"immunity to ignite during flask effect","cn":""}
-{ "en":"[ct][ar][si][tg]g?e?r?s? (.+) when hit","cn":""}
-{ "en":"adds (%d+)%-(%d+) (%a+) damage to hits","cn":""}
-{ "en":"your strength is added to your minions","cn":""}
+{ "en":"for each unique item you have equipped","cn":""}
+{ "en":"if you[' ]h?a?ve used a skill recently","cn":""}
+{ "en":"if you[' ]h?a?ve cast a spell recently","cn":""}
+{ "en":"(%d+) to (%d+) additional (%a+) damage","cn":""}
+{ "en":"cast a socketed lightning spell on hit","cn":""}
 { "en":"for each normal item you have equipped","cn":""}
 { "en":"effect of buffs granted by your golems","cn":""}
+{ "en":"your strength is added to your minions","cn":""}
+{ "en":"adds (%d+)%-(%d+) (%a+) damage to hits","cn":""}
 { "en":"^socketed attacks [hgd][ae][via][enl] ","cn":""}
-{ "en":"the effect of chill on you is reversed","cn":""}
-{ "en":"cast a socketed lightning spell on hit","cn":""}
-{ "en":"wh[ie][ln]e? not on full energy shield","cn":""}
 { "en":"summoned skeletons have avatar of fire","cn":""}
-{ "en":"(%d+) to (%d+) additional (%a+) damage","cn":""}
-{ "en":"^([%d%.]+) (.+) regenerated per second","cn":""}
-{ "en":"for each unique item you have equipped","cn":""}
+{ "en":"immunity to ignite during flask effect","cn":""}
+{ "en":"[ct][ar][si][tg]g?e?r?s? (.+) when hit","cn":""}
 { "en":"^"..skillName:lower().." totem grants ","cn":""}
-{ "en":"if you[' ]h?a?ve cast a spell recently","cn":""}
-{ "en":"if you[' ]h?a?ve used a skill recently","cn":""}
-{ "en":"energy shield gained for each enemy hit","cn":""}
-{ "en":"^regenerate ([%d%.]+)%% (.+) per second","cn":""}
-{ "en":"gain armour equal to your reserved mana","cn":""}
-{ "en":"^skills used by traps [hd][ae][va][el] ","cn":""}
-{ "en":"cannot leech life from critical strikes","cn":""}
-{ "en":"while dual wielding or holding a shield","cn":""}
+{ "en":"^([%d%.]+) (.+) regenerated per second","cn":""}
+{ "en":"wh[ie][ln]e? not on full energy shield","cn":""}
+{ "en":"the effect of chill on you is reversed","cn":""}
 { "en":"projectiles pierce an additional target","cn":""}
-{ "en":"per (%d+) evasion rating on body armour","cn":""}
+{ "en":"cannot leech life from critical strikes","cn":""}
+{ "en":"^skills used by traps [hd][ae][va][el] ","cn":""}
 { "en":"per (%d+) evasion rating, up to (%d+)%%","cn":""}
-{ "en":"life and mana gained for each enemy hit","cn":""}
+{ "en":"^regenerate ([%d%.]+)%% (.+) per second","cn":""}
 { "en":"if you[' ]h?a?ve used a warcry recently","cn":""}
+{ "en":"per (%d+) evasion rating on body armour","cn":""}
+{ "en":"life and mana gained for each enemy hit","cn":""}
+{ "en":"energy shield gained for each enemy hit","cn":""}
+{ "en":"gain armour equal to your reserved mana","cn":""}
+{ "en":"chaos damage can ignite, chill and shock","cn":""}
 { "en":"properties are doubled while in a breach","cn":""}
-{ "en":"per enemy killed recently, up to (%d+)%%","cn":""}
-{ "en":"you have onslaught while not on low mana","cn":""}
-{ "en":"bow attacks fire (%d+) additional arrows","cn":""}
-{ "en":"you cannot be slowed to below base speed","cn":""}
 { "en":"^([%d%.]+) (%a+) damage taken per second","cn":""}
+{ "en":"^([%d%.]+)%% (.+) regenerated per second","cn":""}
+{ "en":"incinerate has %+(%d+) to maximum stages","cn":""}
+{ "en":"causes bleeding on melee critical strike","cn":""}
+{ "en":"totems fire (%d+) additional projectiles","cn":""}
+{ "en":"you cannot be slowed to below base speed","cn":""}
+{ "en":"always poison on hit while using a flask","cn":""}
+{ "en":"you have onslaught while not on low mana","cn":""}
+{ "en":"^hits with this weapon [hd][ae][va][el] ","cn":""}
+{ "en":"summoned skeletons' hits can't be evaded","cn":""}
 { "en":"immunity to bleeding during flask effect","cn":""}
 { "en":"adds (%d+) to (%d+) (%a+) damage to hits","cn":""}
-{ "en":"summoned skeletons' hits can't be evaded","cn":""}
-{ "en":"grants perfect agony during flask effect","cn":""}
-{ "en":"^hits with this weapon [hd][ae][va][el] ","cn":""}
+{ "en":"per enemy killed recently, up to (%d+)%%","cn":""}
 { "en":"life gained for each enemy hit by spells","cn":""}
-{ "en":"you have phasing while affected by haste","cn":""}
-{ "en":"totems fire (%d+) additional projectiles","cn":""}
-{ "en":"causes bleeding on melee critical strike","cn":""}
-{ "en":"incinerate has %+(%d+) to maximum stages","cn":""}
+{ "en":"grants perfect agony during flask effect","cn":""}
 { "en":"cannot be stunned while you have fortify","cn":""}
-{ "en":"^([%d%.]+)%% (.+) regenerated per second","cn":""}
-{ "en":"always poison on hit while using a flask","cn":""}
-{ "en":"chaos damage can ignite, chill and shock","cn":""}
-{ "en":"^socketed curse gems [hgd][ae][via][enl] ","cn":""}
-{ "en":"you have onslaught while you have fortify","cn":""}
-{ "en":"non%-critical strikes deal (%d+)%% damage","cn":""}
-{ "en":"skills which throw traps have blood magic","cn":""}
-{ "en":"mana gained for each enemy hit by attacks","cn":""}
-{ "en":"per (%d+) maximum energy shield on helmet","cn":""}
-{ "en":"^socketed golem gems [hgd][ae][via][enl] ","cn":""}
-{ "en":"life gained for each enemy hit by attacks","cn":""}
-{ "en":"if you[' ]h?a?ve frozen an enemy recently","cn":""}
-{ "en":"your fire damage can shock but not ignite","cn":""}
-{ "en":"ignore all movement penalties from armour","cn":""}
-{ "en":"flasks apply to your zombies and spectres","cn":""}
-{ "en":"you have phasing while you have onslaught","cn":""}
+{ "en":"you have phasing while affected by haste","cn":""}
+{ "en":"bow attacks fire (%d+) additional arrows","cn":""}
 { "en":"per poison on you, up to (%d+) per second","cn":""}
-{ "en":"trigger a socketed lightning spell on hit","cn":""}
-{ "en":"your curses can apply to hexproof enemies","cn":""}
+{ "en":"^socketed curse gems [hgd][ae][via][enl] ","cn":""}
+{ "en":"non%-critical strikes deal (%d+)%% damage","cn":""}
+{ "en":"^socketed golem gems [hgd][ae][via][enl] ","cn":""}
 { "en":"^socketed melee gems [hgd][ae][via][enl] ","cn":""}
+{ "en":"ignore all movement penalties from armour","cn":""}
+{ "en":"your curses can apply to hexproof enemies","cn":""}
+{ "en":"you have onslaught while you have fortify","cn":""}
+{ "en":"life gained for each enemy hit by attacks","cn":""}
 { "en":"if you[' ]h?a?ve blocked a spell recently","cn":""}
-{ "en":"%+(%d+) to level of socketed ([%a ]+) gems","cn":""}
-{ "en":"leech applies instantly on critical strike","cn":""}
+{ "en":"trigger a socketed lightning spell on hit","cn":""}
+{ "en":"mana gained for each enemy hit by attacks","cn":""}
+{ "en":"if you[' ]h?a?ve frozen an enemy recently","cn":""}
+{ "en":"per (%d+) maximum energy shield on helmet","cn":""}
+{ "en":"you have phasing while you have onslaught","cn":""}
+{ "en":"your fire damage can shock but not ignite","cn":""}
+{ "en":"skills which throw traps have blood magic","cn":""}
+{ "en":"flasks apply to your zombies and spectres","cn":""}
 { "en":"you have phasing if you've killed recently","cn":""}
-{ "en":"against frozen, shocked or ignited enemies","cn":""}
-{ "en":"if you[' ]h?a?ve summoned a totem recently","cn":""}
-{ "en":"if you[' ]h?a?ve shocked an enemy recently","cn":""}
-{ "en":"strength provides no bonus to maximum life","cn":""}
+{ "en":"leech applies instantly on critical strike","cn":""}
 { "en":"^regenerate ([%d%.]+)%% of (.+) per second","cn":""}
-{ "en":"curse enemies with level (%d+) (.+) on %a+","cn":""}
-{ "en":"if you or your totems have killed recently","cn":""}
-{ "en":"if you[' ]h?a?ve taunted an enemy recently","cn":""}
+{ "en":"strength provides no bonus to maximum life","cn":""}
 { "en":"if you[' ]h?a?ve ignited an enemy recently","cn":""}
-{ "en":"while you have at least (%d+) crab barriers","cn":""}
-{ "en":"^attacks with this weapon [hd][ae][va][el] ","cn":""}
-{ "en":"for each poison you have inflicted recently","cn":""}
-{ "en":"armour received from body armour is doubled","cn":""}
-{ "en":"if you[' ]h?a?ve used a fire skill recently","cn":""}
-{ "en":"^projectile attack skills [hd][ae][va][el] ","cn":""}
-{ "en":"^socketed golem skills [hgd][ae][via][enl] ","cn":""}
-{ "en":"socketed gems fire an additional projectile","cn":""}
-{ "en":"gain accuracy rating equal to your strength","cn":""}
-{ "en":"energy shield protects mana instead of life","cn":""}
-{ "en":"if you[' ]h?a?ve used a vaal skill recently","cn":""}
-{ "en":"leech applies instantly during flask effect","cn":""}
-{ "en":"effects granted for having rage are doubled","cn":""}
+{ "en":"if you[' ]h?a?ve shocked an enemy recently","cn":""}
+{ "en":"if you or your totems have killed recently","cn":""}
+{ "en":"against frozen, shocked or ignited enemies","cn":""}
+{ "en":"%+(%d+) to level of socketed ([%a ]+) gems","cn":""}
+{ "en":"if you[' ]h?a?ve taunted an enemy recently","cn":""}
+{ "en":"curse enemies with level (%d+) (.+) on %a+","cn":""}
 { "en":"counts as all one handed melee weapon types","cn":""}
-{ "en":"if you[' ]h?a?ve used a cold skill recently","cn":""}
-{ "en":"^you and nearby allies [hgd][ae][via][enl] ","cn":""}
-{ "en":"if you[' ]h?a?ve crit in the past 8 seconds","cn":""}
+{ "en":"leech applies instantly during flask effect","cn":""}
 { "en":"enemies taunted by you cannot evade attacks","cn":""}
+{ "en":"if you[' ]h?a?ve used a fire skill recently","cn":""}
+{ "en":"if you[' ]h?a?ve used a cold skill recently","cn":""}
+{ "en":"if you[' ]h?a?ve used a vaal skill recently","cn":""}
+{ "en":"energy shield protects mana instead of life","cn":""}
+{ "en":"^projectile attack skills [hd][ae][va][el] ","cn":""}
+{ "en":"socketed gems fire an additional projectile","cn":""}
+{ "en":"for each poison you have inflicted recently","cn":""}
+{ "en":"effects granted for having rage are doubled","cn":""}
+{ "en":"^attacks with this weapon [hd][ae][va][el] ","cn":""}
+{ "en":"^socketed golem skills [hgd][ae][via][enl] ","cn":""}
+{ "en":"^you and nearby allies [hgd][ae][via][enl] ","cn":""}
+{ "en":"armour received from body armour is doubled","cn":""}
+{ "en":"lose ([%d%.]+)%% of maximum mana per second","cn":""}
+{ "en":"gain accuracy rating equal to your strength","cn":""}
+{ "en":"while you have at least (%d+) crab barriers","cn":""}
+{ "en":"if you[' ]h?a?ve crit in the past 8 seconds","cn":""}
 { "en":"if you[' ]h?a?ve consumed a corpse recently","cn":""}
 { "en":"if you[' ]h?a?ve blocked an attack recently","cn":""}
-{ "en":"lose ([%d%.]+)%% of maximum mana per second","cn":""}
-{ "en":"projectiles pierce (%d+) additional targets?","cn":""}
-{ "en":"your hits can't be evaded by blinded enemies","cn":""}
-{ "en":"ethereal knives pierces an additional target","cn":""}
-{ "en":"^you and allies affected by your auras have ","cn":""}
-{ "en":"w?h?i[lf]e? you have at least (%d+) strength","cn":""}
 { "en":"if you[' ]h?a?ve taken a savage hit recently","cn":""}
-{ "en":"you have phasing while you have cat's stealth","cn":""}
-{ "en":"recovery rate of life, mana and energy shield","cn":""}
-{ "en":"life gained for each enemy hit by your spells","cn":""}
-{ "en":"([%+%-]%d+) seconds to avian's might duration","cn":""}
-{ "en":"effect of the buff granted by your ice golems","cn":""}
+{ "en":"projectiles pierce (%d+) additional targets?","cn":""}
+{ "en":"^you and allies affected by your auras have ","cn":""}
+{ "en":"your hits can't be evaded by blinded enemies","cn":""}
+{ "en":"w?h?i[lf]e? you have at least (%d+) strength","cn":""}
+{ "en":"ethereal knives pierces an additional target","cn":""}
+{ "en":"([%+%-]%d+) seconds to cat's stealth duration","cn":""}
 { "en":"for each shocked enemy you've killed recently","cn":""}
 { "en":"w?h?i[lf]e? you have at least (%d+) dexterity","cn":""}
-{ "en":"([%+%-]%d+) seconds to cat's stealth duration","cn":""}
+{ "en":"recovery rate of life, mana and energy shield","cn":""}
+{ "en":"you have phasing while you have cat's stealth","cn":""}
 { "en":"if you[' ]h?a?ve used a minion skill recently","cn":""}
-{ "en":"shock nova ring deals (%d+)%% increased damage","cn":""}
-{ "en":"against enemies affected by elemental ailments","cn":""}
-{ "en":"Notable Passive Skills in Radius grant nothing","cn":""}
-{ "en":"half of your strength is added to your minions","cn":""}
+{ "en":"effect of the buff granted by your ice golems","cn":""}
+{ "en":"life gained for each enemy hit by your spells","cn":""}
+{ "en":"([%+%-]%d+) seconds to avian's might duration","cn":""}
 { "en":"life gained for each enemy hit by your attacks","cn":""}
-{ "en":"maximum life becomes 1, immune to chaos damage","cn":""}
+{ "en":"half of your strength is added to your minions","cn":""}
+{ "en":"mana gained for each enemy hit by your attacks","cn":""}
+{ "en":"Notable Passive Skills in Radius grant nothing","cn":""}
+{ "en":"cannot be stunned while you have energy shield","cn":""}
 { "en":"life leech is applied to energy shield instead","cn":""}
 { "en":"spectres have a base duration of (%d+) seconds","cn":""}
-{ "en":"%+(%d+) to level of socketed active skill gems","cn":""}
-{ "en":"%+(%d+) to level of active socketed skill gems","cn":""}
 { "en":"your critical strikes do not deal extra damage","cn":""}
-{ "en":"triggers? (.+) when you take a critical strike","cn":""}
+{ "en":"if energy shield recharge has started recently","cn":""}
 { "en":"for each type of abyssa?l? jewel affecting you","cn":""}
 { "en":"intelligence provides no bonus to maximum mana","cn":""}
-{ "en":"if energy shield recharge has started recently","cn":""}
-{ "en":"([%+%-]%d+) seconds to avian's flight duration","cn":""}
-{ "en":"mana gained for each enemy hit by your attacks","cn":""}
-{ "en":"cannot be stunned while you have energy shield","cn":""}
-{ "en":"%+(%d+)%% to quality of socketed ([%a ]+) gems","cn":""}
-{ "en":"your lightning damage can freeze but not shock","cn":""}
+{ "en":"triggers? (.+) when you take a critical strike","cn":""}
+{ "en":"%+(%d+) to level of active socketed skill gems","cn":""}
 { "en":"modifiers to claw damage also apply to unarmed","cn":""}
-{ "en":"against enemies affected by (%d+) spider's webs","cn":""}
-{ "en":"you have onslaught while on full frenzy charges","cn":""}
-{ "en":"armour is increased by uncapped fire resistance","cn":""}
-{ "en":"effect of the buff granted by your chaos golems","cn":""}
-{ "en":"if you[' ]h?a?ve used a movement skill recently","cn":""}
-{ "en":"^regenerate ([%d%.]+)%% of your (.+) per second","cn":""}
-{ "en":"spend energy shield before mana for skill costs","cn":""}
-{ "en":"per poison affecting enemy, up to %+([%d%.]+)%%","cn":""}
-{ "en":"gain %+(%d+) life when you hit a bleeding enemy","cn":""}
-{ "en":"enemies you taunt take (%d+)%% increased damage","cn":""}
+{ "en":"shock nova ring deals (%d+)%% increased damage","cn":""}
+{ "en":"your lightning damage can freeze but not shock","cn":""}
+{ "en":"maximum life becomes 1, immune to chaos damage","cn":""}
+{ "en":"([%+%-]%d+) seconds to avian's flight duration","cn":""}
+{ "en":"%+(%d+) to level of socketed active skill gems","cn":""}
+{ "en":"against enemies affected by elemental ailments","cn":""}
+{ "en":"%+(%d+)%% to quality of socketed ([%a ]+) gems","cn":""}
 { "en":"effect of the buff granted by your flame golems","cn":""}
-{ "en":"per enemy killed by you or your totems recently","cn":""}
+{ "en":"effect of the buff granted by your chaos golems","cn":""}
+{ "en":"armour is increased by uncapped fire resistance","cn":""}
 { "en":"if you haven't dealt a critical strike recently","cn":""}
+{ "en":"per poison affecting enemy, up to %+([%d%.]+)%%","cn":""}
 { "en":"lightning trap pierces (%d) additional targets?","cn":""}
-{ "en":"you can inflict up to (%d+) ignites on an enemy","cn":""}
+{ "en":"enemies you taunt take (%d+)%% increased damage","cn":""}
+{ "en":"per enemy killed by you or your totems recently","cn":""}
+{ "en":"if you[' ]h?a?ve used a movement skill recently","cn":""}
+{ "en":"against enemies affected by (%d+) spider's webs","cn":""}
+{ "en":"gain %+(%d+) life when you hit a bleeding enemy","cn":""}
 { "en":"if you[' ]h?a?ve killed a maimed enemy recently","cn":""}
-{ "en":"socketed gems fire (%d+) additional projectiles","cn":""}
-{ "en":"effect of the buff granted by your stone golems","cn":""}
+{ "en":"spend energy shield before mana for skill costs","cn":""}
 { "en":"if you[' ]h?a?ve killed a cursed enemy recently","cn":""}
+{ "en":"effect of the buff granted by your stone golems","cn":""}
+{ "en":"socketed gems fire (%d+) additional projectiles","cn":""}
+{ "en":"you have onslaught while on full frenzy charges","cn":""}
+{ "en":"^regenerate ([%d%.]+)%% of your (.+) per second","cn":""}
+{ "en":"you can inflict up to (%d+) ignites on an enemy","cn":""}
 { "en":"arrows that pierce deal (%d+)%% increased damage","cn":""}
+{ "en":"frost bomb has (%d+)%% increased debuff duration","cn":""}
+{ "en":"effect of buffs granted by socketed golem skills","cn":""}
+{ "en":"w?h?i[lf]e? you have at least (%d+) intelligence","cn":""}
+{ "en":"[at][tr][ti][ag][cg][ke]r? w?i?t?h? ?(.+) on %a+","cn":""}
+{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) on %a+","cn":""}
+{ "en":"%d+%% chance to trigger level (%d+) (.+) on kill","cn":""}
 { "en":"immunity to freeze and chill during flask effect","cn":""}
 { "en":"maximum frenzy charges and maximum power charges","cn":""}
-{ "en":"[at][tr][ti][ag][cg][ke]r? w?i?t?h? ?(.+) on %a+","cn":""}
-{ "en":"%d+%% chance to trigger level (%d+) (.+) on kill","cn":""}
-{ "en":"w?h?i[lf]e? you have at least (%d+) intelligence","cn":""}
-{ "en":"frost bomb has (%d+)%% increased debuff duration","cn":""}
 { "en":"enemies ignited by an attack burn (%d+)%% faster","cn":""}
-{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) on %a+","cn":""}
-{ "en":"effect of buffs granted by socketed golem skills","cn":""}
 { "en":"you have phasing while at maximum frenzy charges","cn":""}
-{ "en":"all attacks with this weapon are critical strikes","cn":""}
-{ "en":"against enemies affected by (%d+) or more poisons","cn":""}
 { "en":"your offerings have (%d+)%% reduced effect on you","cn":""}
-{ "en":"socketed skill gems get a (%d+)%% mana multiplier","cn":""}
 { "en":"if you[' ]h?a?ve taken a critical strike recently","cn":""}
-{ "en":"3% increased Totem Life per 10 Strength in Radius","cn":""}
 { "en":"if you[' ]h?a?ve killed a bleeding enemy recently","cn":""}
-{ "en":"nearby enemies have (%-%d+)%% to chaos resistance","cn":""}
-{ "en":"if you[' ]h?a?ve dealt a critical strike recently","cn":""}
-{ "en":"^"..skillName:lower().." grants a?n? ?additional ","cn":""}
-{ "en":"temporal chains has (%d+)%% reduced effect on you","cn":""}
 { "en":"reflects (%d+) physical damage to melee attackers","cn":""}
+{ "en":"all attacks with this weapon are critical strikes","cn":""}
+{ "en":"3% increased Totem Life per 10 Strength in Radius","cn":""}
+{ "en":"socketed skill gems get a (%d+)%% mana multiplier","cn":""}
+{ "en":"against enemies affected by (%d+) or more poisons","cn":""}
+{ "en":"temporal chains has (%d+)%% reduced effect on you","cn":""}
 { "en":"lightning strike pierces (%d) additional targets?","cn":""}
-{ "en":"maximum mana per second to maximum mana leech rate","cn":""}
-{ "en":"^"..skillName:lower().." chains an additional time","cn":""}
-{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when hit","cn":""}
-{ "en":"can summon up to (%d) additional golems? at a time","cn":""}
-{ "en":"[at][tr][ti][ag][cg][ke]r? w?i?t?h? ?(.+) when hit","cn":""}
+{ "en":"if you[' ]h?a?ve dealt a critical strike recently","cn":""}
+{ "en":"nearby enemies have (%-%d+)%% to chaos resistance","cn":""}
+{ "en":"^"..skillName:lower().." grants a?n? ?additional ","cn":""}
 { "en":"cannot be stunned if you haven't been hit recently","cn":""}
-{ "en":"energy shield gained for each enemy hit by attacks","cn":""}
-{ "en":"attacks cause bleeding when hitting cursed enemies","cn":""}
-{ "en":"against enemies affected by at least (%d+) poisons","cn":""}
 { "en":"maximum life per second to maximum life leech rate","cn":""}
-{ "en":"attacks chain an additional time when in main hand","cn":""}
 { "en":"for each skill you've used recently, up to (%d+)%%","cn":""}
-{ "en":"Adds 1 to maximum Life per 3 Intelligence in Radius","cn":""}
-{ "en":"effect of the buff granted by your lightning golems","cn":""}
-{ "en":"mana reservation of herald skills is always (%d+)%%","cn":""}
-{ "en":"can allocate passives from the %a+'s starting point","cn":""}
-{ "en":"if you[' ]h?a?ve taken no damage from hits recently","cn":""}
-{ "en":"you have crimson dance while you have cat's stealth","cn":""}
+{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when hit","cn":""}
+{ "en":"attacks cause bleeding when hitting cursed enemies","cn":""}
+{ "en":"energy shield gained for each enemy hit by attacks","cn":""}
+{ "en":"[at][tr][ti][ag][cg][ke]r? w?i?t?h? ?(.+) when hit","cn":""}
+{ "en":"^"..skillName:lower().." chains an additional time","cn":""}
+{ "en":"can summon up to (%d) additional golems? at a time","cn":""}
+{ "en":"maximum mana per second to maximum mana leech rate","cn":""}
+{ "en":"against enemies affected by at least (%d+) poisons","cn":""}
+{ "en":"attacks chain an additional time when in main hand","cn":""}
 { "en":"your cold damage can ignite but not freeze or chill","cn":""}
 { "en":"adds knockback to melee attacks during flask effect","cn":""}
+{ "en":"effect of the buff granted by your lightning golems","cn":""}
 { "en":"manifeste?d? dancing dervish dies when rampage ends","cn":""}
-{ "en":"cannot be stunned while you have at least (%d+) rage","cn":""}
-{ "en":"modifiers to claw attack speed also apply to unarmed","cn":""}
-{ "en":"per (%d+) of the lowest of armour and evasion rating","cn":""}
+{ "en":"Adds 1 to maximum Life per 3 Intelligence in Radius","cn":""}
+{ "en":"can allocate passives from the %a+'s starting point","cn":""}
+{ "en":"you have crimson dance while you have cat's stealth","cn":""}
+{ "en":"mana reservation of herald skills is always (%d+)%%","cn":""}
+{ "en":"if you[' ]h?a?ve taken no damage from hits recently","cn":""}
 { "en":"minions have (%d+)%% chance to poison enemies on hit","cn":""}
-{ "en":"gain (%d+)%% increased area of effect for %d+ seconds","cn":""}
-{ "en":"you have onslaught while at maximum endurance charges","cn":""}
-{ "en":"^blink arrow and blink arrow clones [hd][ae][va][el] ","cn":""}
-{ "en":"movement speed cannot be modified to below base value","cn":""}
-{ "en":"%d+%% chance to trigger level (%d+) (.+) on melee hit","cn":""}
-{ "en":"trigger level (%d+) (.+) when you kill a frozen enemy","cn":""}
-{ "en":"(%d+)%% increased elemental damage per grand spectrum","cn":""}
+{ "en":"cannot be stunned while you have at least (%d+) rage","cn":""}
+{ "en":"per (%d+) of the lowest of armour and evasion rating","cn":""}
+{ "en":"modifiers to claw attack speed also apply to unarmed","cn":""}
 { "en":"life regeneration is applied to energy shield instead","cn":""}
-{ "en":"nearby enemies take (%d+)%% increased elemental damage","cn":""}
+{ "en":"gain (%d+)%% increased area of effect for %d+ seconds","cn":""}
+{ "en":"%d+%% chance to trigger level (%d+) (.+) on melee hit","cn":""}
+{ "en":"you have onslaught while at maximum endurance charges","cn":""}
+{ "en":"trigger level (%d+) (.+) when you kill a frozen enemy","cn":""}
+{ "en":"movement speed cannot be modified to below base value","cn":""}
+{ "en":"(%d+)%% increased elemental damage per grand spectrum","cn":""}
+{ "en":"^blink arrow and blink arrow clones [hd][ae][va][el] ","cn":""}
+{ "en":"if you[' ]h?a?ve taken fire damage from a hit recently","cn":""}
+{ "en":"if you[' ]h?a?ve dealt a non%-critical strike recently","cn":""}
 { "en":"cannot be ignited if strength is higher than dexterity","cn":""}
 { "en":"grants level (%d+) (.+) curse aura during flask effect","cn":""}
-{ "en":"attacks have an additional projectile when in off hand","cn":""}
-{ "en":"if you[' ]h?a?ve taken fire damage from a hit recently","cn":""}
+{ "en":"nearby enemies take (%d+)%% increased elemental damage","cn":""}
 { "en":"your chaos damage has (%d+)%% chance to poison enemies","cn":""}
-{ "en":"if you[' ]h?a?ve dealt a non%-critical strike recently","cn":""}
 { "en":"traps and mines have a (%d+)%% chance to poison on hit","cn":""}
+{ "en":"attacks have an additional projectile when in off hand","cn":""}
 { "en":"^"..skillName:lower().." fires an additional projectile","cn":""}
-{ "en":"energy shield gained for each enemy hit by your attacks","cn":""}
-{ "en":"no damage multiplier for ailments from critical strikes","cn":""}
-{ "en":"against enemies that are affected by elemental ailments","cn":""}
-{ "en":"gain (%d+)%% increased elemental damage for %d+ seconds","cn":""}
-{ "en":"can have up to (%d+) additional traps? placed at a time","cn":""}
-{ "en":"manifeste?d? dancing dervish disables both weapon slots","cn":""}
-{ "en":"life leech from hits with this weapon applies instantly","cn":""}
-{ "en":"you have zealot's oath if you haven't been hit recently","cn":""}
 { "en":"^mirror arrow and mirror arrow clones [hd][ae][va][el] ","cn":""}
-{ "en":"evasion rating is increased by uncapped cold resistance","cn":""}
+{ "en":"manifeste?d? dancing dervish disables both weapon slots","cn":""}
+{ "en":"no damage multiplier for ailments from critical strikes","cn":""}
+{ "en":"gain (%d+)%% increased elemental damage for %d+ seconds","cn":""}
+{ "en":"you have zealot's oath if you haven't been hit recently","cn":""}
+{ "en":"can have up to (%d+) additional traps? placed at a time","cn":""}
 { "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when equipped","cn":""}
-{ "en":"for each of your traps triggered recently, up to (%d+)%%","cn":""}
-{ "en":"removes all mana%. spend life instead of mana for skills","cn":""}
+{ "en":"evasion rating is increased by uncapped cold resistance","cn":""}
+{ "en":"life leech from hits with this weapon applies instantly","cn":""}
+{ "en":"energy shield gained for each enemy hit by your attacks","cn":""}
+{ "en":"against enemies that are affected by elemental ailments","cn":""}
+{ "en":"for each of your mines detonated recently, up to (%d+)%%","cn":""}
 { "en":"you cannot be shocked while at maximum endurance charges","cn":""}
+{ "en":"(%d+)%% increased minion damage if you have hit recently","cn":""}
 { "en":"(%d+)%% of maximum life taken as chaos damage per second","cn":""}
 { "en":"arrows that pierce have (%d+)%% chance to cause bleeding","cn":""}
-{ "en":"(%d+)%% increased minion damage if you have hit recently","cn":""}
-{ "en":"for each of your mines detonated recently, up to (%d+)%%","cn":""}
+{ "en":"for each of your traps triggered recently, up to (%d+)%%","cn":""}
+{ "en":"removes all mana%. spend life instead of mana for skills","cn":""}
 { "en":"if you[' ]h?a?ve used a fire skill in the past 10 seconds","cn":""}
-{ "en":"w?h?i[lf]e? you have at least (%d+) maximum energy shield","cn":""}
+{ "en":"(%d+)%% increased minion attack speed per (%d+) dexterity","cn":""}
+{ "en":"%d+%% chance to attack with level (%d+) (.+) on melee hit","cn":""}
 { "en":"if you[' ]h?a?ve used a cold skill in the past 10 seconds","cn":""}
 { "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you attack","cn":""}
-{ "en":"%d+%% chance to attack with level (%d+) (.+) on melee hit","cn":""}
-{ "en":"gain her embrace for %d+ seconds when you ignite an enemy","cn":""}
 { "en":"gain life from leech instantly from hits with this weapon","cn":""}
 { "en":"cast a socketed cold s[pk][ei]ll on melee critical strike","cn":""}
-{ "en":"minions deal (%d+)%% increased damage per (%d+) dexterity","cn":""}
-{ "en":"(%d+)%% increased minion attack speed per (%d+) dexterity","cn":""}
-{ "en":"triggers? level (%d+) (.+) when you kill a bleeding enemy","cn":""}
 { "en":"golems regenerate (%d)%% of their maximum life per second","cn":""}
-{ "en":"cannot be shocked if intelligence is higher than strength","cn":""}
-{ "en":"cannot be frozen if dexterity is higher than intelligence","cn":""}
+{ "en":"gain her embrace for %d+ seconds when you ignite an enemy","cn":""}
 { "en":"^"..skillName:lower().." chains an additional (%d+) times","cn":""}
+{ "en":"minions deal (%d+)%% increased damage per (%d+) dexterity","cn":""}
+{ "en":"cannot be frozen if dexterity is higher than intelligence","cn":""}
+{ "en":"w?h?i[lf]e? you have at least (%d+) maximum energy shield","cn":""}
+{ "en":"cannot be shocked if intelligence is higher than strength","cn":""}
+{ "en":"triggers? level (%d+) (.+) when you kill a bleeding enemy","cn":""}
 { "en":"gain life and mana from leech instantly on critical strike","cn":""}
 { "en":"cannot be stunned if you have at least (%d+) crab barriers","cn":""}
 { "en":"against enemies that are affected by no elemental ailments","cn":""}
+{ "en":"items and gems have (%d+)%% reduced attribute requirements","cn":""}
 { "en":"can have up to (%d+) additional totems? summoned at a time","cn":""}
 { "en":"-1 Strength per 1 Strength on Allocated Passives in Radius","cn":""}
-{ "en":"items and gems have (%d+)%% reduced attribute requirements","cn":""}
+{ "en":"^"..skillName:lower().." fires (%d+) additional projectiles","cn":""}
+{ "en":"attack with level (%d+) (.+) when you kill a bleeding enemy","cn":""}
+{ "en":"critical strike chance is increased by lightning resistance","cn":""}
+{ "en":"gain chilling, shocking and igniting conflux for %d seconds","cn":""}
+{ "en":"trigger level (%d+) (.+) when you hit an enemy while cursed","cn":""}
+{ "en":"you and your minions have (%d+)%% physical damage reduction","cn":""}
 { "en":"socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)","cn":""}
 { "en":"increases and reductions to minion damage also affects? you","cn":""}
-{ "en":"critical strike chance is increased by lightning resistance","cn":""}
-{ "en":"^"..skillName:lower().." fires (%d+) additional projectiles","cn":""}
-{ "en":"(%d+)%% increased minion movement speed per (%d+) dexterity","cn":""}
-{ "en":"3% increased Totem Life per 10 Strength Allocated in Radius","cn":""}
-{ "en":"gain life and mana from leech instantly during flask effect","cn":""}
-{ "en":"knocks back enemies if you get a critical strike with a bow","cn":""}
-{ "en":"you and your minions have (%d+)%% physical damage reduction","cn":""}
-{ "en":"gain chilling, shocking and igniting conflux for %d seconds","cn":""}
-{ "en":"attack with level (%d+) (.+) when you kill a bleeding enemy","cn":""}
 { "en":"critical strikes ignore enemy monster elemental resistances","cn":""}
-{ "en":"trigger level (%d+) (.+) when you hit an enemy while cursed","cn":""}
+{ "en":"3% increased Totem Life per 10 Strength Allocated in Radius","cn":""}
+{ "en":"knocks back enemies if you get a critical strike with a bow","cn":""}
+{ "en":"gain life and mana from leech instantly during flask effect","cn":""}
+{ "en":"(%d+)%% increased minion movement speed per (%d+) dexterity","cn":""}
+{ "en":"modifiers to claw damage also apply to unarmed attack damage","cn":""}
+{ "en":"(%d+)%% chance to cast a? ?socketed lightning spells? on hit","cn":""}
 { "en":"items and gems have (%d+)%% increased attribute requirements","cn":""}
 { "en":"Strength from Passives in Radius is Transformed to Dexterity","cn":""}
-{ "en":"Dexterity from Passives in Radius is Transformed to Strength","cn":""}
-{ "en":"(%d+)%% chance to cast a? ?socketed lightning spells? on hit","cn":""}
-{ "en":"-1 Dexterity per 1 Dexterity on Allocated Passives in Radius","cn":""}
-{ "en":"enemies chilled by you take (%d+)%% increased burning damage","cn":""}
 { "en":"enemies maimed by you take (%d+)%% increased physical damage","cn":""}
-{ "en":"traps and mines deal (%d+)%-(%d+) additional physical damage","cn":""}
+{ "en":"-1 Dexterity per 1 Dexterity on Allocated Passives in Radius","cn":""}
 { "en":"melee critical strikes have (%d+)%% chance to cause bleeding","cn":""}
 { "en":"attacks always inflict bleeding while you have cat's stealth","cn":""}
-{ "en":"modifiers to claw damage also apply to unarmed attack damage","cn":""}
-{ "en":"you have vaal pact if you've dealt a critical strike recently","cn":""}
-{ "en":"Adds 1 to Maximum Life per 3 Intelligence Allocated in Radius","cn":""}
+{ "en":"enemies chilled by you take (%d+)%% increased burning damage","cn":""}
+{ "en":"Dexterity from Passives in Radius is Transformed to Strength","cn":""}
+{ "en":"traps and mines deal (%d+)%-(%d+) additional physical damage","cn":""}
 { "en":"50% increased Effect of non-Keystone Passive Skills in Radius","cn":""}
-{ "en":"knocks back enemies if you get a critical strike with a staff","cn":""}
+{ "en":"Adds 1 to Maximum Life per 3 Intelligence Allocated in Radius","cn":""}
+{ "en":"you have vaal pact if you've dealt a critical strike recently","cn":""}
 { "en":"immune to freeze, chill, curses and stuns during flask effect","cn":""}
 { "en":"projectiles deal (%d+)%% more damage for each remaining chain","cn":""}
-{ "en":"nearby enemies have (%d+)%% increased effect of curses on them","cn":""}
-{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you use a skill","cn":""}
-{ "en":"melee critical strikes have (%d+)%% chance to poison the enemy","cn":""}
+{ "en":"knocks back enemies if you get a critical strike with a staff","cn":""}
 { "en":"if you[' ]h?a?ve used a lightning skill in the past 10 seconds","cn":""}
-{ "en":"can have up to (%d+) additional remote mines? placed at a time","cn":""}
-{ "en":"traps and mines deal (%d+) to (%d+) additional physical damage","cn":""}
 { "en":"if you[' ]h?a?ve dealt a critical strike in the past 8 seconds","cn":""}
+{ "en":"attacks with this weapon deal double damage to chilled enemies","cn":""}
 { "en":"[ct][ar][si][tg]g?e?r?s? (.+) when your skills or minions kill","cn":""}
 { "en":"modifiers to claw critical strike chance also apply to unarmed","cn":""}
+{ "en":"nearby enemies have (%d+)%% increased effect of curses on them","cn":""}
 { "en":"increases and reductions to spell damage also apply to attacks","cn":""}
 { "en":"%d+%% chance to [ct][ar][si][tg]g?e?r? level (%d+) (.+) on %a+","cn":""}
-{ "en":"attacks with this weapon deal double damage to chilled enemies","cn":""}
+{ "en":"can have up to (%d+) additional remote mines? placed at a time","cn":""}
 { "en":"wh[ie][ln]e? at maximum frenzy charges, attacks poison enemies","cn":""}
+{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you use a skill","cn":""}
+{ "en":"traps and mines deal (%d+) to (%d+) additional physical damage","cn":""}
+{ "en":"melee critical strikes have (%d+)%% chance to poison the enemy","cn":""}
+{ "en":"1% increased Evasion Rating per 3 Dexterity Allocated in Radius","cn":""}
 { "en":"increases and reductions to light radius also apply to accuracy","cn":""}
 { "en":"Intelligence from Passives in Radius is Transformed to Strength","cn":""}
-{ "en":"1% increased Evasion Rating per 3 Dexterity Allocated in Radius","cn":""}
-{ "en":"hits ignore enemy monster fire resistance while you are ignited","cn":""}
 { "en":"Strength from Passives in Radius is Transformed to Intelligence","cn":""}
 { "en":"skills chain an additional time while at maximum frenzy charges","cn":""}
-{ "en":"Intelligence from Passives in Radius is Transformed to Dexterity","cn":""}
-{ "en":"Dexterity from Passives in Radius is Transformed to Intelligence","cn":""}
-{ "en":"you count as on low life while you are cursed with vulnerability","cn":""}
+{ "en":"hits ignore enemy monster fire resistance while you are ignited","cn":""}
 { "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you kill an enemy","cn":""}
+{ "en":"Intelligence from Passives in Radius is Transformed to Dexterity","cn":""}
 { "en":"(%d+)%% additional block chance for %d seconds? every %d seconds","cn":""}
-{ "en":"Ice Shot Pierces 5 additional Targets with 40 Dexterity in Radius","cn":""}
-{ "en":"(%d+)%% increased ice spear critical strike chance in second form","cn":""}
+{ "en":"you count as on low life while you are cursed with vulnerability","cn":""}
+{ "en":"Dexterity from Passives in Radius is Transformed to Intelligence","cn":""}
 { "en":"modifiers to claw attack speed also apply to unarmed attack speed","cn":""}
+{ "en":"(%d+)%% increased ice spear critical strike chance in second form","cn":""}
+{ "en":"Ice Shot Pierces 5 additional Targets with 40 Dexterity in Radius","cn":""}
 { "en":"your bleeding does not deal extra damage while the enemy is moving","cn":""}
-{ "en":"your critical strikes do not deal extra damage during flask effect","cn":""}
-{ "en":"-1 Intelligence per 1 Intelligence on Allocated Passives in Radius","cn":""}
-{ "en":"projectiles pierce (%d+) additional targets while you have phasing","cn":""}
+{ "en":"poison you inflict with critical strikes deals (%d+)%% more damage","cn":""}
 { "en":"attack skills can have (%d+) additional totems? summoned at a time","cn":""}
 { "en":"socketed red gems get (%d+)%% physical damage as extra fire damage","cn":""}
-{ "en":"poison you inflict with critical strikes deals (%d+)%% more damage","cn":""}
+{ "en":"projectiles pierce (%d+) additional targets while you have phasing","cn":""}
+{ "en":"-1 Intelligence per 1 Intelligence on Allocated Passives in Radius","cn":""}
+{ "en":"your critical strikes do not deal extra damage during flask effect","cn":""}
 { "en":"you have crimson dance if you have dealt a critical strike recently","cn":""}
 { "en":"gain (%d+)%% of bow physical damage as extra damage of each element","cn":""}
-{ "en":"if you've used a skill recently, you and nearby allies have tailwind","cn":""}
 { "en":"critical strike chance is increased by uncapped lightning resistance","cn":""}
+{ "en":"if you've used a skill recently, you and nearby allies have tailwind","cn":""}
 { "en":"1% increased Claw Physical Damage per 3 Dexterity Allocated in Radius","cn":""}
-{ "en":"(%d+)%% increased blink arrow and mirror arrow cooldown recovery speed","cn":""}
-{ "en":"%d+%% chance to trigger level (%d+) (.+) when you use a socketed skill","cn":""}
-{ "en":"%+(%d+) to level of socketed active skill gems per (%d+) player levels","cn":""}
 { "en":"gain (%d+)%% of weapon physical damage as extra damage of each element","cn":""}
-{ "en":"non%-critical strikes penetrate (%d+)%% of enemy elemental resistances","cn":""}
-{ "en":"(%d+)%% increased minion damage if you've used a minion skill recently","cn":""}
-{ "en":"for each enemy you or your minions have killed recently, up to (%d+)%%","cn":""}
 { "en":"+15 to maximum Mana per 10 Dexterity on Unallocated Passives in Radius","cn":""}
+{ "en":"(%d+)%% increased minion damage if you've used a minion skill recently","cn":""}
+{ "en":"%d+%% chance to trigger level (%d+) (.+) when you use a socketed skill","cn":""}
+{ "en":"(%d+)%% increased blink arrow and mirror arrow cooldown recovery speed","cn":""}
+{ "en":"non%-critical strikes penetrate (%d+)%% of enemy elemental resistances","cn":""}
+{ "en":"%+(%d+) to level of socketed active skill gems per (%d+) player levels","cn":""}
+{ "en":"for each enemy you or your minions have killed recently, up to (%d+)%%","cn":""}
 { "en":"socketed gems gain (%d+)%% of physical damage as extra lightning damage","cn":""}
-{ "en":"critical strikes with daggers have a (%d+)%% chance to poison the enemy","cn":""}
 { "en":"(%d+)%% increased golem damage for each type of golem you have summoned","cn":""}
+{ "en":"critical strikes with daggers have a (%d+)%% chance to poison the enemy","cn":""}
 { "en":"(%d+)%% of physical, cold and lightning damage converted to fire damage","cn":""}
 { "en":"blade vortex has %+(%d+)%% to critical strike multiplier for each blade","cn":""}
-{ "en":"passives in radius can be allocated without being connected to your tree","cn":""}
-{ "en":"increases and reductions to cast speed also apply to trap throwing speed","cn":""}
-{ "en":"all bonuses from an equipped shield apply to your minions instead of you","cn":""}
-{ "en":"[at][tr][ti][ag][cg][ke]r? w?i?t?h? (.+) when you take a critical strike","cn":""}
-{ "en":"enemies near your totems take (%d+)%% increased physical and fire damage","cn":""}
 { "en":"enemies affected by your spider's webs have (%-%d+)%% to all resistances","cn":""}
-{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you deal a critical strike","cn":""}
-{ "en":"([%d%.]+)%% of damage dealt by y?o?u?r? ?totems is leeched to you as life","cn":""}
+{ "en":"passives in radius can be allocated without being connected to your tree","cn":""}
+{ "en":"all bonuses from an equipped shield apply to your minions instead of you","cn":""}
+{ "en":"enemies near your totems take (%d+)%% increased physical and fire damage","cn":""}
+{ "en":"[at][tr][ti][ag][cg][ke]r? w?i?t?h? (.+) when you take a critical strike","cn":""}
+{ "en":"increases and reductions to cast speed also apply to trap throwing speed","cn":""}
 { "en":"if you[' ]h?a?ve blocked a hit from a unique enemy in the past 10 seconds","cn":""}
-{ "en":"if you[' ]h?a?ve killed an enemy affected by your damage over time recently","cn":""}
+{ "en":"([%d%.]+)%% of damage dealt by y?o?u?r? ?totems is leeched to you as life","cn":""}
+{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you deal a critical strike","cn":""}
+{ "en":"(%d+) life gained for each enemy hit if you have used a vaal skill recently","cn":""}
 { "en":"With at least 40 Dexterity in Radius, Ice Shot Pierces 3 additional Targets","cn":""}
+{ "en":"if you[' ]h?a?ve killed an enemy affected by your damage over time recently","cn":""}
 { "en":"With at least 40 Dexterity in Radius, Ice Shot Pierces 5 additional Targets","cn":""}
 { "en":"aspect of the spider can inflict spider's web on enemies an additional time","cn":""}
-{ "en":"(%d+) life gained for each enemy hit if you have used a vaal skill recently","cn":""}
-{ "en":"2% increased Movement Speed per 10 Dexterity on Allocated Passives in Radius","cn":""}
-{ "en":"double strike has a (%d+)%% chance to deal double damage to bleeding enemies","cn":""}
 { "en":"trigger level (%d+) (.+) when you use a skill while you have a spirit charge","cn":""}
-{ "en":"+100 to Accuracy Rating per 10 Intelligence on Unallocated Passives in Radius","cn":""}
-{ "en":"With at least 40 Intelligence in Radius, Spark fires 2 additional Projectiles","cn":""}
+{ "en":"double strike has a (%d+)%% chance to deal double damage to bleeding enemies","cn":""}
+{ "en":"2% increased Movement Speed per 10 Dexterity on Allocated Passives in Radius","cn":""}
 { "en":"grants armour equal to (%d+)%% of your reserved life to you and nearby allies","cn":""}
 { "en":"projectiles gain (%d+)%% of non%-chaos damage as extra chaos damage per chain","cn":""}
+{ "en":"+100 to Accuracy Rating per 10 Intelligence on Unallocated Passives in Radius","cn":""}
+{ "en":"With at least 40 Intelligence in Radius, Spark fires 2 additional Projectiles","cn":""}
+{ "en":"your hits inflict decay, dealing (%d+) chaos damage per second for %d+ seconds","cn":""}
 { "en":"can [hs][au][vm][em]o?n? 1 additional siege ballista totem per (%d+) dexterity","cn":""}
 { "en":"Adds 1 maximum Lightning Damage to Attacks per 1 Dexterity Allocated in Radius","cn":""}
-{ "en":"your hits inflict decay, dealing (%d+) chaos damage per second for %d+ seconds","cn":""}
+{ "en":"With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect","cn":""}
+{ "en":"consecrated ground you create grants (%d+)%% increased damage to you and allies","cn":""}
 { "en":"5% increased Chaos damage per 10 Intelligence from Allocated Passives in Radius","cn":""}
 { "en":"while your passive skill tree connects to a class' starting location, you gain:","cn":""}
-{ "en":"consecrated ground you create grants (%d+)%% increased damage to you and allies","cn":""}
-{ "en":"With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect","cn":""}
 { "en":"Melee and Melee Weapon Type modifiers in Radius are Transformed to Bow Modifiers","cn":""}
 { "en":"curse enemies with level (%d+) (%D+) on %a+, which can apply to hexproof enemies","cn":""}
-{ "en":"With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile","cn":""}
 { "en":"With at least 40 Intelligence in Radius, Frostbolt fires 2 additional Projectiles","cn":""}
-{ "en":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles","cn":""}
+{ "en":"With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile","cn":""}
 { "en":"With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration","cn":""}
+{ "en":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles","cn":""}
 { "en":"enemies affected by bear trap take (%d+)%% increased damage from trap or mine hits","cn":""}
-{ "en":"if you have 3 primordial jewels, can summon up to (%d) additional golems? at a time","cn":""}
 { "en":"gain (%d+) energy shield for each enemy you hit which is affected by a spider's web","cn":""}
+{ "en":"With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect","cn":""}
 { "en":"summoned skeletons take ([%d%.]+)%% of their maximum life per second as fire damage","cn":""}
 { "en":"+5% to Critical Strike Multiplier per 10 Strength on Unallocated Passives in Radius","cn":""}
-{ "en":"With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect","cn":""}
+{ "en":"if you have 3 primordial jewels, can summon up to (%d) additional golems? at a time","cn":""}
 { "en":"With at least 40 Dexterity in Radius, Shrapnel Shot has 25% increased Area of Effect","cn":""}
-{ "en":"With at least 40 Dexterity in Radius, Ethereal Knives fires 5 additional Projectiles","cn":""}
 { "en":"1% increased Melee Physical Damage while Unarmed per 3 Dexterity Allocated in Radius","cn":""}
 { "en":"Increases and Reductions to Life in Radius are Transformed to apply to Energy Shield","cn":""}
-{ "en":"With at least 40 Dexterity in Radius, Ethereal Knives fires 10 additional Projectiles","cn":""}
+{ "en":"With at least 40 Dexterity in Radius, Ethereal Knives fires 5 additional Projectiles","cn":""}
 { "en":"With at least 40 Dexterity in Radius, Frost Blades has 25% increased Projectile Speed","cn":""}
 { "en":"gain adrenaline for %d+ seconds when you reach low life if you do not have adrenaline","cn":""}
 { "en":"converts all evasion rating to armour%. dexterity provides no bonus to evasion rating","cn":""}
+{ "en":"With at least 40 Dexterity in Radius, Ethereal Knives fires 10 additional Projectiles","cn":""}
+{ "en":"%d+%% chance to trigger level (%d+) (.+) when you gain avian's might or avian's flight","cn":""}
 { "en":"socketed lightning spells [hd][ae][va][el] (%d+)%% increased spell damage if triggered","cn":""}
 { "en":"With at least 40 Intelligence in Radius, Freezing Pulse fires 2 additional Projectiles","cn":""}
-{ "en":"%d+%% chance to trigger level (%d+) (.+) when you gain avian's might or avian's flight","cn":""}
-{ "en":"if you've attacked recently, you and nearby allies have (%d+)%% chance to block attacks","cn":""}
 { "en":"1% additional Physical Damage Reduction per 10 Strength on Allocated Passives in Radius","cn":""}
+{ "en":"if you've attacked recently, you and nearby allies have (%d+)%% chance to block attacks","cn":""}
 { "en":"with 5 corrupted items equipped: life leech recovers based on your chaos damage instead","cn":""}
-{ "en":"your hits have (%d+)%% chance to gain (%d+)%% of non%-chaos damage as extra chaos damage","cn":""}
 { "en":"With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage","cn":""}
-{ "en":"enemies take (%d+)%% increased damage for each type of ailment you have inflicted on them","cn":""}
+{ "en":"your hits have (%d+)%% chance to gain (%d+)%% of non%-chaos damage as extra chaos damage","cn":""}
 { "en":"With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage.","cn":""}
+{ "en":"enemies take (%d+)%% increased damage for each type of ailment you have inflicted on them","cn":""}
 { "en":"if you've cast a spell recently, you and nearby allies have (%d+)%% chance to block spells","cn":""}
 { "en":"modifiers to claw critical strike chance also apply to unarmed attack critical strike chance","cn":""}
 { "en":"grants maximum energy shield equal to (%d+)%% of your reserved mana to you and nearby allies","cn":""}
 { "en":"Dexterity and Intelligence from passives in Radius count towards Strength Melee Damage bonus","cn":""}
-{ "en":"Increases and Reductions to Cold Damage in Radius are Transformed to apply to Physical Damage","cn":""}
-{ "en":"Increases and Reductions to Physical Damage in Radius are Transformed to apply to Cold Damage","cn":""}
 { "en":"With at least 40 Intelligence in Radius, Magma Orb has 10% increased Area of Effect per Chain","cn":""}
+{ "en":"Increases and Reductions to Physical Damage in Radius are Transformed to apply to Cold Damage","cn":""}
+{ "en":"Increases and Reductions to Cold Damage in Radius are Transformed to apply to Physical Damage","cn":""}
 { "en":"With at least 40 Dexterity in Radius, Frost Blades Melee Damage Penetrates 15% Cold Resistance","cn":""}
-{ "en":"With 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage Converted to Cold Damage","cn":""}
 { "en":"With at least 40 Intelligence in Radius, Raised Zombies' Slam Attack deals 30% increased Damage","cn":""}
+{ "en":"With 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage Converted to Cold Damage","cn":""}
+{ "en":"minions have (%d+)%% increased attack and cast speed if you or your minions have killed recently","cn":""}
 { "en":"for each element you've been hit by damage of recently, (%d+)%% increased damage of that element","cn":""}
 { "en":"Increases and Reductions to other Damage Types in Radius are Transformed to apply to Fire Damage","cn":""}
-{ "en":"minions have (%d+)%% increased attack and cast speed if you or your minions have killed recently","cn":""}
-{ "en":"With at least 40 Dexterity in Radius, Shrapnel Shot's cone has a 50% chance to deal Double Damage","cn":""}
 { "en":"strength's damage bonus instead grants (%d+)%% increased melee physical damage per (%d+) strength","cn":""}
+{ "en":"With at least 40 Dexterity in Radius, Shrapnel Shot's cone has a 50% chance to deal Double Damage","cn":""}
 { "en":"Increases and Reductions to Life in Radius are Transformed to apply to Mana at 200% of their value","cn":""}
 { "en":"With at least 40 Strength in Radius, 25% of Glacial Hammer Physical Damage converted to Cold Damage","cn":""}
 { "en":"With at least 40 Intelligence in Radius, Enemies Hindered by Blight take 25% increased Chaos Damage","cn":""}
@@ -1024,11 +999,11 @@
 { "en":"With at least 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage Converted to Cold Damage","cn":""}
 { "en":"Increases and Reductions to Energy Shield in Radius are Transformed to apply to Armour at 200% of their value","cn":""}
 { "en":"With at least 40 Intelligence in Radius, Raised Zombies' Slam Attack has 100% increased Cooldown Recovery Speed","cn":""}
-{ "en":"With at least 40 Dexterity in Radius, Viper Strike deals 2% increased Attack Damage for each Poison on the Enemy","cn":""}
 { "en":"your raised zombies spread caustic cloud on death, dealing 50%% of their maximum life as chaos damage per second","cn":""}
-{ "en":"minions explode when reduced to low life, dealing 33%% of their maximum life as fire damage to surrounding enemies","cn":""}
-{ "en":"With at least 40 Dexterity in Radius, Dual Strike has a 20% chance to deal Double Damage with the Main-Hand Weapon","cn":""}
+{ "en":"With at least 40 Dexterity in Radius, Viper Strike deals 2% increased Attack Damage for each Poison on the Enemy","cn":""}
 { "en":"With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if you've Shattered an Enemy Recently","cn":""}
+{ "en":"With at least 40 Dexterity in Radius, Dual Strike has a 20% chance to deal Double Damage with the Main-Hand Weapon","cn":""}
+{ "en":"minions explode when reduced to low life, dealing 33%% of their maximum life as fire damage to surrounding enemies","cn":""}
 { "en":"while in her embrace, take ([%d%.]+)%% of your total maximum life and energy shield as fire damage per second per level","cn":""}
 { "en":"Passives granting Fire Resistance or all Elemental Resistances in Radius also grant Chance to Block at 35% of its value","cn":""}
 { "en":"during flask effect, (%d+)%% reduced damage taken of each element for which your uncapped elemental resistance is lowest","cn":""}

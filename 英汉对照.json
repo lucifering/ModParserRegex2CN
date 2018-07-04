@@ -1,5 +1,8 @@
+{ "en":"critical strike chance","cn":"暴击率"}
+{ "en":"critical strike multiplier","cn":"暴击伤害加成"}
 {"en":"^(%d+)%% increased","cn":"提高 (%d+)%%"}
 { "en":"^(%d+)%% reduced","cn":"降低 (%d+)%%"}
+{ "en":"^([%+%-][%d%.]+)%%? base","cn":"^([%+%-][%d%.]+)%%? 点"}
 { "en":"^(%d+)%% more","cn":"([^\\\\x00-\\\\xff]*)总([^\\\\x00-\\\\xff]*)额外提高 (%d+)%%"}
 { "en":"^(%d+)%% less","cn":"([^\\\\x00-\\\\xff]*)总([^\\\\x00-\\\\xff]*)额外降低 (%d+)%%"}
 { "en":"^(%d+) to (%d+) (%a+) damage","cn":"^(%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
@@ -50,7 +53,7 @@
 { "en":"energy shield","cn":"能量护盾"}
 { "en":"armour and evasion","cn":"护甲和闪避"}
 { "en":"armour and evasion rating","cn":"护甲和闪避值"}
-{ "en":"evasion rating and armour","cn":"闪避值和护甲"}
+{ "en":"evasion rating and armour","cn":"闪避值与护甲"}
 { "en":"armour and energy shield","cn":""护甲和能量护盾}
 { "en":"evasion rating and energy shield","cn":"闪避值和能量护盾"}
 { "en":"evasion and energy shield","cn":"闪避和能量护盾"}
@@ -141,7 +144,7 @@
 { "en":"golem","cn":"魔像"}
 { "en":"totem","cn":"图腾"}
 { "en":"^take ","cn":"^承受"}
-{ "en":"radius","cn":"范围"}
+{ "en":"radius","cn":"半径"}
 { "en":"effect","cn":"效果"}
 { "en":"weapon","cn":"武器"}
 { "en":"zombie","cn":"魔卫"}
@@ -165,10 +168,9 @@
 { "en":"while wielding a staff","cn":"持长杖时"}
 { "en":"while wielding a sword","cn":"持剑时"}
 { "en":"while wielding a dagger","cn":"持匕首时"}
+{ "en":"while dual wielding or holding a shield","cn":"双持或持盾牌时"}
 { "en":"attack speed","cn":"攻击速度"}
 { "en":"cast speed","cn":"施法速度"}
-{ "en":"critical strike chance","cn":"暴击率"}
-{ "en":"critical strike multiplier","cn":"暴击伤害加成"}
 { "en":"with unarmed attacks","cn":"空手攻击时的"}
 { "en":"movement speed","cn":"移动速度"}
 { "en":"while leeching","cn":"偷取时"}
@@ -237,3 +239,26 @@
 { "en":"light radius","cn":"照亮范围"}
 { "en":"stun threshold","cn":"晕眩门槛"}
 { "en":"^([%d%.]+)%% of (.+) regenerated per second","cn":"每秒回复 ([%d%.]+)%% ([^\\\\x00-\\\\xff]*)"}
+{ "en":"aura effect","cn":"非诅咒类光环的效果"}
+{ "en":"attack critical strike chance","cn":"攻击暴击率"}
+{ "en":"block chance","cn":"攻击格挡率"}
+{ "en":"block recovery","cn":"格挡回复"}
+{ "en":"^attacks used by totems have ","cn":"^图腾所使用攻击的"}
+{ "en":"^spells cast by totems have ","cn":"^图腾所使用法术的"}
+{ "en":"skill effect duration","cn":"技能效果持续时间"}
+{ "en":"life recovery from flasks","cn":"药剂回复的生命"}
+{ "en":"mana recovery from flasks","cn":"药剂回复的魔力"}
+{ "en":"flask charges used","cn":"药剂充能使用"}
+{ "en":"effect of your curses","cn":"你所施放诅咒的效果"}
+{ "en":"for curses","cn":"诅咒"}
+{ "en":"^minions [hd][ae][va][el] ","cn":"^召唤生物的"}
+{ "en":"^minions leech ","cn":"召唤生物获得"}
+{ "en":"effect of flasks on you","cn":"药剂效果"}
+{ "en":"flask effect duration","cn":"药剂持续时间"}
+{ "en":"to block spells","cn":"法术格挡率"}
+{ "en":"from equipped shield","cn":"从盾牌获取的"}
+{ "en":"if you[' ]h?a?ve summoned a totem recently","cn":"近期内你若有召唤图腾，"}
+{ "en":"per power charge","cn":"每个暴击球可使"}
+{ "en":"shock duration","cn":"敌人的感电持续时间"}
+{ "en":"^([%+%-]?%d+)%% chance","cn":"([%+%-]?%d+)%% 几率"}
+{ "en":"to shock","cn":"闪电伤害击中时有 ([%+%-]?%d+)%% 几率使敌人受到感电效果影响"}

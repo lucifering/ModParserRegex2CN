@@ -1,0 +1,1 @@
+["^召唤生物有"] = { addToMinion = true }, --备注：^minions [hd][ae][va][el] 
