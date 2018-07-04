@@ -1,6 +1,8 @@
 ["持盾牌时，"] = { tag = { type = "Condition", var = "UsingShield" } }, --备注：while holding a shield
 	["你的副手未装备武器时，"] = { tag = { type = "Condition", var = "OffHandIsEmpty" } }, --备注：while your off hand is empty
 	["双持时，"] = { tag = { type = "Condition", var = "DualWielding" } }, --备注：while dual wielding
+	["双持攻击时"] = { tag = { type = "Condition", var = "DualWielding" } }, --备注：while dual wielding
+	["双持攻击的"] = { tag = { type = "Condition", var = "DualWielding" } }, --备注：while dual wielding
 	["双持爪时，"] = { tag = { type = "Condition", var = "DualWieldingClaws" } }, --备注：while dual wielding claws
 	["持斧时，"] = { tag = { type = "Condition", var = "UsingAxe" } }, --备注：while wielding an axe
 	["持弓时，"] = { tag = { type = "Condition", var = "UsingBow" } }, --备注：while wielding a bow

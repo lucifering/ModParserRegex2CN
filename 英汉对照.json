@@ -87,7 +87,7 @@
 { "en":"fire and cold resistances","cn":"火焰和冰霜抗性"}
 { "en":"fire and lightning resistances","cn":"火焰和闪电抗性"}
 { "en":"cold and lightning resistances","cn":"冰霜和闪电抗性"}
-{ "en":"elemental resistances","cn":"火焰、冰霜、闪电抗性"}
+{ "en":"elemental resistances","cn":"获得 %+(%d+)%% 火焰、冰霜、闪电抗性"}
 { "en":"all elemental resistances","cn":"火焰、冰霜、闪电抗性"}
 { "en":"elemental resistance","cn":"火焰、冰霜、闪电抗性"}
 { "en":"all resistances","cn":"所有抗性"}
@@ -148,6 +148,7 @@
 { "en":"warcry","cn":"战吼"}
 { "en":"phasing","cn":"【迷踪】状态"}
 { "en":"physical","cn":"物理"}
+{ "en":"with shields","cn":"持盾时"}
 { "en":"with swords","cn":"剑类攻击的"}
 { "en":"with maces","cn":"锤类攻击的"}
 { "en":"with staves","cn":"长杖攻击的"}
@@ -207,3 +208,32 @@
 { "en":"while unarmed","cn":"空手时"}
 { "en":"while phasing","cn":"【迷踪】状态时"}
 { "en":"while bleeding","cn":"流血时"}
+{ "en":"accuracy","cn":"命中值"}
+{ "en":"accuracy rating","cn":"攻击命中值"}
+{ "en":"with ailments from attack skills","cn":"攻击技能造成的异常状态"}
+{ "en":"with two handed weapons","cn":"双手武器的"}
+{ "en":"with one handed weapons","cn":"单手武器的"}
+{ "en":"with one handed melee weapons","cn":"近战单手武器攻击的"}
+{ "en":"with two handed melee weapons","cn":"双手近战武器攻击的"}
+{ "en":"of aura skills","cn":"光环技能"}
+{ "en":"of curse skills","cn":"诅咒技能"}
+{ "en":"with fire skills","cn":"火焰技能"}
+{ "en":"with cold skills","cn":"冰霜技能"}
+{ "en":"of herald skills","cn":"捷技能"}
+{ "en":"of minion skills","cn":"召唤生物技能"}
+{ "en":"with totem skills","cn":"图腾技能"}
+{ "en":"with chaos skills","cn":"混沌技能"}
+{ "en":"with attack skills","cn":"攻击技能"}
+{ "en":"with movement skills","cn":"移动技能"}
+{ "en":"with lightning skills","cn":"闪电技能"}
+{ "en":"with elemental skills","cn":"火焰、冰霜、闪电技能"}
+{ "en":"with channelling skills","cn":"引导技能"}
+{ "en":"for skills used by totems","cn":"图腾使用技能的"}
+{ "en":"stun duration","cn":"晕眩时间"}
+{ "en":"stun recovery","cn":"晕眩回复和格挡回复"}
+{ "en":"attack and cast speed","cn":"攻击和施法速度"}
+{ "en":"to freeze, shock and ignite","cn":"几率使敌人受到冰冻，感电与点燃"}
+{ "en":"area of effect","cn":"范围效果"}
+{ "en":"light radius","cn":"照亮范围"}
+{ "en":"stun threshold","cn":"晕眩门槛"}
+{ "en":"^([%d%.]+)%% of (.+) regenerated per second","cn":"每秒回复 ([%d%.]+)%% ([^\\\\x00-\\\\xff]*)"}
