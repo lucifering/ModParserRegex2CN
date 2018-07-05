@@ -1,3 +1,10 @@
 ["每秒回复 ([%d%.]+)%% 生命"] = function(num) return {  mod("LifeRegenPercent", "BASE", num)  } end,
 ["击败敌人回复 %+(%d+) 生命"] = function(num) return {  mod("LifeOnKill", "BASE", num)  } end,  
 ["击败敌人回复 %+(%d+) 魔力"] = function(num) return {  mod("ManaOnKill", "BASE", num)  } end,  
+["闪电伤害击中时有 ([%+%-]?%d+)%% 几率使敌人受到感电效果影响"] =function(num) return {  mod("EnemyShockChance", "BASE", num)  } end,  --   "EnemyShockChance", --备注：to shock
+["火焰伤害击中时有 ([%+%-]?%d+)%% 几率点燃敌人"] =function(num) return {  mod("EnemyIgniteChance", "BASE", num)  } end,  --   "EnemyShockChance", --备注：to shock
+["法杖攻击 ([%+%-]?%d+)%% 暴击伤害加成"] = function(num) return {  mod("CritMultiplier", "BASE", num,nil, ModFlag.Wand)  } end,
+["获得额外闪电伤害， 其数值等同于法杖物理伤害的 ([%d%.]+)%%"] = function(num) return {  mod("PhysicalDamageGainAsLightning", "BASE", num,nil, ModFlag.Wand)  } end, --备注：^gain ([%d%.]+)%% of
+["召唤生物每秒回复 ([%d%.]+)%% 生命"] = function(num) return { mod("MinionModifier", "LIST", { mod = mod("LifeRegenPercent", "BASE", num) })  } end,
+["召唤生物获得 ([%d%.]+)%% 生命偷取"] = function(num) return { mod("MinionModifier", "LIST", { mod = mod("DamageLifeLeech", "BASE", num) })  } end,
+["诅咒范围扩大"] = function(num) return {  mod("AreaOfEffect", "INC", num,nil, KeywordFlag.Curse)  } end,

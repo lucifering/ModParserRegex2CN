@@ -7,7 +7,7 @@
 	["持斧时，"] = { tag = { type = "Condition", var = "UsingAxe" } }, --备注：while wielding an axe
 	["持弓时，"] = { tag = { type = "Condition", var = "UsingBow" } }, --备注：while wielding a bow
 	["持爪时，"] = { tag = { type = "Condition", var = "UsingClaw" } }, --备注：while wielding a claw
-	["持匕首时，"] = { tag = { type = "Condition", var = "UsingDagger" } }, --备注：while wielding a dagger
+	["持匕时，"] = { tag = { type = "Condition", var = "UsingDagger" } }, --备注：while wielding a dagger
 	["持锤时，"] = { tag = { type = "Condition", var = "UsingMace" } }, --备注：while wielding a mace
 	["持长杖时，"] = { tag = { type = "Condition", var = "UsingStaff" } }, --备注：while wielding a staff
 	["持剑时，"] = { tag = { type = "Condition", var = "UsingSword" } }, --备注：while wielding a sword
@@ -45,3 +45,4 @@
 	["中毒时，"] = { tag = { type = "Condition", var = "Poisoned" } }, --备注：while poisoned
 	["被诅咒时，"] = { tag = { type = "Condition", var = "Cursed" } }, --备注：while cursed
 	["未被诅咒时，"] = { tag = { type = "Condition", var = "Cursed", neg = true } }, --备注：while not cursed
+	

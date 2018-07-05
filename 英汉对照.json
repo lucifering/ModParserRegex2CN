@@ -76,7 +76,7 @@
 { "en":"melee physical damage","cn":"近战物理伤害"}
 { "en":"projectile damage","cn":"投射物伤害"}
 { "en":"projectile attack damage","cn":"投射物攻击伤害"}
-{ "en":"damage over time","cn":"持续伤害"}
+{ "en":"damage over time","cn":"持续伤害效果"}
 { "en":"physical damage over time","cn":"物理持续伤害"}
 { "en":"burning damage","cn":"燃烧伤害"}
 { "en":"damage with ignite","cn":"点燃伤害"}
@@ -167,7 +167,7 @@
 { "en":"while wielding a bow","cn":"持弓时"}
 { "en":"while wielding a staff","cn":"持长杖时"}
 { "en":"while wielding a sword","cn":"持剑时"}
-{ "en":"while wielding a dagger","cn":"持匕首时"}
+{ "en":"while wielding a dagger","cn":"持匕时"}
 { "en":"while dual wielding or holding a shield","cn":"双持或持盾牌时"}
 { "en":"attack speed","cn":"攻击速度"}
 { "en":"cast speed","cn":"施法速度"}
@@ -262,3 +262,19 @@
 { "en":"shock duration","cn":"敌人的感电持续时间"}
 { "en":"^([%+%-]?%d+)%% chance","cn":"([%+%-]?%d+)%% 几率"}
 { "en":"to shock","cn":"闪电伤害击中时有 ([%+%-]?%d+)%% 几率使敌人受到感电效果影响"}
+{ "en":"effect of chill","cn":"冰缓效果"}
+{ "en":"effect of shock","cn":"感电效果"}
+{ "en":"penetrates? (%d+)%%","cn":"穿透? (%d+)%%"}
+{ "en":"chill duration","cn":"敌人被冰缓的持续时间"}
+{ "en":"freeze duration","cn":"敌人被冰冻的持续时间"}
+{ "en":"bleed duration","cn":"流血持续时间"}
+{ "en":"curse duration","cn":"诅咒持续时间"}
+{ "en":"to freeze","cn":"使用冰霜伤害击中时冰冻敌人"}
+{ "en":"ignite duration","cn":"敌人被点燃的持续时间"}
+{ "en":"claw physical damage","cn":"爪物理伤害"}
+{ "en":"wand physical damage","cn":"法杖物理伤害"}
+{ "en":"leeched as life","cn":"生命偷取"}
+{ "en":"leeched as mana","cn":"魔力偷取"}
+{ "en":"enemies can have 1 additional curse","cn":"可以对敌人施放 1 个额外诅咒"}
+{ "en":"area of effect of area skills","cn":"光环技能范围"}
+{ "en":"radius of curses","cn":"诅咒范围"}
