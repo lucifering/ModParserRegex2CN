@@ -2,7 +2,7 @@
 { "en":"critical strike multiplier","cn":"暴击伤害加成"}
 {"en":"^(%d+)%% increased","cn":"提高 (%d+)%%"}
 { "en":"^(%d+)%% reduced","cn":"降低 (%d+)%%"}
-{ "en":"^([%+%-][%d%.]+)%%? base","cn":"^([%+%-][%d%.]+)%%? 点"}
+{ "en":"^([%+%-][%d%.]+)%%? base","cn":"([%+%-][%d%.]+)%%? 点"}
 { "en":"^(%d+)%% more","cn":"([^\\\\x00-\\\\xff]*)总([^\\\\x00-\\\\xff]*)额外提高 (%d+)%%"}
 { "en":"^(%d+)%% less","cn":"([^\\\\x00-\\\\xff]*)总([^\\\\x00-\\\\xff]*)额外降低 (%d+)%%"}
 { "en":"^(%d+) to (%d+) (%a+) damage","cn":"^(%d+) %- (%d+) 基础([^\\\\x00-\\\\xff]*)伤害"}
@@ -234,7 +234,7 @@
 { "en":"stun duration","cn":"晕眩时间"}
 { "en":"stun recovery","cn":"晕眩回复和格挡回复"}
 { "en":"attack and cast speed","cn":"攻击和施法速度"}
-{ "en":"to freeze, shock and ignite","cn":"几率使敌人受到冰冻，感电与点燃"}
+{ "en":"to freeze, shock and ignite","cn":"使敌人受到冰冻，感电与点燃"}
 { "en":"area of effect","cn":"范围效果"}
 { "en":"light radius","cn":"照亮范围"}
 { "en":"stun threshold","cn":"晕眩门槛"}
@@ -278,3 +278,52 @@
 { "en":"enemies can have 1 additional curse","cn":"可以对敌人施放 1 个额外诅咒"}
 { "en":"area of effect of area skills","cn":"光环技能范围"}
 { "en":"radius of curses","cn":"诅咒范围"}
+{ "en":"enemies which are chilled","cn":"被冰缓的敌人"}
+{ "en":"knocks back enemies if you get a critical strike with a staff","cn":"长杖攻击暴击时击退敌人"}
+{ "en":"knocks back enemies if you get a critical strike with a bow","cn":"弓类攻击暴击时击退敌人"}
+{ "en":"against frozen, shocked or ignited enemies","cn":"对被冰冻、感电、点燃敌人的"}
+{ "en":"with hits","cn":"击中"}
+{ "en":"effect of non-damaging ailments","cn":"对敌人施加的非伤害性异常状态效果的伤害"}
+{ "en":"stun duration on enemies","cn":"敌人被晕眩时间"}
+{ "en":"enemy stun threshold","cn":"敌人晕眩门槛"}
+{ "en":"to cause bleeding","cn":"使敌人流血"}
+{ "en":"melee weapon range","cn":"近战攻击范围"}
+{ "en":"melee weapon and unarmed range","cn":"近战与空手范围"}
+{ "en":"melee weapon and unarmed attack range","cn":"近战与空手攻击范围"}
+{ "en":"physical damage reduction","cn":"物理伤害减免"}
+{ "en":"with bleeding","cn":"流血"}
+{ "en":"knockback distance","cn":"击退距离"}
+{ "en":"against poisoned enemies","cn":"对中毒敌人的"}
+{ "en":"against bleeding enemies","cn":"对流血敌人的"}
+{ "en":"fortify duration","cn":"护体效果持续时间"}
+{ "en":"effect of fortify on you","cn":"你身上的护体效果"}
+{ "en":"you have fortify","cn":"获得护体时"}
+{ "en":"with weapons","cn":"武器造成的"}
+{ "en":"maximum life per second to maximum life leech rate","cn":"最大生命偷取率"}
+{ "en":"maximum mana per second to maximum mana leech rate","cn":"最大魔力偷取率"}
+{ "en":"against enemies that are on low life","cn":"击中低血的敌人时，"}
+{ "en":"with main hand","cn":"主手武器"}
+{ "en":"with off hand","cn":"副手武器"}
+{ "en":"with poison","cn":"中毒"}
+{ "en":"poison duration","cn":"中毒持续时间"}
+{ "en":"to avoid bleeding","cn":"避免被流血"}
+{ "en":"to avoid being stunned","cn":"避免被晕眩"}
+{ "en":"to avoid being shocked","cn":"避免被感电"}
+{ "en":"to avoid being chilled","cn":"避免被冰缓"}
+{ "en":"to avoid being frozen","cn":"避免被冰冻"}
+{ "en":"to avoid being ignited","cn":"避免被点燃"}
+{ "en":"to avoid elemental ailments","cn":"避免元素异常状态"}
+{ "en":"converted to lightning damage","cn":"转换为闪电伤害"}
+{ "en":"converted to cold damage","cn":"转换为冰霜伤害"}
+{ "en":"converted to fire damage","cn":"转换为火焰伤害"}
+{ "en":"converted to chaos damage","cn":"转换为混沌伤害"}
+{ "en":"flask charges gained","cn":"药剂充能获取"}
+{ "en":"flask recovery speed","cn":"药剂的回复速度"}
+{ "en":"during any flask effect","cn":"药剂持续期间，"}
+{ "en":"arrow speed","cn":"箭矢速度"}
+{ "en":"ignore all movement penalties from armour","cn":"无视穿着护甲所带来的移动速度降低效果"}
+{ "en":"while you have onslaught","cn":"获得【猛攻】时"}
+{ "en":"per frenzy charge","cn":"每个狂怒球"}
+{ "en":"per endurance charge","cn":"每个耐力球"}
+{ "en":"can have up to (%d+) additional traps? placed at a time","cn":"最多同时可额外放置 (%d+) 个陷阱"}
+{ "en":"can have up to (%d+) additional remote mines? placed at a time","cn":"最多同时可额外放置 (%d+) 个遥控地雷"}

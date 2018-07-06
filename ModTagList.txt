@@ -45,4 +45,6 @@
 	["中毒时，"] = { tag = { type = "Condition", var = "Poisoned" } }, --备注：while poisoned
 	["被诅咒时，"] = { tag = { type = "Condition", var = "Cursed" } }, --备注：while cursed
 	["未被诅咒时，"] = { tag = { type = "Condition", var = "Cursed", neg = true } }, --备注：while not cursed
+	["持长杖时 "] = { tag = { type = "Condition", var = "UsingStaff" } }, --备注：while wielding a staff
+	["获得护体时，"] = { tag = { type = "Condition", var = "Fortify" } }, --备注：while you have fortify	
 	
