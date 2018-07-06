@@ -46,9 +46,8 @@
 { "en":"mana reservation of skills","cn":"技能的魔力保留"}
 { "en":"maximum energy shield","cn":"最大能量护盾"}
 { "en":"energy shield recharge rate","cn":"能量护盾的回复速度"}
-{ "en":"start of energy shield recharge","cn":"能量护盾启动回复比平常"}
+{ "en":"start of energy shield recharge","cn":"能量护盾启动回复"}
 { "en":"armour","cn":"护甲"}
-{ "en":"evasion","cn":"闪避"}
 { "en":"evasion rating","cn":"闪避值"}
 { "en":"energy shield","cn":"能量护盾"}
 { "en":"armour and evasion","cn":"护甲和闪避"}
@@ -327,3 +326,38 @@
 { "en":"per endurance charge","cn":"每个耐力球"}
 { "en":"can have up to (%d+) additional traps? placed at a time","cn":"最多同时可额外放置 (%d+) 个陷阱"}
 { "en":"can have up to (%d+) additional remote mines? placed at a time","cn":"最多同时可额外放置 (%d+) 个遥控地雷"}
+{ "en":"projectiles pierce (%d+) targets?","cn":"投射物会穿透 (%d+) 个额外目标"}
+{ "en":"critical strikes with daggers have a (%d+)%% chance to poison the enemy","cn":"匕首攻击的暴击有 (%d+)%% 几率使敌人中毒"}
+{ "en":"^(%d+)%% faster","cn":"比平常快 (%d+)%%"}
+{ "en":"duration of elemental ailments","cn":"敌人受到的元素异常状态时间"}
+{ "en":"if you[' ]h?a?ve crit in the past 8 seconds","cn":"暴击后的 8 秒内，"}
+{ "en":"no critical strike multiplier","cn":"击中没有暴击伤害加成"}
+{ "en":"no damage multiplier for ailments from critical strikes","cn":"异常状态没有暴击伤害加成"}
+{ "en":"minions explode when reduced to low life, dealing 33%% of their maximum life as fire damage to surrounding enemies","cn":"召唤生物在低血时会爆炸，对周围敌人造成自身最大生命 33%% 的火焰伤害"}
+{ "en":"(%d+)%% of physical, cold and lightning damage converted to fire damage","cn":"(%d+)%% 的物理、冰霜和闪电伤害转换为火焰伤害"}
+{ "en":"deal no non%-fire damage","cn":"只能造成火焰伤害"}
+{ "en":"life regeneration is applied to energy shield instead","cn":"不再获得生命回复，将其回复效果套用于能量护盾"}
+{ "en":"life leech is applied to energy shield instead","cn":"不再获得生命偷取，将其偷取效果套用于能量护盾"}
+{ "en":"can have up to (%d+) additional totems? summoned at a time","cn":"最多同时可以额外召唤 (%d+) 个图腾"}
+{ "en":"your hits can't be evaded","cn":"你的攻击和法术无法被闪避"}
+{ "en":"never deal critical strikes","cn":"无法造成暴击"}
+{ "en":"removes all mana%. spend life instead of mana for skills","cn":"移除魔力，施放所有技能改为消耗生命"}
+{ "en":"the increase to physical damage from strength applies to projectile attacks as well as melee attacks","cn":"力量属性对近战攻击和投射物的物理伤害均会加成"}
+{ "en":"cannot be stunned","cn":"免疫晕眩"}
+{ "en":"cannot evade enemy attacks","cn":"无法闪避敌人攻击"}
+{ "en":"your bleeding does not deal extra damage while the enemy is moving","cn":"当敌人移动时，你的流血无法造成额外伤害"}
+{ "en":"converts all evasion rating to armour%. dexterity provides no bonus to evasion rating","cn":"将所有闪避值转换为护甲，敏捷不再提供闪避值加成"}
+{ "en":"projectile attack hits deal up to 50%% more damage to targets at the start of their movement, dealing less damage to targets as the projectile travels farther","cn":"投射物攻击近距离目标时造成的总伤害最多额外提高 50%%，但攻击远距离目标时总伤害则会额外降低"}
+{ "en":"life leeched per second is doubled%.","cn":"每秒生命偷取效果翻倍。"}
+{ "en":"maximum life leech rate is doubled%.","cn":"生命偷取速度上限翻倍。"}
+{ "en":"life regeneration has no effect%.","cn":"不再获得生命回复效果。"}
+{ "en":"to dodge attack hits","cn":"躲避攻击击中"}
+{ "en":"30%% chance to dodge attack hits%. 50%% less armour, 30%% less energy shield, 30%% less chance to block spells and attacks","cn":"30%% 几率躲避攻击击中、总护甲降低 50%%、总能量护盾降低 30%%、攻击与法术总格挡率降低 30%%"}
+{ "en":"to dodge spells","cn":"躲避法术击中"}
+{ "en":"maximum life becomes 1, immune to chaos damage","cn":"最大生命上限变成 1，免疫混沌伤害"}
+{ "en":"spend energy shield before mana for skill costs","cn":"技能优先消耗能量护盾，而非魔力"}
+{ "en":"energy shield protects mana instead of life","cn":"能量护盾从生命护盾变成魔力护盾"}
+{ "en":"wh[ie][ln]e? on low life","cn":"低血时"}
+{ "en":"enemies you hit with elemental damage temporarily get (%+%d+)%% resistance to those elements and (%-%d+)%% resistance to other elements","cn":"被火焰、冰霜和闪电伤害击中的敌人暂时提高 (%d+)%% 的该属性抗性，其他属性抗性降低 (%d+)%%"}
+{ "en":"all bonuses from an equipped shield apply to your minions instead of you","cn":"盾牌上的所有属性会套用于你的召唤生物，而非角色本身"}
+{ "en":"modifiers to critical strike multiplier also apply to damage multiplier for ailments from critical strikes at (%d+)%% of their value","cn":"暴击伤害加成也会套用于异常状态的伤害加成，数值为 (%d+)%%"}
