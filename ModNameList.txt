@@ -12,3 +12,8 @@
 ["物理伤害减伤"] = "PhysicalDamageReduction", --备注：physical damage reduction
 ["造成流血"] = "BleedChance",
 ["元素抗性"] = "ElementalResist", --备注：all elemental resistances
+["范围效果的"] = "AreaOfEffect", --备注：area of effect
+["火焰、冰霜、闪电伤害的"] = "ElementalDamage", --备注：elemental damage
+["火焰伤害的"] = "FireDamage", --备注：fire damage
+["其伤害的"] = "Damage", --备注：damage
+["受到的火焰、冰霜、闪电伤害"] = "ElementalDamageTaken", --备注：damage taken

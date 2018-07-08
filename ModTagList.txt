@@ -24,7 +24,7 @@
 	["当你没有耐力球时，"] = { tag = { type = "StatThreshold", stat = "EnduranceCharges", threshold = 0, upper = true } }, --备注：while you have no endurance charges
 	["你拥有暴击球时，"] = { tag = { type = "StatThreshold", stat = "PowerCharges", threshold = 1 } }, --备注：while you have a power charge
 	["你拥有狂怒球时，"] = { tag = { type = "StatThreshold", stat = "FrenzyCharges", threshold = 1 } }, --备注：while you have a frenzy charge
-	["你拥有狂耐力时，"] = { tag = { type = "StatThreshold", stat = "EnduranceCharges", threshold = 1 } },
+	["你拥有耐力球时，"] = { tag = { type = "StatThreshold", stat = "EnduranceCharges", threshold = 1 } },
 	["当暴击球达到上限时，"] = { tag = { type = "StatThreshold", stat = "PowerCharges", thresholdStat = "PowerChargesMax" } }, --备注：while at maximum power charges
 	["当狂怒球达到上限时，"] = { tag = { type = "StatThreshold", stat = "FrenzyCharges", thresholdStat = "FrenzyChargesMax" } }, --备注：while at maximum frenzy charges
 	["当耐力球达到上限时，"] = { tag = { type = "StatThreshold", stat = "EnduranceCharges", thresholdStat = "EnduranceChargesMax" } }, --备注：while at maximum endurance charges
@@ -46,5 +46,13 @@
 	["被诅咒时，"] = { tag = { type = "Condition", var = "Cursed" } }, --备注：while cursed
 	["未被诅咒时，"] = { tag = { type = "Condition", var = "Cursed", neg = true } }, --备注：while not cursed
 	["持长杖时 "] = { tag = { type = "Condition", var = "UsingStaff" } }, --备注：while wielding a staff
-	["获得护体时，"] = { tag = { type = "Condition", var = "Fortify" } }, --备注：while you have fortify	
-	
+	["获得护体时，"] = { tag = { type = "Condition", var = "Fortify" } }, --备注：while you have fortify
+["受到你光环影响时，"] = { affectedByAura = true }, --备注：while affected by auras you cast	
+["你和友军"] = { }, --备注：to you and allies
+["你和周围友军的"] = { }, --备注：to you and allies
+["每个耐力球附加"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
+["每个耐力球可使"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
+["若过去 8 秒内你打出过暴击，则"] = { tag = { type = "Condition", var = "CritInPast8Sec" } },
+["每有 1 个耐力球，便获得"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 	
+["耐力球达到上限时，"] = { tag = { type = "StatThreshold", stat = "EnduranceCharges", thresholdStat = "EnduranceChargesMax" } }, --备注：while at maximum endurance charges
+		

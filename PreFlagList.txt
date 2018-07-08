@@ -1,3 +1,5 @@
 ["^召唤生物有 "] = { addToMinion = true }, --备注：^minions [hd][ae][va][el] 
 ["^攻击击中有"] = { flags = ModFlag.Attack },
 ["^图腾有"] = { keywordFlags = KeywordFlag.Totem },
+["^【魔侍】造成的"] = { addToMinion = true, addToMinionTag = { type = "SkillName", skillName = "Summon Skeleton" } },
+["召唤生物"] = { addToMinion = true },

@@ -43,7 +43,7 @@
 { "en":"total mana cost of skills","cn":"技能的总魔力消耗"}
 { "en":"mana reserved","cn":"魔力保留"}
 { "en":"mana reservation","cn":"魔力保留"}
-{ "en":"mana reservation of skills","cn":"技能的魔力保留"}
+{ "en":"mana reservation of skills","cn":"^技能的魔力保留"}
 { "en":"maximum energy shield","cn":"最大能量护盾"}
 { "en":"energy shield recharge rate","cn":"能量护盾的回复速度"}
 { "en":"start of energy shield recharge","cn":"能量护盾启动回复"}
@@ -361,3 +361,110 @@
 { "en":"enemies you hit with elemental damage temporarily get (%+%d+)%% resistance to those elements and (%-%d+)%% resistance to other elements","cn":"被火焰、冰霜和闪电伤害击中的敌人暂时提高 (%d+)%% 的该属性抗性，其他属性抗性降低 (%d+)%%"}
 { "en":"all bonuses from an equipped shield apply to your minions instead of you","cn":"盾牌上的所有属性会套用于你的召唤生物，而非角色本身"}
 { "en":"modifiers to critical strike multiplier also apply to damage multiplier for ailments from critical strikes at (%d+)%% of their value","cn":"暴击伤害加成也会套用于异常状态的伤害加成，数值为 (%d+)%%"}
+{ "en":"With at least 40 Dexterity in Radius, Melee Damage dealt by Frost Blades Penetrates 15% Cold Resistance","cn":"若范围内含有 40 点敏捷，【冰霜之刃】造成的近战伤害穿透 15% 冰霜抗性"}
+{ "en":"With at least 40 Dexterity in Radius, Shrapnel Shot's cone has a 50% chance to deal Double Damage","cn":"若范围内含有 40 点敏捷，【流星射击】的锥形范围内有 50% 几率造成双倍伤害"}
+{ "en":"With at least 40 Dexterity in Radius, Frost Blades Melee Damage Penetrates 15% Cold Resistance","cn":"若范围内含有 40 点敏捷，【冰霜之刃】造成的近战伤害穿透 15% 冰霜抗性"}
+{ "en":"With at least 40 Dexterity in Radius, Frost Blades has 25% increased Projectile Speed","cn":"若范围内含有 40 点敏捷，\\\\n【冰霜之刃】的投射物速度提高 25%"}
+{ "en":"With at least 40 Dexterity in Radius, Ethereal Knives fires 10 additional Projectiles","cn":"若范围内含有 40 点敏捷，\\\\n则【虚空匕首】会额外发射 10 个投射物"}
+{ "en":"With at least 40 Dexterity in Radius, Viper Strike deals 2% increased Attack Damage for each Poison on the Enemy","cn":"若范围内有 40 点敏捷，敌人身上的每层中毒会使【毒蛇打击】的攻击伤害提高 2%"}
+{ "en":"With at least 40 Dexterity in Radius, Viper Strike deals 2% increased Damage with Hits and Poison for each Poison on the Enemy","cn":"若范围内有 40 点敏捷，敌人身上的每层中毒会使【毒蛇打击】的击中和中毒伤害提高 2%"}
+{ "en":"With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect","cn":"若范围配置了 40 点敏捷，【冰霜射击】的范围扩大 25%"}
+{ "en":"Ice Shot Pierces 5 additional Targets with 40 Dexterity in Radius","cn":"若范围配置了 40 点敏捷，【冰霜射击】会穿透 5 个额外目标"}
+{ "en":"With at least 40 Dexterity in Radius, Ice Shot Pierces 3 additional Targets","cn":"若范围配置了 40 点敏捷，【冰霜射击】会穿透 3 个额外目标"}
+{ "en":"With at least 40 Dexterity in Radius, Ice Shot Pierces 5 additional Targets","cn":"若范围配置了 40 点敏捷，【冰霜射击】会穿透 5 个额外目标"}
+{ "en":"With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect","cn":"若范围配置了 40 点敏捷，【冰霜射击】的范围扩大 25%"}
+{ "en":"With at least 40 Dexterity in Radius, Shrapnel Shot has 25% increased Area of Effect","cn":"若范围内含有 40 点敏捷，\\\\n则【流星射击】的范围效果扩大 25%"}
+{ "en":"With at least 40 Dexterity in Radius, Ethereal Knives fires 5 additional Projectiles","cn":"若范围内含有 40 点敏捷，\\\\n则【虚空匕首】会额外发射 5 个投射物"}
+{ "en":"With at least 40 Dexterity in Radius, Dual Strike has a 20% chance to deal Double Damage with the Main-Hand Weapon","cn":"若范围内含有 40 点敏捷，\\\\n双持打击时主手武器有 20% 几率造成双倍伤害"}
+{ "en":"With at least 40 Intelligence in Radius, Raised Zombies' Slam Attack deals 30% increased Damage","cn":"若范围内含有 40 点智慧，【魔卫复苏】的重击攻击伤害提高 30%"}
+{ "en":"With at least 40 Intelligence in Radius, Magma Orb has 10% increased Area of Effect per Chain","cn":"若范围内含有 40 点智慧，【熔岩之核】每次连锁弹射的范围扩大 10%"}
+{ "en":"With at least 40 Intelligence in Radius, Freezing Pulse fires 2 additional Projectiles","cn":"若范围内含有 40 点智慧，则【冰霜脉冲】额外发射 2 个投射物"}
+{ "en":"With at least 40 Intelligence in Radius, Enemies Hindered by Blight take 25% increased Chaos Damage","cn":"若范围内含有 40 点智慧，被【枯萎】干扰的敌人受到的混沌伤害提高 25%"}
+{ "en":"With at least 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage Converted to Cold Damage","cn":"若范围内含有 40 点智慧，【冰川之刺】物理伤害的 20%% 转化为冰霜伤害"}
+{ "en":"With at least 40 Intelligence in Radius, Raised Zombies' Slam Attack has 100% increased Cooldown Recovery Speed","cn":"若范围内含有 40 点智慧，【魔卫复苏】的重击攻击会使冷却回复速度提高 100%"}
+{ "en":"With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if you've Shattered an Enemy Recently","cn":"当范围内含有至少 40 点智慧时，近期内你若粉碎被冰冻的敌人，则【冰霜脉冲】伤害提高 25%"}
+{ "en":"With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration","cn":"若范围内含有 40 点智慧，【枯萎】的干扰持续时间延长 50%"}
+{ "en":"With at least 40 Intelligence in Radius, Frostbolt fires 2 additional Projectiles","cn":"若范围内含有 40 点智慧，则【冰霜脉冲】额外发射 2 个投射物"}
+{ "en":"With at least 40 Intelligence in Radius, Spark fires 2 additional Projectiles","cn":"若范围内含有 40 点智慧，【电球】会发射 2 个额外投射物"}
+{ "en":"With 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage Converted to Cold Damage","cn":"若范围内含有 40 点智慧，【冰川之刺】物理伤害的 20%\\\\n转化为冰霜伤害"}
+{ "en":"With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile","cn":"若范围内含有 40 点智慧，【熔岩之核】会额外发射 1 个投射物"}
+{ "en":"With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage","cn":"若范围内含有 40 点力量，【重击】有 20%% 几率造成双倍伤害"}
+{ "en":"With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage.","cn":"若范围内含有 40 点力量，【重击】有 20%% 几率造成双倍伤害"}
+{ "en":"With at least 40 Strength in Radius, 25% of Glacial Hammer Physical Damage converted to Cold Damage","cn":"若范围内含有 40 点力量，则【冰霜之锤】25%% 的物理伤害会转化为冰霜伤害"}
+{ "en":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles","cn":"若范围内含有 40 点力量，【熔岩之击】会额外发射 2 个投射物"}
+{ "en":"With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect","cn":"若范围内含有 40 点力量，【熔岩之击】的范围扩大 25%"}
+{ "en":"your curses can apply to hexproof enemies","cn":"你的诅咒对有【无咒】词缀的敌人依然有效"}
+{ "en":"when you kill an enemy, for each curse on that enemy, gain (%d+)%% of non%-chaos damage as extra chaos damage for 4 seconds","cn":"当你击败敌人时，敌人身上每有 1 个诅咒，便给予你等同 (%d+)%% 非混沌伤害的额外混沌伤害，持续 4 秒"}
+{ "en":"enemies you curse have malediction","cn":"被你诅咒的敌人会遭受【恶语术】影响"}
+{ "en":"nearby enemies have (%-%d+)%% to chaos resistance","cn":"周围敌人获得 (%-%d+)%% 混沌抗性"}
+{ "en":"for each enemy you or your minions have killed recently, up to (%d+)%%","cn":"近期内，你或你的召唤生物每击败一个敌人，则每秒回复你 1%% 能量护盾，最多 (%d+)%%"}
+{ "en":"cannot be stunned while you have energy shield","cn":"拥有能量护盾时无法被晕眩"}
+{ "en":"every %d+ seconds:","cn":"每隔 %d+ 秒："}
+{ "en":"gain chilling, shocking and igniting conflux for %d seconds","cn":"获得 %d 秒的冰缓，感电，点燃汇流"}
+{ "en":"gain shocking conflux for %d seconds","cn":"获得持续 %d 秒的感电汇流"}
+{ "en":"gain igniting conflux for %d seconds","cn":"获得持续 %d 秒的点燃汇流"}
+{ "en":"gain chilling conflux for %d seconds","cn":"获得持续 %d 秒的冰缓汇流"}
+{ "en":"gain (%d+)%% increased area of effect for %d+ seconds","cn":"范围效果扩大 (%d+)%%，持续 5 秒"}
+{ "en":"gain (%d+)%% increased elemental damage for %d+ seconds","cn":"元素伤害提高 (%d+)%%，持续 5 秒"}
+{ "en":"can summon up to (%d) additional golems? at a time","cn":"最多可同时拥有额外 (%d) 个魔像"}
+{ "en":"for each element you've been hit by damage of recently, (%d+)%% increased damage of that element","cn":"近期内，每个击中你的元素可使你的该元素伤害提高 (%d+)%%"}
+{ "en":"for each element you've been hit by damage of recently, (%d+)%% reduced damage taken of that element","cn":"近期内，每个击中你的元素可使你所承受的该元素伤害降低 (%d+)%%"}
+{ "en":"effect of heralds on you","cn":"你身上的捷效果"}
+{ "en":"^auras you cast grant ","cn":"^你施放的光环可使"}
+{ "en":"to you and allies","cn":"你和周围友方的"}
+{ "en":"^you and allies affected by your auras have ","cn":"你和友军受你的光环影响时，"}
+{ "en":"cooldown recovery speed","cn":"冷却回复速度"}
+{ "en":"your raised zombies spread caustic cloud on death, dealing 50%% of their maximum life as chaos damage per second","cn":"你的【复苏的魔卫】死亡时产生腐蚀的毒云，每秒造成等同它们 50%% 最大生命的混沌伤害"}
+{ "en":"^raised zombies' slam attack has ","cn":"^【复苏的魔卫】打出重击攻击时，"}
+{ "en":"^skeletons [hd][ae][va][el] ","cn":"【魔侍造成】的"}
+{ "en":"skeleton","cn":"魔侍的"}
+{ "en":"summoned skeletons' hits can't be evaded","cn":"【异灵魔侍】的击中无法闪避"}
+{ "en":"^spectres [hd][ae][va][el] ","cn":"灵体的"}
+{ "en":"your offering skills also affect you","cn":"你的奉献技能会同时影响你"}
+{ "en":"your offerings have (%d+)%% reduced effect on you","cn":"你的奉献技能对自身的效果降低 (%d+)%%"}
+{ "en":"if you[' ]h?a?ve consumed a corpse recently","cn":"近期内你若有消耗灵柩，则"}
+{ "en":"for each corpse consumed recently","cn":"每消耗 1 具灵柩后的短时间内，"}
+{ "en":"minions have (%d+)%% increased attack and cast speed if you or your minions have killed recently","cn":"近期内你若或你的召唤生物击败过敌人，则召唤生物攻击和施法速度提高 (%d+)%%"}
+{ "en":"if you[' ]h?a?ve used a minion skill recently","cn":"近期内你若使用了召唤生物技能，则"}
+{ "en":"duration","cn":"持续时间"}
+{ "en":"grants armour equal to (%d+)%% of your reserved life to you and nearby allies","cn":"给予你和周围友军等同你 (%d+)%% 生命保留的额外护甲"}
+{ "en":"grants maximum energy shield equal to (%d+)%% of your reserved mana to you and nearby allies","cn":"给予你和周围友军等同你 (%d+)%% 魔力保留的额外能量护盾"}
+{ "en":"if you[' ]h?a?ve warcried recently","cn":"近期内你若有使用战吼，"}
+{ "en":"attack, cast and movement speed","cn":"攻击，施法和移动速度"}
+{ "en":"warcries cost no mana","cn":"战吼不消耗魔力"}
+{ "en":"effect of curses on you","cn":"你受到的诅咒效果"}
+{ "en":"(%d+)%% additional block chance for %d seconds? every %d seconds","cn":"每 %d 秒获得 (%d+)%% 额外攻击格挡率，并持续 %d 秒"}
+{ "en":"if you've attacked recently, you and nearby allies have (%d+)%% chance to block attacks","cn":"近期内你若有进行攻击，你和周围友军有 (%d+)%% 几率格挡攻击"}
+{ "en":"if you've cast a spell recently, you and nearby allies have (%d+)%% chance to block spells","cn":"近期内你若有施放法术，你和周围友军有 (%d+)%% 几率格挡法术"}
+{ "en":"damage taken","cn":"承受的伤害"}
+{ "en":"elemental damage taken","cn":"承受的元素伤害"}
+{ "en":"per enemy killed by you or your totems recently","cn":"近期你或你的图腾若有击败过敌人，则每击败 1 个，"}
+{ "en":"damage is taken from mana before life","cn":"的伤害优先从魔力扣除"}
+{ "en":"wh[ie][ln]e? on full energy shield","cn":"能量护盾全满时，"}
+{ "en":"as extra maximum energy shield","cn":"的额外能量护盾"}
+{ "en":"consecrated ground you create grants (%d+)%% increased damage to you and allies","cn":"你制造的奉献地面会使你与友军的伤害提高 (%d+)%%"}
+{ "en":"nearby enemies take (%d+)%% increased elemental damage","cn":"周围敌人受到的火焰、冰霜、闪电伤害提高 (%d+)%%"}
+{ "en":"against enemies that are affected by elemental ailments","cn":"对元素异常状态的敌人的"}
+{ "en":"against enemies that are affected by no elemental ailments","cn":"对没有受到元素异常状态的敌人的"}
+{ "en":"critical strikes ignore enemy monster elemental resistances","cn":"造成暴击时无视目标的火焰、冰霜、闪电抗性"}
+{ "en":"non%-critical strikes penetrate (%d+)%% of enemy elemental resistances","cn":"非暴击时穿透敌人 (%d+)%% 的火焰、冰霜、闪电抗性"}
+{ "en":"if you[' ]h?a?ve cast a spell recently","cn":"近期内你若有施放法术，则"}
+{ "en":"if you[' ]h?a?ve attacked recently","cn":"近期内你若有进行攻击，则"}
+{ "en":"physical damage from hits taken","cn":"受到击中物理伤害的"}
+{ "en":"as fire damage","cn":"转化为火焰伤害"}
+{ "en":"if you[' ]h?a?ve taken fire damage from a hit recently","cn":"近期内，你若被击中并受到火焰伤害，则"}
+{ "en":"([%d%.]+)%% of damage dealt by y?o?u?r? ?totems is leeched to you as life","cn":"你偷取生命，数值等同于你的图腾造成伤害的 ([%d%.]+)%%"}
+{ "en":"enemies near your totems take (%d+)%% increased physical and fire damage","cn":"在你图腾周围，敌人承受的物理和火焰伤害提高 (%d+)%%"}
+{ "en":"leeched as life and mana","cn":"生命和魔力"}
+{ "en":"if you[' ]h?a?ve killed recently","cn":"近期内你若有击败敌人，则"}
+{ "en":"if you[' ]h?a?ve taken a savage hit recently","cn":"近期内你若受到【残暴打击】，则"}
+{ "en":"gain %d+ rage when you use a warcry","cn":"使用战吼时获得 %d+ 怒火"}
+{ "en":"gain %d+ rage when you kill an enemy","cn":"击败敌人时获得 %d+ 怒火"}
+{ "en":"effects granted for having rage are doubled","cn":"怒火带来的效果翻倍"}
+{ "en":"cannot be stunned while you have at least (%d+) rage","cn":"当你的怒火至少有 (%d+) 点时，免疫晕眩"}
+{ "en":"per (%d+) accuracy rating","cn":"每 (%d+) 点命中值可使"}
+{ "en":"if you[' ]h?a?ve dealt a critical strike in the past 8 seconds","cn":"若你在过去 8 秒内打出过暴击，则"}
+{ "en":"gain accuracy rating equal to your strength","cn":"获得等同于你力量数值的命中值"}
+{ "en":"you cannot be slowed to below base speed","cn":"你无法被减速至基础速度以下"}
+{ "en":"movement speed cannot be modified to below base value","cn":"你的移动速度加成不会让你减速至基础速度以下"}
+{ "en":"armour received from body armour is doubled","cn":"从身体护甲获得的护甲提高 1 倍"}
