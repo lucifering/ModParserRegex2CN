@@ -296,7 +296,7 @@
 { "en":"against bleeding enemies","cn":"对流血敌人的"}
 { "en":"fortify duration","cn":"护体效果持续时间"}
 { "en":"effect of fortify on you","cn":"你身上的护体效果"}
-{ "en":"you have fortify","cn":"获得护体时"}
+{ "en":"you have fortify","cn":"获得护体效果"}
 { "en":"with weapons","cn":"武器造成的"}
 { "en":"maximum life per second to maximum life leech rate","cn":"最大生命偷取率"}
 { "en":"maximum mana per second to maximum mana leech rate","cn":"最大魔力偷取率"}
@@ -468,3 +468,52 @@
 { "en":"you cannot be slowed to below base speed","cn":"你无法被减速至基础速度以下"}
 { "en":"movement speed cannot be modified to below base value","cn":"你的移动速度加成不会让你减速至基础速度以下"}
 { "en":"armour received from body armour is doubled","cn":"从身体护甲获得的护甲提高 1 倍"}
+{ "en":"can allocate passives from the %a+'s starting point","cn":"可以从([^\\\\x00-\\\\xff]*)的起点配置天赋"}
+{ "en":"cannot be chilled","cn":"免疫冰缓"}
+{ "en":"enemies you taunt take (%d+)%% increased damage","cn":"受到你嘲讽的敌人所承受的伤害提高 (%d+)%%"}
+{ "en":"block chance applied to spells","cn":"的攻击格挡率同样套用于法术格挡"}
+{ "en":"maximum block chance","cn":"攻击和法术格挡率上限"}
+{ "en":"you have onslaught while on full frenzy charges","cn":"狂怒球达到上限时，你获得【猛攻】状态"}
+{ "en":"skills fire an additional projectile","cn":"技能可以额外发射 1 个投射物"}
+{ "en":"if you[' ]h?a?ve used a movement skill recently","cn":"近期内你若有使用过位移技能，则"}
+{ "en":"cannot be stunned if you haven't been hit recently","cn":"近期内你若没有被击中，则免疫晕眩"}
+{ "en":"your hits have (%d+)%% chance to gain (%d+)%% of non%-chaos damage as extra chaos damage","cn":"你的攻击和法术有 (%d+)%% 几率获得额外混沌伤害，其数值等同于非混沌伤害的 (%d+)%%"}
+{ "en":"if you were damaged by a hit recently","cn":"近期内你若因被击中而受伤，"}
+{ "en":"if you[' ]h?a?ve taken no damage from hits recently","cn":"近期内你若被击中但没有受到伤害，则"}
+{ "en":"if you[' ]h?a?ve blocked a hit from a unique enemy in the past 10 seconds","cn":"过去 10 秒内你若成功格挡传奇怪物，则"}
+{ "en":"physical damage taken","cn":"受到的物理伤害"}
+{ "en":"enemies maimed by you take (%d+)%% increased physical damage","cn":"被你瘫痪的敌人受到的物理伤害提高 (%d+)%%"}
+{ "en":"cannot be stunned while you have fortify","cn":"拥有护体时免疫晕眩"}
+{ "en":"gain adrenaline for %d+ seconds when you reach low life if you do not have adrenaline","cn":"若你没有【肾上腺素】，则低血时获得【肾上腺素】，持续 %d+ 秒"}
+{ "en":"if you[' ]h?a?ve taunted an enemy recently","cn":"近期内你若有成功嘲讽敌人，则"}
+{ "en":"enemies taunted by you cannot evade attacks","cn":"被你嘲讽的敌人无法躲避攻击"}
+{ "en":"you have phasing while at maximum frenzy charges","cn":"你在拥有最大数量的狂怒球时，得到【迷踪】状态"}
+{ "en":"you have phasing while you have onslaught","cn":"你在获得猛攻时，得到【迷踪】状态"}
+{ "en":"onslaught effect","cn":"【猛攻】效果"}
+{ "en":"during onslaught","cn":"【猛攻】状态下"}
+{ "en":"projectiles pierce all nearby targets","cn":"投射物可以穿透所有周围目标"}
+{ "en":"accuracy rating is doubled","cn":"命中值翻倍"}
+{ "en":"(%d+)%% increased blink arrow and mirror arrow cooldown recovery speed","cn":"【闪现射击】和【魅影射击】冷却回复速度提高 (%d+)%%"}
+{ "en":"if you've used a skill recently, you and nearby allies have tailwind","cn":"近期内你若有使用技能，你和周围友军获得【提速尾流】"}
+{ "en":"skills chain %+(%d) times","cn":"投射物可以连锁弹射 %+(%d) 次"}
+{ "en":"projectiles deal (%d+)%% more damage for each remaining chain","cn":"每保留有 1 根锁链，则投射物总伤害额外提高 (%d+)%%"}
+{ "en":"with hits and ailments","cn":"击中和异常状态"}
+{ "en":"against blinded enemies","cn":"对致盲敌人的"}
+{ "en":"if you detonated mines recently","cn":"近期内你若引爆过地雷，则"}
+{ "en":"immune to shock","cn":"免疫感电"}
+{ "en":"immune to chill","cn":"免疫点燃"}
+{ "en":"that place mines or throw traps","cn":"放置地雷或投掷陷阱类技能的"}
+{ "en":"^skills used by traps [hd][ae][va][el] ","cn":"陷阱所使用的技能"}
+{ "en":"wh[ie][ln]e? not on full energy shield","cn":"能量护盾全满时，"}
+{ "en":"if energy shield recharge has started recently","cn":"近期内若有能量护盾开始回复，则"}
+{ "en":"wh[ie][ln]e? you have energy shield","cn":"拥有能量护盾时"}
+{ "en":"to dodge attacks and spells","cn":"躲避攻击和法术击中"}
+{ "en":"per (%d+) evasion rating on body armour","cn":"身体护甲上每有 (%d+) 点闪避值，便"}
+{ "en":"per (%d+) maximum energy shield on helmet","cn":"头部装备上每有 (%d+) 点最大能量护盾，便"}
+{ "en":"if you[' ]h?a?ve been hit recently","cn":"近期内你若没有被击中，则"}
+{ "en":"movement skills cost no mana","cn":"移动技能不消耗魔力"}
+{ "en":"maximum frenzy charges and maximum power charges","cn":"狂怒球和暴击球数量上限"}
+{ "en":"while there is only one nearby enemy","cn":"周围只有 1 个敌人时，"}
+{ "en":"against enemies that are on full life","cn":"对满血敌人的"}
+{ "en":"duration of poisons you inflict","cn":"近期你每造成一层中毒效果，"}
+{ "en":"poison you inflict with critical strikes deals (%d+)%% more damage","cn":"你暴击造成的中毒总伤害额外提高 (%d+)%%"}

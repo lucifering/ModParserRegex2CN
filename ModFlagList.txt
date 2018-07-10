@@ -1,3 +1,4 @@
+["单手武器攻击的"] = { flags = ModFlag.Weapon1H }, --备注：with one handed weapons
 ["斧类攻击"] = { flags = ModFlag.Axe }, 
 ["弓类攻击"] = { flags = ModFlag.Bow },
 ["爪类攻击"] = { flags = ModFlag.Claw },

@@ -51,8 +51,13 @@
 ["你和友军"] = { }, --备注：to you and allies
 ["你和周围友军的"] = { }, --备注：to you and allies
 ["每个耐力球附加"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
+["每个狂怒球可使"] = { tag = { type = "Multiplier", var = "FrenzyCharge" } }, --备注：per frenzy charge
 ["每个耐力球可使"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
+["每个狂怒球附加"] = { tag = { type = "Multiplier", var = "FrenzyCharge" } }, --备注：per frenzy charge
 ["若过去 8 秒内你打出过暴击，则"] = { tag = { type = "Condition", var = "CritInPast8Sec" } },
 ["每有 1 个耐力球，便获得"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 	
 ["耐力球达到上限时，"] = { tag = { type = "StatThreshold", stat = "EnduranceCharges", thresholdStat = "EnduranceChargesMax" } }, --备注：while at maximum endurance charges
-		
+["护体时"] = { tag = { type = "Condition", var = "Fortify" } }, --备注：while you have fortify	
+["护体状态下，"] = { tag = { type = "Condition", var = "Fortify" } }, --备注：while you have fortify	
+["近期内你若使用过移动技能，则"] = { tag = { type = "Condition", var = "UsedMovementSkillRecently" } }, --备注：if you[' ]h?a?ve used a movement skill recently
+["每个暴击球"] = { tag = { type = "Multiplier", var = "PowerCharge" } }, --备注：per power charge

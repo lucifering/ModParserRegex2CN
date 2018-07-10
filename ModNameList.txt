@@ -1,4 +1,6 @@
 ["攻击和法术暴击伤害加成"] = {"CritMultiplier", flags =bor( ModFlag.Spell, ModFlag.Attack)}, --备注：critical strike multiplier -- 这个需要提到前面来
+["攻击和法术基础暴击伤害加成"] = {"CritMultiplier", flags =bor( ModFlag.Spell, ModFlag.Attack)}, --备注：critical strike multiplier -- 
+["攻击和法术暴击伤害"] = {"CritMultiplier", flags =bor( ModFlag.Spell, ModFlag.Attack)}, --备注：critical strike multiplier -- 
 ["攻击与法术暴击率"] = { "CritChance", flags =bor( ModFlag.Spell, ModFlag.Attack) },
 ["攻击和法术暴击率"] = { "CritChance", flags =bor( ModFlag.Spell, ModFlag.Attack) },
 ["总魔力保留"] = "ManaReserved",
@@ -17,3 +19,9 @@
 ["火焰伤害的"] = "FireDamage", --备注：fire damage
 ["其伤害的"] = "Damage", --备注：damage
 ["受到的火焰、冰霜、闪电伤害"] = "ElementalDamageTaken", --备注：damage taken
+["攻击和法术基础暴击率"] = "CritChance", --备注：critical strike chance
+["受到的伤害"] = "DamageTaken", --备注：damage taken
+["躲避法术伤害击中"] = "SpellDodgeChance", --备注：to dodge spells
+["最大能力护盾"] = "EnergyShield", --备注：maximum energy shield fuck国服翻译
+["受到的持续性伤害"] = { "DamageTaken", flags = ModFlag.Dot }, --备注：damage over time
+["中毒持续时间便"] = { "EnemyPoisonDuration" }, --备注：poison duration
