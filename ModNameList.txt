@@ -25,3 +25,8 @@
 ["最大能力护盾"] = "EnergyShield", --备注：maximum energy shield fuck国服翻译
 ["受到的持续性伤害"] = { "DamageTaken", flags = ModFlag.Dot }, --备注：damage over time
 ["中毒持续时间便"] = { "EnemyPoisonDuration" }, --备注：poison duration
+["造成流血"] = "BleedChance", --备注：to cause bleeding
+["造成中毒"] = "PoisonChance",
+["所有属性"] = { "Str", "Dex", "Int" }, --备注：all attributes
+["造成冰冻、感电与点燃效果"] = { "EnemyFreezeChance", "EnemyShockChance", "EnemyIgniteChance" }, --备注：to freeze, shock and ignite
+["能量护盾回复速度"] = "EnergyShieldRecharge", --备注：energy shield recharge rate

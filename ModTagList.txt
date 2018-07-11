@@ -61,3 +61,7 @@
 ["护体状态下，"] = { tag = { type = "Condition", var = "Fortify" } }, --备注：while you have fortify	
 ["近期内你若使用过移动技能，则"] = { tag = { type = "Condition", var = "UsedMovementSkillRecently" } }, --备注：if you[' ]h?a?ve used a movement skill recently
 ["每个暴击球"] = { tag = { type = "Multiplier", var = "PowerCharge" } }, --备注：per power charge
+["流血敌人时"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Bleeding" }, keywordFlags = KeywordFlag.Hit }, --备注：against bleeding enemies
+["被点燃敌人时"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Ignited" }, keywordFlags = KeywordFlag.Hit }, --备注：to ignited enemies
+["被点燃的敌人时，"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Ignited" }, keywordFlags = KeywordFlag.Hit }, --备注：to ignited enemies
+["对中毒敌人"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Poisoned" }, keywordFlags = KeywordFlag.Hit },

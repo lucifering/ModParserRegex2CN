@@ -89,7 +89,7 @@
 { "en":"fire and cold resistances","cn":"火焰和冰霜抗性"}
 { "en":"fire and lightning resistances","cn":"火焰和闪电抗性"}
 { "en":"cold and lightning resistances","cn":"冰霜和闪电抗性"}
-{ "en":"elemental resistances","cn":"获得 %+(%d+)%% 火焰、冰霜、闪电抗性"}
+{ "en":"elemental resistances","cn":"获得 ([%+%-]?%d+)%% 火焰、冰霜、闪电抗性"}
 { "en":"all elemental resistances","cn":"火焰、冰霜、闪电抗性"}
 { "en":"elemental resistance","cn":"火焰、冰霜、闪电抗性"}
 { "en":"all resistances","cn":"所有抗性"}
@@ -131,6 +131,7 @@
 { "en":"maximum number of summoned raging spirits","cn":"召唤愤怒狂灵的最大数量"}
 { "en":"minion duration","cn":"召唤生物持续时间"}
 { "en":"skeleton duration","cn":"魔侍的持续时间"}
+{ "en":"lightning","cn":"闪电"}
 { "en":"mine","cn":"地雷"}
 { "en":"area","cn":"范围"}
 { "en":"fire","cn":"火焰"}
@@ -517,3 +518,39 @@
 { "en":"against enemies that are on full life","cn":"对满血敌人的"}
 { "en":"duration of poisons you inflict","cn":"近期你每造成一层中毒效果，"}
 { "en":"poison you inflict with critical strikes deals (%d+)%% more damage","cn":"你暴击造成的中毒总伤害额外提高 (%d+)%%"}
+{ "en":"^attacks with this weapon ","cn":"此武器攻击击中"}
+{ "en":"to ignited enemies","cn":"被点燃敌人时"}
+{ "en":" on critical strike","cn":"暴击时"}
+{ "en":"you have crimson dance if you have dealt a critical strike recently","cn":"近期内你若打出过暴击，则获得【玫红之舞】"}
+{ "en":"causes bleeding on hit","cn":"击中时 (%d+)%% 几率造成流血"}
+{ "en":"%+(%d+) to level of socketed ([%a ]+) gems","cn":"此物品上装备的【([^\\\\x00-\\\\xff]*)石】等级 %+(%d+)"}
+{ "en":"your chaos damage has (%d+)%% chance to poison enemies","cn":"你的混沌伤害有 (%d+)%% 几率使敌人中毒"}
+{ "en":"is leeched as life","cn":"转化为生命偷取"}
+{ "en":"is leeched as mana","cn":"转化为魔力偷取"}
+{ "en":"rarity of items found","cn":"物品稀有度"}
+{ "en":"^nearby allies [hgd][ae][via][enl] ","cn":"周围友军获得"}
+{ "en":"has (%d+) sockets?","cn":"有 (%d+) 个插槽"}
+{ "en":"%+(%d+) to level of socketed gems","cn":"此物品上装备的技能石等级 %+(%d+)"}
+{ "en":"global","cn":"全局"}
+{ "en":"quantity of items found","cn":"物品掉落数量"}
+{ "en":"items and gems have (%d+)%% reduced attribute requirements","cn":"装备和技能石的属性需求降低 (%d+)%%"}
+{ "en":"grants level (%d+) (.+)","cn":"获得 (%d+) 级的(.+)"}
+{ "en":"if you[' ]h?a?ve frozen an enemy recently","cn":"近期内你若有冰冻敌人，则"}
+{ "en":"wh[ie][ln]e? on full life","cn":"满血时"}
+{ "en":"projectiles gain (%d+)%% of non%-chaos damage as extra chaos damage per chain","cn":"每连锁弹射 1 次，投射物获得额外混沌伤害，其数值等同于非混沌伤害的 (%d+)%%"}
+{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you deal a critical strike","cn":"暴击时触发 (%d+) 级的【(.+)】"}
+{ "en":"critical strike chance is increased by lightning resistance","cn":"暴击率随闪电抗性提高"}
+{ "en":"critical strike chance is increased by uncapped lightning resistance","cn":"暴击率将随绝对闪电抗性而提高"}
+{ "en":"during flask effect","cn":"药剂持续期间，"}
+{ "en":"^(%d+)%% slower","cn":"延后 (%d+)%%"}
+{ "en":"chaos damage can ignite, chill and shock","cn":"混沌伤害可以造成点燃、冰缓和感电效果"}
+{ "en":"modifiers to claw damage also apply to unarmed attack damage","cn":"对爪类武器的伤害加成同时套用于空手攻击伤害上"}
+{ "en":"modifiers to claw attack speed also apply to unarmed attack speed","cn":"对爪类武器的攻击速度加成同时套用于空手攻击速度上"}
+{ "en":"modifiers to claw critical strike chance also apply to unarmed attack critical strike chance","cn":"对爪类武器的攻击暴击率加成同时套用于空手攻击暴击率上"}
+{ "en":"unarmed","cn":"空手攻击时"}
+{ "en":"against chilled enemies","cn":"对冰缓敌人"}
+{ "en":"your hits can't be evaded by blinded enemies","cn":"你的攻击和法术无法被致盲的敌人所闪避"}
+{ "en":"with a normal item equipped","cn":"装备 1 件魔法物品时，"}
+{ "en":"with a magic item equipped","cn":"装备 1 件普通物品时，"}
+{ "en":"enemies take (%d+)%% increased damage for each type of ailment you have inflicted on them","cn":"你每使敌人受到一种异常状态，它们受到的伤害便提高 (%d+)%%"}
+{ "en":"your elemental damage can shock","cn":"你的火焰、冰霜、闪电伤害可以造成感电"}
