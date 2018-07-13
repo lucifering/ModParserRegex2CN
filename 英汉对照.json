@@ -554,3 +554,27 @@
 { "en":"with a magic item equipped","cn":"装备 1 件普通物品时，"}
 { "en":"enemies take (%d+)%% increased damage for each type of ailment you have inflicted on them","cn":"你每使敌人受到一种异常状态，它们受到的伤害便提高 (%d+)%%"}
 { "en":"your elemental damage can shock","cn":"你的火焰、冰霜、闪电伤害可以造成感电"}
+{ "en":"flasks apply to your zombies and spectres","cn":"药剂效果套用于你的魔卫和灵体身上"}
+{ "en":"flasks do not apply to you","cn":"不会获得药剂的效果"}
+{ "en":"w?h?i[lf]e? you have at least (%d+) strength","cn":"至少有 (%d+) 点力量时，"}
+{ "en":"^your flasks grant ","cn":"^药剂持续期间，"}
+{ "en":"has (%d+) abyssal sockets?","cn":"拥有 (%d+) 个深渊插槽"}
+{ "en":"effect of socketed jewels","cn":"插槽内的珠宝效果"}
+{ "en":"cannot be ignited if strength is higher than dexterity","cn":"若力量高于敏捷，则无法被点燃"}
+{ "en":"cannot be shocked if intelligence is higher than strength","cn":"若智慧高于力量，则无法被感电"}
+{ "en":"cannot be frozen if dexterity is higher than intelligence","cn":"若敏捷高于智慧，则无法被冰冻"}
+{ "en":"per (%d+) of your lowest attribute","cn":"你最低的属性每有 (%d+) 点，"}
+{ "en":"per (%d+) of the lowest of armour and evasion rating","cn":"取护甲和闪避值之间的较低者，每 (%d+) 点可使"}
+{ "en":"you have onslaught while you have fortify","cn":"当你拥有护体时获得【猛攻】状态"}
+{ "en":"you are cursed with level (%d+) (%D+)","cn":"你受到 (%d+) 级【(%D+)】的诅咒"}
+{ "en":"you count as on low life while you are cursed with vulnerability","cn":"受到【脆弱】诅咒时，非满血时被视作低血状态"}
+{ "en":"deal no physical damage","cn":"没有物理伤害"}
+{ "en":"enemies ignited by an attack burn (%d+)%% faster","cn":"攻击被点燃敌人会使燃烧加快 (%d+)%%"}
+{ "en":"w?h?i[lf]e? you have at least (%d+) intelligence","cn":"至少有 (%d+) 点智慧时，"}
+{ "en":"w?h?i[lf]e? you have at least (%d+) dexterity","cn":"至少有 (%d+) 点敏捷时，"}
+{ "en":"life recovery rate","cn":"生命回复速度"}
+{ "en":"while not ignited, frozen or shocked","cn":"没有被点燃，冰冻，感电时，"}
+{ "en":"you have no armour or energy shield","cn":"解除护甲或能量护盾"}
+{ "en":"curse enemies with level (%d+) (%D+) on %a+, which can apply to hexproof enemies","cn":"击中时用 (%d+) 级的【(%D+)】诅咒敌人，对诅咒免疫的敌人也有效"}
+{ "en":"flask life recovery rate","cn":"药剂生命回复速度"}
+{ "en":"flask mana recovery rate","cn":"药剂魔力回复速度"}

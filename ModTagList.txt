@@ -65,3 +65,5 @@
 ["被点燃敌人时"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Ignited" }, keywordFlags = KeywordFlag.Hit }, --备注：to ignited enemies
 ["被点燃的敌人时，"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Ignited" }, keywordFlags = KeywordFlag.Hit }, --备注：to ignited enemies
 ["对中毒敌人"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Poisoned" }, keywordFlags = KeywordFlag.Hit },
+["药剂持续期间，"] = { tag = { type = "Condition", var = "UsingFlask" } }, --备注：while using a flask	
+["感电时"] = { tag = { type = "Condition", var = "Shocked" } }, --备注：while shocked	

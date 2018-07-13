@@ -16,3 +16,4 @@
 ["近战攻击"] = { flags = ModFlag.Melee }, --备注：melee
 ["近战单手武器的"] = { flags = bor(ModFlag.Weapon1H, ModFlag.WeaponMelee) }, --备注：with one handed melee weapons
 ["弓类攻击造成的"] = { flags = ModFlag.Bow },
+["攻击技能造成的"] = { keywordFlags = KeywordFlag.Attack },

@@ -30,3 +30,5 @@
 ["所有属性"] = { "Str", "Dex", "Int" }, --备注：all attributes
 ["造成冰冻、感电与点燃效果"] = { "EnemyFreezeChance", "EnemyShockChance", "EnemyIgniteChance" }, --备注：to freeze, shock and ignite
 ["能量护盾回复速度"] = "EnergyShieldRecharge", --备注：energy shield recharge rate
+["晕眩和格挡回复"] = "StunRecovery", --备注：stun recovery
+["获得的充能数"] = "FlaskChargesGained", --备注：flask charges gained
