@@ -578,3 +578,46 @@
 { "en":"curse enemies with level (%d+) (%D+) on %a+, which can apply to hexproof enemies","cn":"击中时用 (%d+) 级的【(%D+)】诅咒敌人，对诅咒免疫的敌人也有效"}
 { "en":"flask life recovery rate","cn":"药剂生命回复速度"}
 { "en":"flask mana recovery rate","cn":"药剂魔力回复速度"}
+{ "en":"cannot leech life from critical strikes","cn":"暴击无法吸血"}
+{ "en":"deal no elemental damage","cn":"无法造成火焰、冰霜、闪电伤害"}
+{ "en":"your physical damage can shock","cn":"你的物理伤害造成感电"}
+{ "en":"strength requirement","cn":"力量需求"}
+{ "en":"cannot be frozen","cn":"免疫冰冻"}
+{ "en":"manifeste?d? dancing dervish dies when rampage ends","cn":"【幻化之刃德尔维希】在暴走结束时死亡"}
+{ "en":"manifeste?d? dancing dervish disables both weapon slots","cn":"【幻化之刃德尔维希】会使你主手和副手武器装备栏失效"}
+{ "en":"no physical damage","cn":"无法造成物理伤害"}
+{ "en":"per level","cn":"每级"}
+{ "en":"deal no non%-elemental damage","cn":"无法造成非火焰、冰霜、闪电伤害"}
+{ "en":"^socketed melee gems [hgd][ae][via][enl] ","cn":"插槽内的的近战技能石"}
+{ "en":"socketed red gems get (%d+)%% physical damage as extra fire damage","cn":"此物品上的红色技能石额外获得 (%d+)%% 的物理伤害，并转化为火焰伤害"}
+{ "en":"per elder item equipped","cn":"每装备 1 个【裂界之器】，"}
+{ "en":"per (%d+) strength","cn":"每 (%d+) 点力量 "}
+{ "en":"per (%d+) dexterity","cn":"每 (%d+) 点敏捷 "}
+{ "en":"per (%d+) intelligence","cn":"每 (%d+) 点智慧 "}
+{ "en":"armour and energy shield","cn":"护甲与能量护盾"}
+{ "en":"you have crimson dance while you have cat's stealth","cn":"拥有【猫之隐匿】时获得【玫红之舞】"}
+{ "en":"attacks always inflict bleeding while you have cat's stealth","cn":"拥有【猫之隐匿】时，你的攻击必定造成流血"}
+{ "en":"skills which throw traps have blood magic","cn":"投掷陷阱的技能受到血魔法辅助"}
+{ "en":"increases and reductions to cast speed also apply to trap throwing speed","cn":"施法速度的提高和降低也同样作用于陷阱投掷速度"}
+{ "en":"curse enemies with level (%d+) (.+) on %a+","cn":"击中敌人时，用 (%d+) 级的【(.+)】诅咒敌人"}
+{ "en":"curse enemies with (%D+) on %a+","cn":"击中敌人时，用【(.+)】诅咒敌人"}
+{ "en":"attribute requirements","cn":"属性需求"}
+{ "en":"against enemies affected by (%d+) spider's webs","cn":"对受 (%d+) 层蜘蛛网影响的敌人，"}
+{ "en":"for each spider's web on the enemy","cn":"敌人身上每有 1 层蜘蛛网，则"}
+{ "en":"your cold damage can ignite","cn":"你的冰霜伤害可以点燃"}
+{ "en":"per crab barrier","cn":"每个【深海屏障】可使"}
+{ "en":"y?o?u?r? ?cold damage can poison","cn":"你的冰霜伤害会使敌人中毒"}
+{ "en":"y?o?u?r? ?fire damage can poison","cn":"你的火焰伤害会使敌人中毒"}
+{ "en":"y?o?u?r? ?lightning damage can poison","cn":"你的闪电伤害会使敌人中毒"}
+{ "en":"to poison on hit","cn":"使敌人中毒"}
+{ "en":"wh[ie][ln]e? at maximum frenzy charges, attacks poison enemies","cn":"当你拥有最大数量的狂怒球时，攻击使敌人中毒"}
+{ "en":"gain life and mana from leech instantly on critical strike","cn":"暴击时立即获得生命和魔力偷取"}
+{ "en":"you have vaal pact if you've dealt a critical strike recently","cn":"近期内你若打出过暴击，则获得【瓦尔冥约】"}
+{ "en":"you cannot be shocked while at maximum endurance charges","cn":"你在耐力球达到上限时无法被感电"}
+{ "en":"trigger level (%d+) (.+) when you hit an enemy while cursed","cn":"被诅咒时你击中一个敌人，触发 (%d+) 级的【(.+)】"}
+{ "en":"with this weapon","cn":"使用该武器时，"}
+{ "en":"hits can't be evaded","cn":"攻击和法术无法被闪避"}
+{ "en":"your critical strikes do not deal extra damage","cn":"你的暴击不造成额外暴击伤害"}
+{ "en":"converted to lightning","cn":"转换为闪电"}
+{ "en":"all attacks with this weapon are critical strikes","cn":"此武器进行的所有攻击皆是暴击"}
+

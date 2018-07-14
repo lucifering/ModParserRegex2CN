@@ -32,3 +32,15 @@
 ["能量护盾回复速度"] = "EnergyShieldRecharge", --备注：energy shield recharge rate
 ["晕眩和格挡回复"] = "StunRecovery", --备注：stun recovery
 ["获得的充能数"] = "FlaskChargesGained", --备注：flask charges gained
+["武器攻击范围"] = "WeaponRange",
+["该装备的闪避与能量护盾"] = "EvasionAndEnergyShield", --备注：evasion and energy shield
+["该装备的护甲与能量护盾"] = "ArmourAndEnergyShield", 
+["该装备的护甲与闪避"] = "ArmourAndEvasion",
+["该装备的护甲、闪避和能量护盾"] = "Defences",
+["该装备的护甲"] = "Armour", --备注：armour
+["该装备的闪避值"] = "Evasion",
+["该装备的能量护盾"] = "EnergyShield", 
+["火焰与冰霜抗性"] = { "FireResist", "ColdResist" }, --备注：fire and cold resistances
+["火焰与闪电抗性"] = { "FireResist", "LightningResist" }, --备注：fire and lightning resistances
+["冰霜与闪电抗性"] = { "ColdResist", "LightningResist" }, --备注：cold and lightning resistances
+["对敌人的感电效果持续时间"] = "EnemyShockDuration", --备注：shock duration

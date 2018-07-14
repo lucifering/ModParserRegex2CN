@@ -67,3 +67,12 @@
 ["对中毒敌人"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Poisoned" }, keywordFlags = KeywordFlag.Hit },
 ["药剂持续期间，"] = { tag = { type = "Condition", var = "UsingFlask" } }, --备注：while using a flask	
 ["感电时"] = { tag = { type = "Condition", var = "Shocked" } }, --备注：while shocked	
+["每一级为你的"] = { tag = { type = "Multiplier", var = "Level" } },
+["每一级在"] = { tag = { type = "Multiplier", var = "Level" } },
+["每 (%d+) 点敏捷可使"] = function(num) return { tag = { type = "PerStat", stat = "Dex", div = num } } end, 
+["拥有最大数量的狂怒球时，"] = { tag = { type = "StatThreshold", stat = "FrenzyCharges", thresholdStat = "FrenzyChargesMax" } }, --备注：while at maximum frenzy charges
+["每 1 个耐力球可使"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
+["每个耐力球会使"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 	
+		
+	
+		
