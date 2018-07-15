@@ -12,3 +12,5 @@
 ["穿透敌人? (%d+)%% 的"] = "PEN", --备注：penetrates? (%d+)%%
 ["缩短 (%d+)%%"] = "RED",
 ["穿透其 (%d+)%%"] = "PEN", --备注：penetrates? (%d+)%%
+["攻击和法术附加 (%d+)%-(%d+) 基础([^\\x00-\\xff]*)伤害"] = "DMGBOTH", --备注：adds (%d+) to (%d+) (%a+) damage to attacks and spells
+["附加 (%d+)%-(%d+) 基础([^\\x00-\\xff]*)伤害"] = "DMG",

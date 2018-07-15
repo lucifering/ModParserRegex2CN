@@ -73,6 +73,7 @@
 ["拥有最大数量的狂怒球时，"] = { tag = { type = "StatThreshold", stat = "FrenzyCharges", thresholdStat = "FrenzyChargesMax" } }, --备注：while at maximum frenzy charges
 ["每 1 个耐力球可使"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
 ["每个耐力球会使"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 	
-		
-	
+["近期内你若有打出过暴击，则"] = { tag = { type = "Condition", var = "CritRecently" } }, --备注：if you[' ]h?a?ve dealt a critical strike recently
+["当不拥有耐力球时，"] = { tag = { type = "StatThreshold", stat = "EnduranceCharges", threshold = 0, upper = true } },
+["中毒时 "] = { tag = { type = "Condition", var = "Poisoned" } }, 
 		

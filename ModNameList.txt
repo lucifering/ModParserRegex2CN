@@ -44,3 +44,9 @@
 ["火焰与闪电抗性"] = { "FireResist", "LightningResist" }, --备注：fire and lightning resistances
 ["冰霜与闪电抗性"] = { "ColdResist", "LightningResist" }, --备注：cold and lightning resistances
 ["对敌人的感电效果持续时间"] = "EnemyShockDuration", --备注：shock duration
+["的攻击格挡率套用于法术格挡"] = "BlockChanceConv",
+["格挡法术"] = "SpellBlockChance", --备注：to block spells
+["格挡攻击"] = "BlockChance", --备注：block chance
+["基础暴击伤害加成"] = "CritMultiplier", --备注：critical strike multiplier
+["全部抗性上限"] = { "FireResistMax", "ColdResistMax", "LightningResistMax", "ChaosResistMax" }, --备注：all maximum resistances
+	

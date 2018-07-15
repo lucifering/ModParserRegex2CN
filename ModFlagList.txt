@@ -17,3 +17,7 @@
 ["近战单手武器的"] = { flags = bor(ModFlag.Weapon1H, ModFlag.WeaponMelee) }, --备注：with one handed melee weapons
 ["弓类攻击造成的"] = { flags = ModFlag.Bow },
 ["攻击技能造成的"] = { keywordFlags = KeywordFlag.Attack },
+["持续吟唱技能"] = { tag = { type = "SkillType", skillType = SkillType.Channelled } },
+["该装备 "] = { },
+["低血时，"] = { tag = { type = "Condition", var = "LowLife" } }, --备注：wh[ie][ln]e? on low life
+	

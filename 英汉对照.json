@@ -620,4 +620,28 @@
 { "en":"your critical strikes do not deal extra damage","cn":"你的暴击不造成额外暴击伤害"}
 { "en":"converted to lightning","cn":"转换为闪电"}
 { "en":"all attacks with this weapon are critical strikes","cn":"此武器进行的所有攻击皆是暴击"}
+{ "en":"you always ignite while burning","cn":"你正在燃烧时总能点燃敌人"}
+{ "en":"^socketed gems [hgd][ae][via][enl] ","cn":"^此物品上的技能石"}
+{ "en":"socketed gems have blood magic","cn":"此物品上的技能石受到 血魔法 辅助"}
+{ "en":"warcry effect","cn":"战吼的增益效果"}
+{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when equipped","cn":"装备时触发 (%d+) 级的【(.+)】"}
+{ "en":"trigger (.+) on critical strike","cn":"暴击时触发【(.+)】"}
+{ "en":"if you[' ]h?a?ve dealt a critical strike recently","cn":"近期内你若打出过暴击，则"}
+{ "en":"no block chance","cn":"没有格档率"}
+{ "en":"if you[' ]h?a?ve blocked an attack recently","cn":"近期内你若格挡过攻击，则"}
+{ "en":"if you[' ]h?a?ve blocked a spell recently","cn":"近期内你若格挡过法术，则"}
+{ "en":"if you[' ]h?a?ve blocked recently","cn":"格挡后的短时间内"}
+{ "en":"per (%d+)%% block chance","cn":"每 (%d+)%% 攻击格挡率"}
+{ "en":"if you[' ]h?a?ve dealt a non%-critical strike recently","cn":"近期内你若没有打出过暴击，则"}
+{ "en":"you have onslaught while at maximum endurance charges","cn":"耐力球达到上限时获得【猛攻】状态"}
+{ "en":"you have zealot's oath if you haven't been hit recently","cn":"近期内你若没有被击中，则获得【狂热誓言】"}
+{ "en":"against taunted enemies","cn":"攻击被嘲讽的敌人时，"}
+{ "en":"for each shocked enemy you've killed recently","cn":"近期内你每击败 1 个感电敌人，则"}
+{ "en":"cannot block attacks","cn":"无法格挡攻击"}
+{ "en":"effect of auras on you","cn":"你身上的光环效果"}
+{ "en":"effect of auras on your minions","cn":"召唤生物身上的光环效果"}
+{ "en":"unaffected by curses","cn":"不受诅咒影响"}
+ 
+
+
 

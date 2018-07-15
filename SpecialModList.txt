@@ -105,6 +105,9 @@ mod("ManaRegenPercent", "BASE", num,{ type = "Condition", var = "OnConsecratedGr
 ["受到击中闪电伤害的 (%d+)%% 转为冰霜伤害"] = function(num) return {  mod("LightningDamageTakenAsCold", "BASE", num)  } end,
 ["受到击中闪电伤害的 (%d+)%% 转为火焰伤害"] = function(num) return {  mod("LightningDamageTakenAsFire", "BASE", num)  } end,
 ["(%d+)%% 攻击格挡率"] = function(num) return {  mod("BlockChance", "BASE", num)  } end,
+["(%d+)%% 法术格挡率"] = function(num) return {  mod("SpellBlockChance", "BASE", num)  } end,
+["未被诅咒时获得 (%d+)%% 额外格挡率"] = function(num) return {  mod("BlockChance", "BASE", num,{ type = "Condition", var = "Cursed", neg = true })  } end,
+["被诅咒时获得 (%d+)%% 额外法术格挡率"]= function(num) return {  mod("SpellBlockChance", "BASE", num,{ type = "Condition", var = "Cursed" })  } end,
 ["冰冻时每秒回复 (%d+)%% 生命"]= function(num) return {  mod("LifeRegenPercent", "BASE", num, { type = "Condition", var = "Frozen" })  } end,
 ["低血时闪避值提高 %+(%d+)"]= function(num) return {  mod("Evasion", "BASE", num, { type = "Condition", var = "LowLife" })  } end,
 ["低血时每秒回复 ([%d%.]+)%% 生命"] = function(num) return {  mod("LifeRegenPercent", "BASE", num, { type = "Condition", var = "LowLife" })  } end,
@@ -120,6 +123,7 @@ mod("ManaRegenPercent", "BASE", num,{ type = "Condition", var = "OnConsecratedGr
 ["攻击和法术总暴击率额外降低 (%d+)%%"] = function(num) return { mod("CritChance", "MORE", -num) } end,
 ["获得 (%d+) 级的主动技能【(.+)】，且可被此道具上的技能石辅助"] = function(num, _, skill) return extraSkill(skill, num) end, --备注：grants level (%d+) (.+)
 ["造成的异常状态持续时间缩短 (%d+)%%"] = function(num) return { mod("EnemyShockDuration", "INC", -num),mod("EnemyFreezeDuration", "INC", -num),mod("EnemyChillDuration", "INC", -num),mod("EnemyIgniteDuration", "INC", -num),mod("EnemyBleedDuration", "INC", -num),mod("EnemyPoisonDuration", "INC", -num)} end,
+["造成的异常状态持续时间延长 (%d+)%%"] = function(num) return { mod("EnemyShockDuration", "INC", num),mod("EnemyFreezeDuration", "INC", -num),mod("EnemyChillDuration", "INC", -num),mod("EnemyIgniteDuration", "INC", -num),mod("EnemyBleedDuration", "INC", -num),mod("EnemyPoisonDuration", "INC", -num)} end,
 ["([%d%.]+) 每秒生命回复"] = function(num) return {  mod("LifeRegenPercent", "BASE", num)  } end,
 ["([%d%.]+) 每秒魔力回复"] = function(num) return {  mod("ManaRegenPercent", "BASE", num)  } end,
 ["物理攻击伤害的 ([%d%.]+)%% 转化为魔力偷取"]= function(num) return {  mod("PhysicalDamageManaLeech", "BASE", num,nil, ModFlag.Attack)  } end, 
@@ -155,8 +159,16 @@ mod("EnemyFreezeEffech", "INC", num,nil,ModFlag.Ailment,{ type = "Multiplier", v
 ["(%d+)%% 较少(.+)时间"]= function(_, num,skill_name)  return {  mod("Duration", "MORE", -num,{ type = "SkillName", skillName =  gemIdLookup[skill_name] or "Unknown"})  } end,
 ["击败敌人时有 (%d+)%% 几率触发 (%d+) 级的【(.+)】"]= function(_, num,levelname,skill_name)return {   mod("ExtraSkill", "LIST", { skillId =gemIdLookup[skill_name] or "Unknown", level = levelname})   } end,
 ["物理伤害的 (%d+)%% 转换为闪电伤害"] = function(num) return { mod("PhysicalDamageConvertToLightning", "BASE", num) } end,
- 
-
-
+["装备时触发 (%d+) 级的【元素神盾】"] = function(num) return{mod("ExtraSkill", "LIST", { skillId = "ElementalAegis", level = num}) }end, 
+["装备时触发 (%d+) 级的【寒冰神盾】"] = function(num) return{mod("ExtraSkill", "LIST", { skillId = "ColdAegis", level = num}) }end, 
+["装备时触发 (%d+) 级的【火焰神盾】"] = function(num) return{mod("ExtraSkill", "LIST", { skillId = "FireAegis", level = num}) }end, 
+["低血时，(%d+)%% 的攻击格挡率套用于法术格挡"] = function(num) return {  mod("BlockChanceConv", "BASE", num, { type = "Condition", var = "LowLife" } )  } end,
+["近期内你若有击败敌人，则范围效果扩大 (%d+)%%，最多 (%d+)%%"] = function(_,num1,num2) return { mod("AreaOfEffect", "INC", num1, { type = "Multiplier", var = "EnemyKilledRecently", limit = tonumber(num2), limitTotal = true } ) } end,
+["格挡时，用 (%d+) 级的【(.+)】诅咒敌人"] = function(num, _, skill) return extraSkill(skill, num, true) end, 
+["攻击被嘲讽的敌人时，攻击伤害的 ([%d%.]+)%% 转化为生命偷取"]= function(num) return {  mod("DamageLifeLeech", "BASE", num,nil, ModFlag.Attack,{ type = "ActorCondition", actor = "enemy", var = "Taunted" })  } end, 
+["你身上的每层中毒状态使你每秒回复 (%d+) 能量护盾，最多可有 (%d+) 秒"]= function(_,num1,num2) return {  mod("EnergyShieldRegen", "BASE", num1,{ type = "Multiplier", var = "PoisonStack", limit = tonumber(num2), limitTotal = true })  } end,
+["获得 (%d+) 级的【(.+)】"] = function(_,num,skill_name) return {  mod("ExtraSkill", "LIST", { skillId =gemIdLookup[skill_name] or "Unknown", level = num})   } end,
+["召唤生物身上的光环效果提高 (%d+)%%"]= function(num) return { mod("MinionModifier", "LIST", { mod = mod("AuraEffectOnSelf", "INC", num) })  } end,
+["对受诅咒敌人造成伤害的 ([%d%.]+)%% 转化为生命偷取"]= function(num) return {  mod("DamageLifeLeech", "BASE", num, nil, ModFlag.Hit,{ type = "ActorCondition", actor = "enemy", var = "Cursed" })  } end, 
 
 
