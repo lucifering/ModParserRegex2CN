@@ -76,4 +76,20 @@
 ["近期内你若有打出过暴击，则"] = { tag = { type = "Condition", var = "CritRecently" } }, --备注：if you[' ]h?a?ve dealt a critical strike recently
 ["当不拥有耐力球时，"] = { tag = { type = "StatThreshold", stat = "EnduranceCharges", threshold = 0, upper = true } },
 ["中毒时 "] = { tag = { type = "Condition", var = "Poisoned" } }, 
-		
+["近期内你若有使用战吼，则"] = { tag = { type = "Condition", var = "UsedWarcryRecently" } }, --备注：if you[' ]h?a?ve used a warcry recently
+["近期内你若有使用战吼，"] = { tag = { type = "Condition", var = "UsedWarcryRecently" } }, --备注：if you[' ]h?a?ve used a warcry recently
+["每 (%d+) 点智慧会使"] = function(num) return { tag = { type = "PerStat", stat = "Int", div = num } } end, --备注：per (%d+) intelligence
+["每 (%d+) 点敏捷会使"] = function(num) return { tag = { type = "PerStat", stat = "Dex", div = num } } end, 
+["每 (%d+) 点力量会使 "] = function(num) return { tag = { type = "PerStat", stat = "Str", div = num } } end, --备注：per (%d+) strength
+["近期若打出过暴击，则"] = { tag = { type = "Condition", var = "CritRecently" } },
+["近期内你若被击中过，则"] = { tag = { type = "Condition", var = "BeenHitRecently" } },
+["近期内你若有过格挡，则"] = { tag = { type = "Condition", var = "BlockedRecently" } }, 
+["每个轮回球可使"] = { tag = { type = "Multiplier", var = "SiphoningCharge" } }, 
+["每 (%d+) 命中值可使"] = function(num) return { tag = { type = "PerStat", stat = "Accuracy", div = num } } end, 
+["对致盲的敌人的"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Blinded" }, keywordFlags = KeywordFlag.Hit }, --备注：against blinded enemies
+["每拥有 1 个暴击球，有 "] = { tag = { type = "Multiplier", var = "PowerCharge" } }, --备注：per power charge
+["低血时，"] = { tag = { type = "Condition", var = "LowLife" } },
+["移动时获得"] = { tag = { type = "Condition", var = "Moving" } }, --备注：while moving
+	
+
+

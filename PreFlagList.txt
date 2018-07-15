@@ -2,4 +2,7 @@
 ["^攻击击中有"] = { flags = ModFlag.Attack },
 ["^图腾有"] = { keywordFlags = KeywordFlag.Totem },
 ["^【魔侍】造成的"] = { addToMinion = true, addToMinionTag = { type = "SkillName", skillName = "Summon Skeleton" } },
+["召唤生物的"] = { addToMinion = true },
 ["召唤生物"] = { addToMinion = true },
+["周围友军的"] = { newAura = true, newAuraOnlyAllies = true },
+["^你和队友的"] = { newAura = true },

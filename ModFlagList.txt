@@ -20,4 +20,6 @@
 ["持续吟唱技能"] = { tag = { type = "SkillType", skillType = SkillType.Channelled } },
 ["该装备 "] = { },
 ["低血时，"] = { tag = { type = "Condition", var = "LowLife" } }, --备注：wh[ie][ln]e? on low life
+["击中和异常状态的"] = { keywordFlags = bor(KeywordFlag.Hit, KeywordFlag.Ailment) }, --备注：with hits and ailments
+	
 	

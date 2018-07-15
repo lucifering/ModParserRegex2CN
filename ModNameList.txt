@@ -49,4 +49,18 @@
 ["格挡攻击"] = "BlockChance", --备注：block chance
 ["基础暴击伤害加成"] = "CritMultiplier", --备注：critical strike multiplier
 ["全部抗性上限"] = { "FireResistMax", "ColdResistMax", "LightningResistMax", "ChaosResistMax" }, --备注：all maximum resistances
+["火焰、冰霜、闪电伤害"] = "ElementalDamage", --备注：elemental damage
+["武器物理伤害"] = { "PhysicalDamage", flags = ModFlag.Weapon }, --备注：physical weapon damage
+["攻击造成的投射物伤害"] = { "Damage", flags = bor(ModFlag.Projectile, ModFlag.Attack) },
+["最大闪避值"] = "Evasion",
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	

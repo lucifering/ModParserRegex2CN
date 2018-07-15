@@ -641,7 +641,50 @@
 { "en":"effect of auras on you","cn":"你身上的光环效果"}
 { "en":"effect of auras on your minions","cn":"召唤生物身上的光环效果"}
 { "en":"unaffected by curses","cn":"不受诅咒影响"}
- 
+{ "en":"when hitting cursed enemies","cn":"攻击击中被诅咒敌人时有"}
+{ "en":"triggers? level (%d+) (.+) when you kill a bleeding enemy","cn":"击败流血敌人时触发 (%d+) 级的【(.+)】"}
+{ "en":"counts as dual wielding","cn":"视作双持武器"}
+{ "en":"in off hand","cn":"副手"}
+{ "en":"in main hand","cn":"主手"}
+{ "en":"attacks have blood magic","cn":"所有攻击都受到血魔法辅助"}
+{ "en":"if you[' ]h?a?ve used a warcry recently","cn":"近期内你若使用过战吼，则"}
+{ "en":"nearby enemies have (%d+)%% increased effect of curses on them","cn":"周围敌人被诅咒的效果提高 (%d+)%%"}
+{ "en":"socketed gems fire (%d+) additional projectiles","cn":"此物品上的技能石可以发射 (%d+) 个额外投射物"}
+{ "en":"per elder or shaper item equipped","cn":"每装备 1 个【裂界之器】或【塑界之器】，便"}
+{ "en":"per siphoning charge","cn":"每有 1 个轮回球，便获得"}
+{ "en":"if you[' ]h?a?ve used a skill recently","cn":"近期内你若有使用技能，"}
+{ "en":"your fire damage can shock but not ignite","cn":"你的火焰伤害可以感电但无法点燃"}
+{ "en":"your cold damage can ignite but not freeze or chill","cn":"你的冰霜伤害可以点燃但无法冰冻或冰缓"}
+{ "en":"your lightning damage can freeze but not shock","cn":"你的闪电伤害可以冰冻但无法感电"}
+{ "en":"cannot leech when on low life","cn":"低血时不能偷取"}
+{ "en":"trigger level (%d+) (.+) when you use a skill while you have a spirit charge","cn":"在你有精神球时使用技能，触发 (%d+) 级的【(.+)】"}
+{ "en":"reflects (%d+) physical damage to melee attackers","cn":"反射 (%d+) 物理伤害给近战攻击者"}
+{ "en":"elemental resistances are zero","cn":"火焰、冰霜、闪电抗性为零"}
+{ "en":"while affected by aspect of the cat","cn":"受到【猫之势】影响时，"}
+{ "en":"if you[' ]h?a?ve used a cold skill recently","cn":"近期内你若使用过冰霜技能，则"}
+{ "en":"if you[' ]h?a?ve used a vaal skill recently","cn":"近期内你若使用过瓦尔技能，则"}
+{ "en":"if you[' ]h?a?ve used a fire skill recently","cn":"近期内你若使用过火焰技能，则"}
+{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you use a skill","cn":"当你使用技能时触发 (%d+) 级的【(.+)】"}
+{ "en":"^socketed curse gems [hgd][ae][via][enl] ","cn":"此物品上的诅咒技能石"}
+{ "en":"per curse on enemy","cn":"敌人身上每个诅咒可使"}
+{ "en":"damage taken when hit","cn":"被击中时承受额外"}
+{ "en":"armour is increased by uncapped fire resistance","cn":"护甲将随绝对火焰抗性而提高"}
+{ "en":"while you have at least (%d+) crab barriers","cn":"你拥有至少 (%d+) 个【深海屏障】时，"}
+{ "en":"cannot leech life","cn":"不能偷取生命"}
+{ "en":"cannot leech mana","cn":"不能偷取魔力"}
+{ "en":"wh[ie][ln]e? no life is reserved","cn":"无生命保留时"}
+{ "en":"if all equipped items are corrupted","cn":"所有身上装备的物品皆为已腐化时，"}
+{ "en":"half of your strength is added to your minions","cn":"你一半的力量属性将添加至你的召唤生物身上"}
+{ "en":"if no equipped items are corrupted","cn":"身上未装备已腐化的物品时，"}
+{ "en":"raging spirits' hits always ignite","cn":"【愤怒狂灵】击中后必定造成点燃"}
+{ "en":"strength provides no bonus to maximum life","cn":"力量不对最大生命提供加成"}
+{ "en":"intelligence provides no bonus to maximum mana","cn":"智慧不对最大魔力提供加成"}
+{ "en":"per (%d+) maximum energy shield","cn":"每有 (%d+) 层能量护盾可"}
+{ "en":"%d+%% chance to trigger level (%d+) (.+) when you gain avian's might or avian's flight","cn":"你获得【鸟之力量】或【鸟之斗魄】时有 %d+%% 几率触发 (%d+) 级的【(.+)】"}
+{ "en":"gain armour equal to your reserved mana","cn":"获得等同于你魔力保留数值的护甲"}
+{ "en":"increases and reductions to spell damage also apply to attacks","cn":"对法术伤害的增幅与减益也会套用于攻击上"}
+{ "en":"w?h?i[lf]e? you have at least (%d+) maximum energy shield","cn":"若你至少拥有 1500 层能量护盾，则"}
+{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you kill an enemy","cn":"击败敌人时召唤 (%d+) 级的(.+)"}
 
 
 
