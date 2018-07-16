@@ -55,9 +55,11 @@
 ["最大闪避值"] = "Evasion",
 ["击中伤害和异常状态伤害"] = { "Damage",  keywordFlags = bor(KeywordFlag.Hit, KeywordFlag.Ailment)}, --备注：attack damage
 ["【闪电之捷】的增益效果"] = { "BuffEffect", tag = { type = "SkillName", skillName = "闪电之捷" } },
-	
-	
-	
+["你造成的中毒持续时间"] = { "EnemyPoisonDuration" }, --备注：duration of poisons you inflict
+["物品数量"] = "LootQuantity",
+["持续伤害"] = { "Damage", flags = ModFlag.Dot }, 
+["生效期间，"] = "FlaskDuration",
+["瓦尔技能的伤害"] = { "Damage",keywordFlags = KeywordFlag.Vaal },
 	
 	
 	

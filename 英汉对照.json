@@ -516,7 +516,6 @@
 { "en":"maximum frenzy charges and maximum power charges","cn":"狂怒球和暴击球数量上限"}
 { "en":"while there is only one nearby enemy","cn":"周围只有 1 个敌人时，"}
 { "en":"against enemies that are on full life","cn":"对满血敌人的"}
-{ "en":"duration of poisons you inflict","cn":"近期你每造成一层中毒效果，"}
 { "en":"poison you inflict with critical strikes deals (%d+)%% more damage","cn":"你暴击造成的中毒总伤害额外提高 (%d+)%%"}
 { "en":"^attacks with this weapon ","cn":"此武器攻击击中"}
 { "en":"to ignited enemies","cn":"被点燃敌人时"}
@@ -692,6 +691,35 @@
 { "en":"attacks have an additional projectile when in off hand","cn":"装备在副手时，攻击可以额外发射 1 个投射物"}
 { "en":"intelligence requirement","cn":"智慧需求"}
 { "en":"cast a socketed cold s[pk][ei]ll on melee critical strike","cn":"近战暴击时触发插槽内的冰霜技能"}
+{ "en":"bow knockback at close range","cn":"近距离时，弓类攻击会击退敌人"}
+{ "en":"adds an additional arrow","cn":"用弓攻击时额外发射 1 根箭矢"}
+{ "en":"(%d+) additional arrows","cn":"用弓攻击时额外发射 (%d+) 根箭矢"}
+{ "en":"gain (%d+)%% of bow physical damage as extra damage of each element","cn":"获得等同武器物理伤害 (%d+)%% 的全部三种额外火焰，冰霜和闪电伤害"}
+{ "en":"arrows that pierce have (%d+)%% chance to cause bleeding","cn":"穿透后的箭矢有 (%d+)%% 几率造成流血"}
+{ "en":"arrows that pierce cause bleeding","cn":"穿透后的箭矢造成流血"}
+{ "en":"arrows pierce all targets","cn":"箭矢穿透所有目标"}
+{ "en":"can [hs][au][vm][em]o?n? 1 additional siege ballista totem per (%d+) dexterity","cn":"每有 (%d+) 点敏捷，你的攻城炮台图腾数量上限便提高 1 个"}
+{ "en":"your chaos damage can shock","cn":"混沌伤害可以造成感电"}
+{ "en":"charges used","cn":"药剂充能消耗"}
+{ "en":"creates a smoke cloud on use","cn":"使用时制造一团烟雾"}
+{ "en":"gain unholy might during flask effect","cn":"药剂持续期间，获得不洁之力"}
+{ "en":"immunity to ignite during flask effect","cn":"药剂持续期间免疫点燃"}
+{ "en":"your critical strikes do not deal extra damage during flask effect","cn":"药剂持续期间，你的暴击无法造成暴击伤害加成"}
+{ "en":"your critical strike chance is lucky","cn":"幸运的暴击率"}
+{ "en":"immune to freeze, chill, curses and stuns during flask effect","cn":"药剂持续期间，免疫冰冻、冰缓、诅咒和晕眩"}
+{ "en":"onslaught","cn":"猛攻"}
+{ "en":"amount recovered","cn":"回复量"}
+{ "en":"recovery speed","cn":"回复速度"}
+{ "en":"instant recovery","cn":"立即回复"}
+{ "en":"grants level (%d+) (.+) curse aura during flask effect","cn":"药剂持续期间，获得 (%d+) 级的【(.+)】诅咒光环"}
+{ "en":"adds knockback during flask effect","cn":"药剂持续期间，附加击退效果"}
+{ "en":"adds knockback to melee attacks during flask effect","cn":"药剂持续期间，近战攻击会击退敌人"}
+{ "en":"zealot's oath during flask effect","cn":"药剂持续期间获得【狂热誓言】"}
+{ "en":"creates consecrated ground on use","cn":"使用时制造奉献地面"}
+{ "en":"(%d+)%% of maximum life taken as chaos damage per second","cn":"每秒受到等同 (%d+)%% 最大生命的混沌伤害"}
+{ "en":"charge recovery","cn":"充能回复"}
+{ "en":"during flask effect, (%d+)%% reduced damage taken of each element for which your uncapped elemental resistance is lowest","cn":"药剂持续期间，你绝对抗性最低的元素属性，会使你受到的该属性伤害降低 (%d+)%%"}
+{ "en":"during flask effect, damage penetrates (%d+)%% o?f? ?resistance of each element for which your uncapped elemental resistance is highest","cn":"药剂持续期间，你绝对抗性最高的元素属性，会使你穿透 (%d+)%% 该抗性"}
 
 
 
