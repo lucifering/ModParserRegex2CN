@@ -21,5 +21,5 @@
 ["该装备 "] = { },
 ["低血时，"] = { tag = { type = "Condition", var = "LowLife" } }, --备注：wh[ie][ln]e? on low life
 ["击中和异常状态的"] = { keywordFlags = bor(KeywordFlag.Hit, KeywordFlag.Ailment) }, --备注：with hits and ailments
-	
-	
+["持弓"] = { flags = ModFlag.Bow },
+["攻击技能可以"] = { keywordFlags = KeywordFlag.Attack }, --备注：with attack skills

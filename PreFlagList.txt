@@ -6,3 +6,4 @@
 ["召唤生物"] = { addToMinion = true },
 ["周围友军的"] = { newAura = true, newAuraOnlyAllies = true },
 ["^你和队友的"] = { newAura = true },
+["^该装备的"] = { },

@@ -685,6 +685,19 @@
 { "en":"increases and reductions to spell damage also apply to attacks","cn":"对法术伤害的增幅与减益也会套用于攻击上"}
 { "en":"w?h?i[lf]e? you have at least (%d+) maximum energy shield","cn":"若你至少拥有 1500 层能量护盾，则"}
 { "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you kill an enemy","cn":"击败敌人时召唤 (%d+) 级的(.+)"}
+{ "en":"attack skills can have (%d+) additional totems? summoned at a time","cn":"攻击技能可以额外召唤 1 个图腾"}
+{ "en":"arrows pierce an additional target","cn":"箭矢会穿透 1 个额外目标"}
+{ "en":"to targets they pierce","cn":"箭矢对其穿透的目标所造成的"}
+{ "en":"attacks chain an additional time when in main hand","cn":"装备于主手时，攻击额外连锁弹射 1 次"}
+{ "en":"attacks have an additional projectile when in off hand","cn":"装备在副手时，攻击可以额外发射 1 个投射物"}
+{ "en":"intelligence requirement","cn":"智慧需求"}
+{ "en":"cast a socketed cold s[pk][ei]ll on melee critical strike","cn":"近战暴击时触发插槽内的冰霜技能"}
+
+
+
+
+
+
 
 
 

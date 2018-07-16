@@ -21,6 +21,8 @@
 	["移动时，"] = { tag = { type = "Condition", var = "Moving" } }, --备注：while moving
 	["当你没有暴击球时，"] = { tag = { type = "StatThreshold", stat = "PowerCharges", threshold = 0, upper = true } }, --备注：while you have no power charges
 	["当你没有狂怒球时，"] = { tag = { type = "StatThreshold", stat = "FrenzyCharges", threshold = 0, upper = true } }, --备注：while you have no frenzy charges
+	["当你身上没有狂怒球时，"] = { tag = { type = "StatThreshold", stat = "FrenzyCharges", threshold = 0, upper = true } }, 
+			
 	["当你没有耐力球时，"] = { tag = { type = "StatThreshold", stat = "EnduranceCharges", threshold = 0, upper = true } }, --备注：while you have no endurance charges
 	["你拥有暴击球时，"] = { tag = { type = "StatThreshold", stat = "PowerCharges", threshold = 1 } }, --备注：while you have a power charge
 	["你拥有狂怒球时，"] = { tag = { type = "StatThreshold", stat = "FrenzyCharges", threshold = 1 } }, --备注：while you have a frenzy charge
@@ -90,6 +92,8 @@
 ["每拥有 1 个暴击球，有 "] = { tag = { type = "Multiplier", var = "PowerCharge" } }, --备注：per power charge
 ["低血时，"] = { tag = { type = "Condition", var = "LowLife" } },
 ["移动时获得"] = { tag = { type = "Condition", var = "Moving" } }, --备注：while moving
-	
-
-
+["每 (%d+) 点智慧可使"] = function(num) return { tag = { type = "PerStat", stat = "Int", div = num } } end, --备注：per (%d+) intelligence
+["每 (%d+) 点智慧可以为"] = function(num) return { tag = { type = "PerStat", stat = "Int", div = num } } end, --备注：per (%d+) intelligence
+["每 (%d+) 点敏捷可以为"] = function(num) return { tag = { type = "PerStat", stat = "Dex", div = num } } end, 
+["每 (%d+) 点力量可以为 "] = function(num) return { tag = { type = "PerStat", stat = "Str", div = num } } end, --备注：per (%d+) strength
+["对冰缓的目标的"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Chilled" }, keywordFlags = KeywordFlag.Hit },
