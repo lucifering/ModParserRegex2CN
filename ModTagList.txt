@@ -97,3 +97,5 @@
 ["每 (%d+) 点敏捷可以为"] = function(num) return { tag = { type = "PerStat", stat = "Dex", div = num } } end, 
 ["每 (%d+) 点力量可以为 "] = function(num) return { tag = { type = "PerStat", stat = "Str", div = num } } end, --备注：per (%d+) strength
 ["对冰缓的目标的"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Chilled" }, keywordFlags = KeywordFlag.Hit },
+["对致盲的敌人时，"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Blinded" }, keywordFlags = KeywordFlag.Hit },
+["每个暴击球为"] = { tag = { type = "Multiplier", var = "PowerCharge" } }, --备注：per power charge

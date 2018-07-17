@@ -720,8 +720,11 @@
 { "en":"charge recovery","cn":"充能回复"}
 { "en":"during flask effect, (%d+)%% reduced damage taken of each element for which your uncapped elemental resistance is lowest","cn":"药剂持续期间，你绝对抗性最低的元素属性，会使你受到的该属性伤害降低 (%d+)%%"}
 { "en":"during flask effect, damage penetrates (%d+)%% o?f? ?resistance of each element for which your uncapped elemental resistance is highest","cn":"药剂持续期间，你绝对抗性最高的元素属性，会使你穿透 (%d+)%% 该抗性"}
-
-
+{ "en":"reserves (%d+)%% of life","cn":"保留 (%d+)%% 生命"}
+{ "en":"increases and reductions to light radius also apply to accuracy","cn":"照亮范围的扩大和缩小也同样作用于命中值"}
+{ "en":"critical strikes deal no damage","cn":"暴击无法造成伤害"}
+{ "en":"^attacks with this weapon [hd][ae][va][el] ","cn":"此武器的攻击"}
+{ "en":"%+(%d+) to level of socketed active skill gems per (%d+) player levels","cn":"人物等级每到达 25 级，该插槽内的【主动技能石】等级 +1"}
 
 
 

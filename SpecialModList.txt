@@ -102,6 +102,7 @@ mod("ManaRegenPercent", "BASE", num,{ type = "Condition", var = "OnConsecratedGr
 ["周围友军获得 (%d+)%% 魔力回复"]  = function(num) return { mod("ExtraAura", "LIST",{ mod =mod("ManaRegen", "INC", num,{ mod = effectMod, onlyAllies = true })} )} end,
 ["此物品上的技能石受到 (%d+) 级的 (.+) 辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
 ["此物品上的技能石受到 (%d+) 级的(.+)辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
+["此物品上的技能石由 (%d+) 级的(.+)辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
 ["插槽内的的技能石被 (%d+) 级的 (.+) 辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
 ["插槽内的技能石受到 (%d+) 级的 (.+) 辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
 ["插槽内的技能石被 (%d+) 级的 (.+) 辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
@@ -225,7 +226,11 @@ mod("LifeRegenPercent", "BASE", num2,{ type = "StatThreshold", stat = "EnergyShi
 ["药剂持续期间，技能可以额外发射 (%d+) 个投射物"]= function(num) return {  mod("ProjectileCount", "BASE", num,{ type = "Condition", var = "UsingFlask" })  } end, 
 ["药剂持续期间，获得额外混沌伤害，其数值等同于 (%d+)%% 物理伤害"]= function(num) return {  mod("PhysicalDamageGainAsChaos", "BASE", num,{ type = "Condition", var = "UsingFlask" })  } end,
 ["药剂持续期间，获得额外混沌伤害，其数值等同于 (%d+)%% 火焰、冰霜、闪电伤害"]= function(num) return {  mod("ElementalDamageGainAsChaos", "BASE", num,{ type = "Condition", var = "UsingFlask" })  } end,
-
-
-
-
+["近期内你若打出过暴击，则每有 1 个暴击球，就会每秒受到 (%d+) 闪电伤害"]= function(num) return {  mod("LightningDegen", "BASE", num,{ type = "Multiplier", var = "PowerCharge" },{ type = "Condition", var = "CritRecently" }) } end, 
+	["该武器击中致盲敌人时，附加 (%d+) %- (%d+) 基础火焰伤害"]= function(_,num1,num2) return { 
+	 mod("FireMin", "BASE", num1,nil,bor(ModFlag.Hit,ModFlag.Spell,ModFlag.Attack), { type = "Condition", var = "MainHandAttack" } ,{ type = "ActorCondition", actor = "enemy", var = "Blinded" }),
+	 mod("FireMax", "BASE", num2,nil,bor(ModFlag.Hit,ModFlag.Spell,ModFlag.Attack), { type = "Condition", var = "MainHandAttack" } ,{ type = "ActorCondition", actor = "enemy", var = "Blinded" })  } end, 
+["人物等级每到达 (%d+) 级，该插槽内的【主动技能石】等级 %+(%d+)"] = function(div, _,num )return { mod("GemProperty", "LIST", { keyword = "active_skill", key = "level", value = num }, { type = "SocketedIn", slotName = "{SlotName}" }, { type = "Multiplier", var = "Level", div = tonumber(div) }) } end,
+["玩家等级每提高 (%d+) 级，该武器攻击时便附加 (%d+) %- (%d+) 物理伤害"]= function(_,level,num1,num2) return {
+mod("PhysicalMin", "BASE", num1,nil,ModFlag.Attack,{ type = "Condition", var = "MainHandAttack" },{ type = "Multiplier", var = "Level", div = level } ) ,
+mod("PhysicalMax", "BASE", num2,nil,ModFlag.Attack,{ type = "Condition", var = "MainHandAttack" },{ type = "Multiplier", var = "Level", div = level } ) } end,

@@ -7,3 +7,5 @@
 ["周围友军的"] = { newAura = true, newAuraOnlyAllies = true },
 ["^你和队友的"] = { newAura = true },
 ["^该装备的"] = { },
+["此武器攻击造成的"] = { tag = { type = "Condition", var = "{Hand}Attack" } }, --备注：^attacks with this weapon [hd][ae][va][el] 
+	
