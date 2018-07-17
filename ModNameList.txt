@@ -1,5 +1,5 @@
-["攻击和法术暴击伤害加成"] = {"CritMultiplier", flags =bor( ModFlag.Spell, ModFlag.Attack)}, --备注：critical strike multiplier -- 这个需要提到前面来
-["攻击和法术基础暴击伤害加成"] = {"CritMultiplier", flags =bor( ModFlag.Spell, ModFlag.Attack)}, --备注：critical strike multiplier -- 
+["攻击和法术暴击伤害加成"] = {"CritMultiplier"}, --备注：critical strike multiplier -- 这个需要提到前面来
+["攻击和法术基础暴击伤害加成"] = {"CritMultiplier", ModFlag.Hit}, --备注：critical strike multiplier -- 
 ["攻击和法术暴击伤害"] = {"CritMultiplier", flags =bor( ModFlag.Spell, ModFlag.Attack)}, --备注：critical strike multiplier -- 
 ["攻击与法术暴击率"] = { "CritChance", flags =bor( ModFlag.Spell, ModFlag.Attack) },
 ["攻击和法术暴击率"] = { "CritChance", flags =bor( ModFlag.Spell, ModFlag.Attack) },
