@@ -102,13 +102,9 @@
 ["每个暴击球为"] = { tag = { type = "Multiplier", var = "PowerCharge" } }, --备注：per power charge
 ["狂怒球达到上限时，"] = { tag = { type = "StatThreshold", stat = "FrenzyCharges", thresholdStat = "FrenzyChargesMax" } }, --备注：while at maximum frenzy charges
 ["近期内你若被击中，"] = { tag = { type = "Condition", var = "BeenHitRecently" } },	
-
-
-
-
-
-
-
-
-
+["对冰缓敌人造成的"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Chilled" }, keywordFlags = KeywordFlag.Hit },
+	["在主手时，"] = { tag = { type = "SlotNumber", num = 1 } }, --备注：when in main hand
+["每个耐力球增加"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
+["每有 1 个耐力球，就会"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
 	
+

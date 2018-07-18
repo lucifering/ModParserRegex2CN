@@ -261,10 +261,10 @@ mod("PhysicalMax", "BASE", num2,nil,ModFlag.Attack,{ type = "Condition", var = "
 ["每个白色插槽会使防御提高 (%d+)%%"]= function(num) return {  mod("Defences", "INC", num,{ type = "Global" }, { type = "Multiplier", var = "WhiteSocketIn{SlotName}" })  } end, 
 ["装备于副手时有 (%d+)%% 额外格挡几率"]= function(num) return {  mod("BlockChance", "BASE", num, { type = "SlotNumber", num = 2 })  } end, 
 ["点燃敌人时获得 %d+ 秒【她的拥抱】效果"] = { flag("Condition:CanGainHerEmbrace") }, 
-
-
-
-
+["召唤生物的攻击额外造成 (%d+) %- (%d+) 物理伤害"]= function(_,num1,num2) return {mod("MinionModifier", "LIST", {mod=mod("PhysicalMin","BASE",num1,nil,ModFlag.Attack )  }),mod("MinionModifier", "LIST", { mod = mod("PhysicalMax", "BASE", num2,nil,ModFlag.Attack )})} end,
+["近期内你若被击中过，则每有 1 个耐力球，就会每秒受到 (%d+) 火焰伤害"]
+= function(num) return {  mod("FireDegen", "BASE", num, { type = "Multiplier", var = "EnduranceCharge" }, { type = "Condition", var = "BeenHitRecently" })  } end, 
+["对流血敌人造成的攻击伤害的 (%d+)%% 转化为生命偷取"]= function(num) return {  mod("DamageLifeLeech", "BASE", num,nil, ModFlag.Attack,{ type = "ActorCondition", actor = "enemy", var = "Bleeding" })  } end, 
 
 
 

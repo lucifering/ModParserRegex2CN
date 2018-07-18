@@ -511,7 +511,8 @@
 { "en":"to dodge attacks and spells","cn":"躲避攻击和法术击中"}
 { "en":"per (%d+) evasion rating on body armour","cn":"身体护甲上每有 (%d+) 点闪避值，便"}
 { "en":"per (%d+) maximum energy shield on helmet","cn":"头部装备上每有 (%d+) 点最大能量护盾，便"}
-{ "en":"if you[' ]h?a?ve been hit recently","cn":"近期内你若没有被击中，则"}
+{ "en":"if you have ?n[o']t been hit recently","cn":"近期内你若没有被击中，则"}
+{ "en":"if you[' ]h?a?ve been hit recently","cn":"近期内你若被击中过，则"}
 { "en":"movement skills cost no mana","cn":"移动技能不消耗魔力"}
 { "en":"maximum frenzy charges and maximum power charges","cn":"狂怒球和暴击球数量上限"}
 { "en":"while there is only one nearby enemy","cn":"周围只有 1 个敌人时，"}
@@ -740,13 +741,15 @@
 { "en":"when in off hand","cn":"装备于副手时有"}
 { "en":"counts as all one handed melee weapon types","cn":"可视为所有类型的单手近战武器"}
 { "en":"while in her embrace, take ([%d%.]+)%% of your total maximum life and energy shield as fire damage per second per level","cn":"受到【她的拥抱】影响时，每级根据你的最大生命和最大护盾总量，造成每秒 ([%d%.]+)%% 火焰伤害"}
-
-
-
-
-
-
-
+{ "en":"hits ignore enemy monster fire resistance while you are ignited","cn":"你被点燃时，击中怪物敌人无视其火焰抗性"}
+{ "en":"your physical damage can chill","cn":"物理伤害可以造成冰缓"}
+{ "en":"to ignite","cn":"点燃"}
+{ "en":"trigger level (%d+) (.+) when you kill a frozen enemy","cn":"你击败被冻结的敌人时触发 (%d+) 级的【(.+)】"}
+{ "en":"cannot knock enemies back","cn":"无法击退敌人"}
+{ "en":"elemental damage taken when hit","cn":"被击中时受到的火焰、冰霜、闪电伤害"}
+{ "en":"^([%d%.]+) (%a+) damage taken per second","cn":"每秒受到 ([%d%.]+) (%a+)伤害"}
+{ "en":"socketed lightning spells [hd][ae][va][el] (%d+)%% increased spell damage if triggered","cn":"触发后，插槽内闪电法术的法术伤害提高 (%d+)%%"}
+{ "en":"attacks with this weapon deal double damage to chilled enemies","cn":"此武器的攻击对冰缓的敌人造成双倍伤害"}
 
 
 
