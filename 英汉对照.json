@@ -725,6 +725,28 @@
 { "en":"critical strikes deal no damage","cn":"暴击无法造成伤害"}
 { "en":"^attacks with this weapon [hd][ae][va][el] ","cn":"此武器的攻击"}
 { "en":"%+(%d+) to level of socketed active skill gems per (%d+) player levels","cn":"人物等级每到达 25 级，该插槽内的【主动技能石】等级 +1"}
+{ "en":"effect of buffs on you","cn":"你身上的增益效果"}
+{ "en":"your aura buffs do not affect allies","cn":"光环效果对友方没有作用"}
+{ "en":"allies' aura buffs do not affect you","cn":"无法获得友方光环效果"}
+{ "en":"if you[' ]h?a?ve ignited an enemy recently","cn":"点燃 1 个敌人后的短时间内，"}
+{ "en":"against ignited enemies","cn":"对点燃敌人的"}
+{ "en":"ignited enemies burn (%d+)%% faster","cn":"被点燃敌人的燃烧加快 (%d+)%%"}
+{ "en":"gain her embrace for %d+ seconds when you ignite an enemy","cn":"点燃敌人时获得【女神的祝福】 %d+ 秒"}
+{ "en":"per (%d+) evasion rating","cn":"每 (%d+) 点闪避值可使"}
+{ "en":"you have onslaught while on low life","cn":"低血时获得【猛攻】"}
+{ "en":"^hits with this weapon [hd][ae][va][el] ","cn":"^该武器对"}
+{ "en":"[ct][ar][si][tg]g?e?r?s? level (%d+) (.+) when you attack","cn":"当你攻击时触发 (%d+) 级的【(.+)】"}
+{ "en":"when in main hand","cn":"装备在主手时"}
+{ "en":"when in off hand","cn":"装备于副手时有"}
+{ "en":"counts as all one handed melee weapon types","cn":"可视为所有类型的单手近战武器"}
+{ "en":"while in her embrace, take ([%d%.]+)%% of your total maximum life and energy shield as fire damage per second per level","cn":"受到【她的拥抱】影响时，每级根据你的最大生命和最大护盾总量，造成每秒 ([%d%.]+)%% 火焰伤害"}
+
+
+
+
+
+
+
 
 
 

@@ -61,7 +61,7 @@
 ["生效期间，"] = "FlaskDuration",
 ["瓦尔技能的伤害"] = { "Damage",keywordFlags = KeywordFlag.Vaal },
 ["法术格挡几率"] = "SpellBlockChance", --备注：to block spells
-	
+
 	
 	
 	
