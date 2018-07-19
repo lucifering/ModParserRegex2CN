@@ -23,3 +23,5 @@
 ["击中和异常状态的"] = { keywordFlags = bor(KeywordFlag.Hit, KeywordFlag.Ailment) }, --备注：with hits and ailments
 ["持弓"] = { flags = ModFlag.Bow },
 ["攻击技能可以"] = { keywordFlags = KeywordFlag.Attack }, --备注：with attack skills
+["魔卫"] = { addToMinion = true, addToMinionTag = { type = "SkillName", skillName = "魔卫复苏" } }, --备注：zombie
+["魔侍的"] = { addToMinion = true, addToMinionTag = { type = "SkillName", skillName = "召唤魔侍" } }, --备注：skeleton

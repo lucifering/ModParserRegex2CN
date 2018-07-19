@@ -141,7 +141,6 @@
 { "en":"spell","cn":"法术"}
 { "en":"chaos","cn":"混沌"}
 { "en":"melee","cn":"近战"}
-{ "en":"golem","cn":"魔像"}
 { "en":"totem","cn":"图腾"}
 { "en":"^take ","cn":"^承受"}
 { "en":"radius","cn":"半径"}
@@ -376,22 +375,22 @@
 { "en":"With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect","cn":"若范围配置了 40 点敏捷，【冰霜射击】的范围扩大 25%"}
 { "en":"With at least 40 Dexterity in Radius, Shrapnel Shot has 25% increased Area of Effect","cn":"若范围内含有 40 点敏捷，\\\\n则【流星射击】的范围效果扩大 25%"}
 { "en":"With at least 40 Dexterity in Radius, Ethereal Knives fires 5 additional Projectiles","cn":"若范围内含有 40 点敏捷，\\\\n则【虚空匕首】会额外发射 5 个投射物"}
-{ "en":"With at least 40 Dexterity in Radius, Dual Strike has a 20% chance to deal Double Damage with the Main-Hand Weapon","cn":"若范围内含有 40 点敏捷，\\\\n双持打击时主手武器有 20% 几率造成双倍伤害"}
+{ "en":"With at least 40 Dexterity in Radius, Dual Strike has a 20% chance to deal Double Damage with the Main-Hand Weapon","cn":"若范围内含有 40 点敏捷，双持打击时主手武器有 20% 几率造成双倍伤害"}
 { "en":"With at least 40 Intelligence in Radius, Raised Zombies' Slam Attack deals 30% increased Damage","cn":"若范围内含有 40 点智慧，【魔卫复苏】的重击攻击伤害提高 30%"}
 { "en":"With at least 40 Intelligence in Radius, Magma Orb has 10% increased Area of Effect per Chain","cn":"若范围内含有 40 点智慧，【熔岩之核】每次连锁弹射的范围扩大 10%"}
 { "en":"With at least 40 Intelligence in Radius, Freezing Pulse fires 2 additional Projectiles","cn":"若范围内含有 40 点智慧，则【冰霜脉冲】额外发射 2 个投射物"}
 { "en":"With at least 40 Intelligence in Radius, Enemies Hindered by Blight take 25% increased Chaos Damage","cn":"若范围内含有 40 点智慧，被【枯萎】干扰的敌人受到的混沌伤害提高 25%"}
-{ "en":"With at least 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage Converted to Cold Damage","cn":"若范围内含有 40 点智慧，【冰川之刺】物理伤害的 20%% 转化为冰霜伤害"}
+{ "en":"With at least 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage Converted to Cold Damage","cn":"若范围内含有 40 点智慧，【冰川之刺】物理伤害的 20% 转化为冰霜伤害"}
 { "en":"With at least 40 Intelligence in Radius, Raised Zombies' Slam Attack has 100% increased Cooldown Recovery Speed","cn":"若范围内含有 40 点智慧，【魔卫复苏】的重击攻击会使冷却回复速度提高 100%"}
 { "en":"With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if you've Shattered an Enemy Recently","cn":"当范围内含有至少 40 点智慧时，近期内你若粉碎被冰冻的敌人，则【冰霜脉冲】伤害提高 25%"}
 { "en":"With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration","cn":"若范围内含有 40 点智慧，【枯萎】的干扰持续时间延长 50%"}
-{ "en":"With at least 40 Intelligence in Radius, Frostbolt fires 2 additional Projectiles","cn":"若范围内含有 40 点智慧，则【冰霜脉冲】额外发射 2 个投射物"}
+{ "en":"With at least 40 Intelligence in Radius, Frostbolt fires 2 additional Projectiles","cn":"若范围内含有 40 点智慧，【寒冰弹】会额外发射 2 个投射物"}
 { "en":"With at least 40 Intelligence in Radius, Spark fires 2 additional Projectiles","cn":"若范围内含有 40 点智慧，【电球】会发射 2 个额外投射物"}
 { "en":"With 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage Converted to Cold Damage","cn":"若范围内含有 40 点智慧，【冰川之刺】物理伤害的 20%\\\\n转化为冰霜伤害"}
 { "en":"With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile","cn":"若范围内含有 40 点智慧，【熔岩之核】会额外发射 1 个投射物"}
-{ "en":"With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage","cn":"若范围内含有 40 点力量，【重击】有 20%% 几率造成双倍伤害"}
-{ "en":"With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage.","cn":"若范围内含有 40 点力量，【重击】有 20%% 几率造成双倍伤害"}
-{ "en":"With at least 40 Strength in Radius, 25% of Glacial Hammer Physical Damage converted to Cold Damage","cn":"若范围内含有 40 点力量，则【冰霜之锤】25%% 的物理伤害会转化为冰霜伤害"}
+{ "en":"With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage","cn":"若范围内含有 40 点力量，【重击】有 20% 几率造成双倍伤害"}
+{ "en":"With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage.","cn":"若范围内含有 40 点力量，【重击】有 20% 几率造成双倍伤害"}
+{ "en":"With at least 40 Strength in Radius, 25% of Glacial Hammer Physical Damage converted to Cold Damage","cn":"若范围内含有 40 点力量，则【冰霜之锤】25% 的物理伤害会转化为冰霜伤害"}
 { "en":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles","cn":"若范围内含有 40 点力量，【熔岩之击】会额外发射 2 个投射物"}
 { "en":"With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect","cn":"若范围内含有 40 点力量，【熔岩之击】的范围扩大 25%"}
 { "en":"your curses can apply to hexproof enemies","cn":"你的诅咒对有【无咒】词缀的敌人依然有效"}
@@ -420,7 +419,6 @@
 { "en":"^skeletons [hd][ae][va][el] ","cn":"【魔侍造成】的"}
 { "en":"skeleton","cn":"魔侍的"}
 { "en":"summoned skeletons' hits can't be evaded","cn":"【异灵魔侍】的击中无法闪避"}
-{ "en":"^spectres [hd][ae][va][el] ","cn":"灵体的"}
 { "en":"your offering skills also affect you","cn":"你的奉献技能会同时影响你"}
 { "en":"your offerings have (%d+)%% reduced effect on you","cn":"你的奉献技能对自身的效果降低 (%d+)%%"}
 { "en":"if you[' ]h?a?ve consumed a corpse recently","cn":"近期内你若有消耗灵柩，则"}
@@ -740,17 +738,68 @@
 { "en":"when in off hand","cn":"装备于副手时有"}
 { "en":"counts as all one handed melee weapon types","cn":"可视为所有类型的单手近战武器"}
 { "en":"while in her embrace, take ([%d%.]+)%% of your total maximum life and energy shield as fire damage per second per level","cn":"受到【她的拥抱】影响时，每级根据你的最大生命和最大护盾总量，造成每秒 ([%d%.]+)%% 火焰伤害"}
-
-
-
-
-
-
-
-
-
-
-
-
+{ "en":"Dexterity from Passives in Radius is Transformed to Strength","cn":"将范围内天赋所给予的敏捷转换成力量"}
+{ "en":"Dexterity from Passives in Radius is Transformed to Intelligence","cn":"将范围内天赋所给予的敏捷转换成智慧"}
+{ "en":"Intelligence from Passives in Radius is Transformed to Strength","cn":"将范围内天赋所给予的智慧转换成力量"}
+{ "en":"Intelligence from Passives in Radius is Transformed to Dexterity","cn":"将范围内天赋所给予的智慧转换成敏捷"}
+{ "en":"Increases and Reductions to Physical Damage in Radius are Transformed to apply to Cold Damage","cn":"范围内物理伤害的增减转换成冰霜伤害"}
+{ "en":"Increases and Reductions to Cold Damage in Radius are Transformed to apply to Physical Damage","cn":"范围内冰霜伤害的增减转换成物理伤害"}
+{ "en":"-1 Strength per 1 Strength on Allocated Passives in Radius","cn":"范围内每配置 1 点力量，便获得 -1 点力量"}
+{ "en":"1% additional Physical Damage Reduction per 10 Strength on Allocated Passives in Radius","cn":"范围内每配置 10 点力量，便获得 1% 额外物理伤害减免"}
+{ "en":"+5% to Critical Strike Multiplier per 10 Strength on Unallocated Passives in Radius","cn":"范围内若未配置力量，则每 10 点 +5% 攻击和法术暴击伤害加成"}
+{ "en":"+100 to Accuracy Rating per 10 Intelligence on Unallocated Passives in Radius","cn":"范围内若未配置智慧，则每 10 点 +100 最大命中值"}
+{ "en":"-1 Intelligence per 1 Intelligence on Allocated Passives in Radius","cn":"范围内每配置 1 点智慧，便获得 -1 点智慧"}
+{ "en":"0.4% of Energy Shield Regenerated per Second for every 10 Intelligence on Allocated Passives in Radius","cn":"范围内每配置 10 点智慧，则每秒回复 0.4% 能量护盾"}
+{ "en":"-1 Dexterity per 1 Dexterity on Allocated Passives in Radius","cn":"范围内每配置 1 点敏捷，便获得 -1 点敏捷"}
+{ "en":"2% increased Movement Speed per 10 Dexterity on Allocated Passives in Radius","cn":"范围内每配置 10 点敏捷，移动速度提高 2%"}
+{ "en":"+15 to maximum Mana per 10 Dexterity on Unallocated Passives in Radius","cn":"范围内若未配置敏捷，则每 10 点 +15 最大魔力"}
+{ "en":"Dexterity and Intelligence from passives in Radius count towards Strength Melee Damage bonus","cn":"范围内来自天赋的敏捷和智慧转为力量近战伤害加成"}
+{ "en":"traps and mines deal (%d+)%-(%d+) additional physical damage","cn":"陷阱和地雷造成 (%d+) %- (%d+) 额外物理伤害"}
+{ "en":"traps and mines have a (%d+)%% chance to poison on hit","cn":"陷阱和地雷击中时，有 (%d+)%% 几率使敌人中毒"}
+{ "en":"per curse on you","cn":"自身的每个诅咒会使"}
+{ "en":"Strength from Passives in Radius is Transformed to Intelligence","cn":"将范围内天赋所给予的力量转换成智慧"}
+{ "en":"Strength from Passives in Radius is Transformed to Dexterity","cn":"将范围内天赋所给予的力量转换成敏捷"}
+{ "en":"for each equipped magic item","cn":"每装备一个魔法物品，"}
+{ "en":"50% increased Effect of non-Keystone Passive Skills in Radius","cn":"范围内的非核心天赋技能效果提高 50%"}
+{ "en":"Notable Passive Skills in Radius grant nothing","cn":"范围内配置的核心天赋技能不会提供任何加成"}
+{ "en":"Increases and Reductions to Life in Radius are Transformed to apply to Energy Shield","cn":"范围内生命的增减转换成能量护盾"}
+{ "en":"Increases and Reductions to Life in Radius are Transformed to apply to Mana at 200% of their value","cn":"范围内增减的生命转换成 200% 魔力"}
+{ "en":"Increases and Reductions to other Damage Types in Radius are Transformed to apply to Fire Damage","cn":"范围内其他伤害类型的增减转换成火焰伤害"}
+{ "en":"per buff on you","cn":"自身的每个增益会为"}
+{ "en":"Melee and Melee Weapon Type modifiers in Radius are Transformed to Bow Modifiers","cn":"范围内的近战和近战武器加成转换成弓类武器加成"}
+{ "en":"wh[ie][ln]e? no mana is reserved","cn":"无魔力保留时，"}
+{ "en":"vaal skill","cn":"瓦尔技能"}
+{ "en":"passives in radius can be allocated without being connected to your tree","cn":"未连结至天赋树的技能，仍然可以在范围内配置"}
+{ "en":"Adds 1 to Maximum Life per 3 Intelligence Allocated in Radius","cn":"范围内每配置 3 点智慧，最大生命提高 1 点"}
+{ "en":"3% increased Totem Life per 10 Strength Allocated in Radius","cn":"范围内每配置 10 点力量，图腾生命提高 3%"}
+{ "en":"totems fire (%d+) additional projectiles","cn":"图腾发射 (%d+) 个额外投射物"}
+{ "en":"Passives granting Lightning Resistance or all Elemental Resistances in Radius also grant Chance to Block Spells at 35% of its value","cn":"范围内提高闪电抗性的天赋也会以 35% 的比例提高法术格挡率"}
+{ "en":"while your passive skill tree connects to a class' starting location, you gain:","cn":"当你在你在天赋树上连接到一个职业的出发位置时，你获得："}
+{ "en":"gain (%d+) mana per grand spectrum","cn":"每 1 个聚光之石可使魔力提高 (%d+)"}
+{ "en":"gain (%d+) armour per grand spectrum","cn":"每 1 个聚光之石可使护甲提高 (%d+)"}
+{ "en":"(%d+)%% increased elemental damage per grand spectrum","cn":"每 1 个聚光之石可使火焰、冰霜、闪电伤害提高 (%d+)%%"}
+{ "en":"if you have 3 primordial jewels, can summon up to (%d) additional golems? at a time","cn":"若你有 3 个起源天赋珠宝，可以额外召唤 (%d) 个魔像"}
+{ "en":"^marauder: melee skills have ","cn":"^野蛮人： 近战技能"}
+{ "en":"^duelist: ","cn":"^决斗者："}
+{ "en":"^ranger: ","cn":"^游侠："}
+{ "en":"^shadow: ","cn":"^暗影："}
+{ "en":"^witch: ","cn":"女巫："}
+{ "en":"^scion: ","cn":"贵族："}
+{ "en":"^templar: ","cn":"^圣堂武僧："}
+{ "en":"Increases and Reductions to Energy Shield in Radius are Transformed to apply to Armour at 200% of their value","cn":"范围内能量护盾的增减转换成 200% 的护甲"}
+{ "en":"^golems [hd][ae][va][el] ","cn":"魔像的"}
+{ "en":"Passives granting Fire Resistance or all Elemental Resistances in Radius also grant Chance to Block at 35% of its value","cn":"范围内提高火焰抗性的天赋也会以 35% 的比例提高攻击格挡率"}
+{ "en":"primordial","cn":"起源珠宝"}
+{ "en":"effect of buffs granted by your golems","cn":"魔像的增益效果"}
+{ "en":"^golem skills have ","cn":"魔像施放技能的"}
+{ "en":"cooldown recovery","cn":"冷却速度"}
+{ "en":"(%d+)%% increased golem damage for each type of golem you have summoned","cn":"每 1 个召唤出的不同魔像可使魔像伤害提高 (%d+)%%"}
+{ "en":"1% increased Evasion Rating per 3 Dexterity Allocated in Radius","cn":"范围内每配置 3 点敏捷，闪避值提高 1%"}
+{ "en":"1% increased Claw Physical Damage per 3 Dexterity Allocated in Radius","cn":"范围内每配置 3 点敏捷，爪类武器物理伤害提高 1%"}
+{ "en":"1% increased Melee Physical Damage while Unarmed per 3 Dexterity Allocated in Radius","cn":"空手攻击时，范围内每分配 3 点敏捷，近战物理伤害提高 1%"}
+{ "en":"Passives granting Cold Resistance or all Elemental Resistances in Radius also grant Chance to Dodge Attacks at 35% of its value","cn":"范围内提高冰霜抗性的天赋也会以 35% 的比例提高躲避攻击击中几率"}
+{ "en":"Adds 1 maximum Lightning Damage to Attacks per 1 Dexterity Allocated in Radius","cn":"范围内每配置 1 点敏捷，攻击附加 1 点最大闪电伤害"}
+{ "en":"with 5 corrupted items equipped: life leech recovers based on your chaos damage instead","cn":"装备 5 个被腐化物品时：生命偷取只按照造成的混沌伤害计算"}
+{ "en":"per poison on you","cn":"你身上的每层中毒状态使你获得"}
 
 

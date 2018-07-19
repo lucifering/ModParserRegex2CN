@@ -102,7 +102,7 @@
 ["每个暴击球为"] = { tag = { type = "Multiplier", var = "PowerCharge" } }, --备注：per power charge
 ["狂怒球达到上限时，"] = { tag = { type = "StatThreshold", stat = "FrenzyCharges", thresholdStat = "FrenzyChargesMax" } }, --备注：while at maximum frenzy charges
 ["近期内你若被击中，"] = { tag = { type = "Condition", var = "BeenHitRecently" } },	
-
+["击中冰缓敌人的"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Chilled" }, keywordFlags = KeywordFlag.Hit }, --备注：against chilled enemies
 
 
 
