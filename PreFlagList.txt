@@ -8,4 +8,6 @@
 ["^你和队友的"] = { newAura = true },
 ["^该装备的"] = { },
 ["此武器攻击造成的"] = { tag = { type = "Condition", var = "{Hand}Attack" } }, --备注：^attacks with this weapon [hd][ae][va][el] 
-	
+["灵体的"] = { addToMinion = true, addToMinionTag = { type = "SkillName", skillName = "召唤灵体" } }, --备注：^spectres [hd][ae][va][el] 
+	["灵体的"] = { addToMinion = true, addToMinionTag = { type = "SkillName", skillName = "召唤灵体" } },
+["魔像"] = { addToMinion = true, addToMinionTag = { type = "SkillType", skillType = SkillType.Golem } }, 
