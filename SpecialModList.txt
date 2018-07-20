@@ -1,3 +1,4 @@
+
 --fu*k TX 格挡率用“提高”字样
 ["持长杖时，攻击格挡率提高 (%d+)%%"] = function(num) return {  mod("BlockChance", "BASE", num,{ type = "Condition", var = "UsingStaff" })  } end,  
 ["持盾时攻击格挡率提高 (%d+)%%"] = function(num) return {  mod("BlockChance", "BASE", num, { type = "Condition", var = "UsingShield" } )  } end,  
@@ -6,6 +7,17 @@
 ["双持或持盾牌时攻击格挡率提高 (%d+)%%"] = function(num) return {  mod("BlockChance", "BASE", num,{ type = "Condition", varList = { "DualWielding", "UsingShield" } })  } end,  
 ["近期内你若因被击中而受伤，攻击格挡率提高 (%d+)%%"] = function(num) return {  mod("BlockChance", "BASE", num,{ type = "Condition", var = "BeenHitRecently" } )  } end,  
 ["所有身上装备的物品皆为已腐化时，每秒回复 (%d+) 能量护盾"] = function(num) return {  mod("EnergyShieldRegenPercent", "BASE", num,{ type = "MultiplierThreshold", var = "NonCorruptedItem", threshold = 0, upper = true })  } end,
+
+-- 一些涉及到技能名称的
+["你的奉献技能对自身的效果降低 (%d+)%%"] = function(num) return { mod("ExtraSkillMod", "LIST", { mod = mod("BuffEffectOnPlayer", "INC", -num) }, { type = "SkillName", skillNameList = { "骸骨奉献", "血肉奉献", "灵魂奉献 " } }) } end, 
+["【闪现射击】和【魅影射击】冷却回复速度提高 (%d+)%%"] = function(num) return { --备注：(%d+)%% increased blink arrow and mirror arrow cooldown recovery speed
+		mod("CooldownRecovery", "INC", num, { type = "SkillName", skillName = "闪现射击" }),
+		mod("CooldownRecovery", "INC", num, { type = "SkillName", skillName = "魅影射击" }),
+	} end,
+["【异灵魔侍】的击中无法闪避"] = { mod("MinionModifier", "LIST", { mod = flag("CannotBeEvaded") }, { type = "SkillName", skillName = "召唤魔侍" }) }, --备注：summoned skeletons' hits can't be evaded
+["每有 (%d+) 点敏捷，你的攻城炮台图腾数量上限便提高 1 个"] = function(num) return { mod("ActiveTotemLimit", "BASE", 1, { type = "SkillName", skillName = "攻城炮台" }, { type = "PerStat", stat = "Dex", div = num }) } end, ["【愤怒狂灵】击中后必定造成点燃"] = { mod("MinionModifier", "LIST", { mod = mod("EnemyIgniteChance", "BASE", 100) }, { type = "SkillName", skillName = "召唤愤怒狂灵" }) }, --备注：raging spirits' hits always 
+
+	
 ["所有身上穿戴的物品皆为已腐化时，每秒回复 (%d+) 魔力"] = function(num) return {  mod("ManaRegenPercent", "BASE", num,{ type = "MultiplierThreshold", var = "NonCorruptedItem", threshold = 0, upper = true })  } end,
 ["身上未装备已腐化的物品时，每秒回复 (%d+) 生命"] = function(num) return {  mod("LifeRegenPercent", "BASE", num,{ type = "MultiplierThreshold", var = "CorruptedItem", threshold = 0, upper = true })  } end,
 ["每个耐力球提高 ([%d%.]+)%% 每秒生命回复"] = function(num) return {  mod("LifeRegenPercent", "BASE", num,{ type = "Multiplier", var = "EnduranceCharge" })  } end,
