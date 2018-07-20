@@ -34,8 +34,12 @@
 ["获得的充能数"] = "FlaskChargesGained", --备注：flask charges gained
 ["武器攻击范围"] = "WeaponRange",
 ["该装备的闪避与能量护盾"] = "EvasionAndEnergyShield", --备注：evasion and energy shield
+["闪避与能量护盾"] = "EvasionAndEnergyShield",
 ["该装备的护甲与能量护盾"] = "ArmourAndEnergyShield", 
+["护甲与能量护盾"] = "ArmourAndEnergyShield", 
 ["该装备的护甲与闪避"] = "ArmourAndEvasion",
+["护甲与闪避"] = "ArmourAndEvasion",
+["护甲、闪避和能量护盾"] = "Defences",
 ["该装备的护甲、闪避和能量护盾"] = "Defences",
 ["该装备的护甲"] = "Armour", --备注：armour
 ["该装备的闪避值"] = "Evasion",
