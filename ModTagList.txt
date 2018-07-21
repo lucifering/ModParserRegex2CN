@@ -56,6 +56,7 @@
 ["每个狂怒球可使"] = { tag = { type = "Multiplier", var = "FrenzyCharge" } }, --备注：per frenzy charge
 ["每个耐力球可使"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
 ["每个狂怒球附加"] = { tag = { type = "Multiplier", var = "FrenzyCharge" } }, --备注：per frenzy charge
+["每拥有 1 个狂怒球，"] = { tag = { type = "Multiplier", var = "FrenzyCharge" } }, --备注：per frenzy charge
 ["每个狂怒球会使"] = { tag = { type = "Multiplier", var = "FrenzyCharge" } }, --备注：per frenzy charge
 ["若过去 8 秒内你打出过暴击，则"] = { tag = { type = "Condition", var = "CritInPast8Sec" } },
 ["每有 1 个耐力球，便获得"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 	
@@ -107,6 +108,7 @@
 ["每个耐力球增加"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
 ["每有 1 个耐力球，就会"] = { tag = { type = "Multiplier", var = "EnduranceCharge" } }, 
 ["击中冰缓敌人的"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Chilled" }, keywordFlags = KeywordFlag.Hit }, --备注：against chilled  
-
-	
-
+["对被点燃敌人的"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Ignited" }, keywordFlags = KeywordFlag.Hit }, 
+["每 (%d+) 点力量可使"] = function(num) return { tag = { type = "PerStat", stat = "Str", div = num } } end, --备注：per (%d+) strength
+["你获得【猫之隐匿】时"] = { tag = { type = "Condition", var = "AffectedByCat'sStealth" } }, --备注：while you have cat's stealth
+		

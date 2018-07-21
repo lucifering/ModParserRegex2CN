@@ -812,6 +812,21 @@
 { "en":"Adds 1 maximum Lightning Damage to Attacks per 1 Dexterity Allocated in Radius","cn":"范围内每配置 1 点敏捷，攻击附加 1 点最大闪电伤害"}
 { "en":"with 5 corrupted items equipped: life leech recovers based on your chaos damage instead","cn":"装备 5 个被腐化物品时：生命偷取只按照造成的混沌伤害计算"}
 { "en":"per poison on you","cn":"你身上的每层中毒状态使你获得"}
- 
+{ "en":"aspect of the spider can inflict spider's web on enemies an additional time","cn":"【蛛之势】可对敌人额外造成 1 层蜘蛛网"}
+{ "en":"gain (%d+) energy shield for each enemy you hit which is affected by a spider's web","cn":"你每击中 1 个被【蜘蛛网】覆盖的敌人，便获得 (%d+) 能量护盾"}
+{ "en":"aspect of the spider debuff duration","cn":"【蛛之势】的减益持续时间"}
+{ "en":"you are immune to bleeding","cn":"免疫流血"}
+{ "en":"cannot be stunned if you have at least (%d+) crab barriers","cn":"若你拥有 (%d+) 个以上的【深海屏障】，则无法被晕眩"}
+{ "en":"you have onslaught while not on low mana","cn":"低魔时获得【猛攻】"}
+{ "en":"lose ([%d%.]+) mana per second","cn":"每秒失去 ([%d%.]+) 魔力"}
+{ "en":"you have no life regeneration","cn":"无法回复生命"}
 
-
+{ "en":"on shocked ground","cn":"在感电地面上的"}
+{ "en":"on chilled ground","cn":"在冰缓地面上"}
+{ "en":"on burning ground","cn":"在燃烧地面上的"}
+{ "en":"^you and nearby allies [hgd][ae][via][enl] ","cn":"你和周围队友的"}
+{ "en":"lose ([%d%.]+)%% of maximum mana per second","cn":"每秒失去 ([%d%.]+)%% 最大魔力"}
+{ "en":"you have phasing if you've killed recently","cn":"近期内你若有击败敌人，则进入【迷踪】状态"}
+{ "en":"projectiles pierce (%d+) additional targets while you have phasing","cn":"处于【迷踪】状态时，投射物穿透 (%d+) 个额外目标"}
+{ "en":"against enemies on low life","cn":"对低血敌人，"}
+{ "en":"for each type of abyssa?l? jewel affecting you","cn":"每种影响你的【深渊珠宝】可使"}

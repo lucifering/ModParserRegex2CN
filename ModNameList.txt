@@ -66,6 +66,7 @@
 ["瓦尔技能的伤害"] = { "Damage",keywordFlags = KeywordFlag.Vaal },
 ["法术格挡几率"] = "SpellBlockChance", --备注：to block spells
 ["护甲值"] = "Armour", --备注：armour
+["免疫流血"] = "AvoidBleed", 
 
 	
 	
