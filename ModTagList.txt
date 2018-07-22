@@ -111,4 +111,10 @@
 ["对被点燃敌人的"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Ignited" }, keywordFlags = KeywordFlag.Hit }, 
 ["每 (%d+) 点力量可使"] = function(num) return { tag = { type = "PerStat", stat = "Str", div = num } } end, --备注：per (%d+) strength
 ["你获得【猫之隐匿】时"] = { tag = { type = "Condition", var = "AffectedByCat'sStealth" } }, --备注：while you have cat's stealth
-		
+["每 (%d+) 点力量使"] = function(num) return { tag = { type = "PerStat", stat = "Str", div = num } } end, --备注：per (%d+) strength		
+["若你有至少 (%d+) 点敏捷，则"] = function(num) return { tag = { type = "StatThreshold", stat = "Dex", threshold = num } } end, --备注：w?h?i[lf]e? you have at least (%d+) strength
+["若你有至少 (%d+) 点智慧，则"] = function(num) return { tag = { type = "StatThreshold", stat = "Int", threshold = num } } end, --备注：w?h?i[lf]e? you have at least (%d+) dexterity
+["若你有至少 (%d+) 点力量，则"] = function(num) return { tag = { type = "StatThreshold", stat = "Str", threshold = num } } end, --备注：w?h?i[lf]e? you have at least (%d+) intelligence
+["近期内你若被击中，则"] = { tag = { type = "Condition", var = "BeenHitRecently" } },
+
+

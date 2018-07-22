@@ -26,6 +26,8 @@
 ["每个暴击球每秒回复 ([%d%.]+) 魔力"] = function(num) return {  mod("ManaRegenPercent", "BASE", num,{ type = "Multiplier", var = "PowerCharge" })  } end,
 ["击败敌人时，每个狂怒球可以回复 %+(%d+) 生命"] = function(num) return {  mod("LifeOnKill", "BASE", num,{ type = "Multiplier", var = "FrenzyCharge" } )  } end,  
 ["每个狂怒球每秒回复 ([%d%.]+)%% 生命"] = function(num) return {  mod("LifeRegenPercent", "BASE", num,{ type = "Multiplier", var = "FrenzyCharge" } )  } end,  
+["每个耐力球可使每秒生命回复提高 ([%d%.]+)"] = function(num) return {  mod("LifeRegen", "BASE", num,{ type = "Multiplier", var = "EnduranceCharge" } )  } end,  
+
 ["击败敌人回复 %+(%d+) 生命"] = function(num) return {  mod("LifeOnKill", "BASE", num)  } end,  
 ["击败敌人回复 %+(%d+) 魔力"] = function(num) return {  mod("ManaOnKill", "BASE", num)  } end,  
 ["闪电伤害击中时有 ([%+%-]?%d+)%% 几率使敌人受到感电效果影响"] =function(num) return {  mod("EnemyShockChance", "BASE", num)  } end,  --   "EnemyShockChance", --备注：to shock
@@ -86,6 +88,11 @@
 mod("ManaRegenPercent", "BASE", num,{ type = "Condition", var = "OnConsecratedGround" } ) , 
  mod("EnergyShieldRegenPercent", "BASE", num,{ type = "Condition", var = "OnConsecratedGround" } ) ,} end, 
 ["受到击中物理伤害的 (%d+)%% 转化为火焰伤害"] = function(num) return {  mod("PhysicalDamageTakenAsFire", "BASE", num)  } end,
+["受到击中物理伤害的 (%d+)%% 转化为冰霜伤害"] = function(num) return {  mod("PhysicalDamageTakenAsCold", "BASE", num)  } end,
+["受到击中物理伤害的 (%d+)%% 转化为闪电伤害"] = function(num) return {  mod("PhysicalDamageTakenAsLightning", "BASE", num)  } end,
+["受到击中物理伤害的 (%d+)%% 转化为混沌伤害"] = function(num) return {  mod("PhysicalDamageTakenAsChaos", "BASE", num)  } end,
+["受到击中火焰、冰霜、闪电伤害的 (%d+)%% 转换为混沌伤害"] = function(num) return {  mod("ElementalDamageTakenAsChaos", "BASE", num)  } end,
+["受到击中火焰伤害的 (%d+)%% 转化为物理伤害"] = function(num) return {  mod("FireDamageTakenAsPhysical", "BASE", num)  } end,
 ["近期内，你若被击中并受到火焰伤害，则每秒回复 ([%d%.]+)%% 生命"] = function(num) return {  mod("LifeRegenPercent", "BASE", num,{ type = "Condition", var = "HitByFireDamageRecently" })  } end,
 ["火焰伤害的 ([%d%.]+)%% 转化为生命偷取"]= function(num) return {  mod("FireDamageLifeLeech", "BASE", num)  } end, 
 ["冰霜伤害的 ([%d%.]+)%% 转化为生命偷取"]= function(num) return {  mod("ColdDamageLifeLeech", "BASE", num)  } end, 
@@ -96,7 +103,9 @@ mod("ManaRegenPercent", "BASE", num,{ type = "Condition", var = "OnConsecratedGr
 ["近期内你若受到【残暴打击】，则其伤害的 ([%d%.]+)%% 转化为生命偷取"]= function(num) return {  mod("DamageLifeLeech", "BASE", num,{ type = "Condition", var = "BeenSavageHitRecently" })  } end, 
 ["总伤害额外提高 (%d+)%%"]= function(num) return {  mod("Damage", "MORE", num)  } end,
 ["每秒回复 ([%d%.]+)%% 能量护盾"]=function(num) return {  mod("EnergyShieldRegenPercent", "BASE", num)  } end,
+["每秒回复 ([%d%.]+) 能量护盾"]=function(num) return {  mod("EnergyShieldRegen", "BASE", num)  } end,
 ["每秒回复 ([%d%.]+)%% 生命"]=function(num) return {  mod("LifeRegenPercent", "BASE", num)  } end,
+["近期内你若被击中，则每秒回复 ([%d%.]+)%% 生命"]=function(num) return {  mod("LifeRegenPercent", "BASE", num,{ type = "Condition", var = "BeenHitRecently" })  } end,
 ["(%d+)%% 的攻击格挡率同样套用于法术格挡"]=function(num) return {  mod("BlockChanceConv", "BASE", num)  } end,
 ["流血总伤害额外提高 (%d+)%%"]=function(num) return {  mod("Damage", "MORE", num,nil,nil, KeywordFlag.Bleed)  } end, 
 ["近期内你若有使用过位移技能，则每秒回复 (%d+) 魔力"]=function(num) return {  mod("ManaRegen", "BASE", num,{ type = "Condition", var = "UsedMovementSkillRecently" })  } end,
@@ -130,6 +139,8 @@ mod("ManaRegenPercent", "BASE", num,{ type = "Condition", var = "OnConsecratedGr
 ["周围友军获得 (%d+)%% 魔力回复"]  = function(num) return { mod("ExtraAura", "LIST",{ mod =mod("ManaRegen", "INC", num,{ mod = effectMod, onlyAllies = true })} )} end,
 ["此物品上的技能石受到 (%d+) 级的 技能陷阱化 辅助"] = function(num) return { mod("ExtraSupport", "LIST", { skillId = "SupportTrap", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, 
 ["此物品上的技能石受到 (%d+) 级的 (.+) 辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
+["插槽内的的技能石被 (%d+) 级的(.+)辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
+
 ["此物品上的技能石受到 (%d+) 级的(.+)辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
 ["此物品上的技能石由 (%d+) 级的(.+)辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
 ["插槽内的的技能石被 (%d+) 级的 (.+) 辅助"] = function(num, _, support) return { mod("ExtraSupport", "LIST", { skillId = gemIdLookup[support] or gemIdLookup[support:gsub("^提高","")] or gemIdLookup[support.."(辅)"]  or "Unknown", level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, --备注：socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)
@@ -153,6 +164,7 @@ mod("ManaRegenPercent", "BASE", num,{ type = "Condition", var = "OnConsecratedGr
 ["移动时每秒回复 (%d+) 生命"]= function(num) return {  mod("LifeRegen", "BASE", num, { type = "Condition", var = "Moving" })  } end,
 ["低血时闪避值提高 %+(%d+)"]= function(num) return {  mod("Evasion", "BASE", num, { type = "Condition", var = "LowLife" })  } end,
 ["低血时每秒回复 ([%d%.]+)%% 生命"] = function(num) return {  mod("LifeRegenPercent", "BASE", num, { type = "Condition", var = "LowLife" })  } end,
+["满血时闪避值提高 %+(%d+)"]= function(num) return {  mod("Evasion", "BASE", num, { type = "Condition", var = "FullLife" })  } end,
 ["每有一个暴击球，你受到伤害的 ([%d%.]+)%% 由魔力先承担"]= function(num) return {  mod("DamageTakenFromManaBeforeLife", "BASE", num, { type = "Multiplier", var = "PowerCharge" } )  } end,
 ["获得 (%d+) 级的主动技能【元素之愈】"] = function(num) return {  mod("ExtraSkill", "LIST", { skillId ="VaalAuraElementalDamageHealing", level = num})   } end,
 ["获得 (%d+) 级的【幻象传送】"] = function(num) return {  mod("ExtraSkill", "LIST", { skillId ="MerveilWarp", level = num})   } end,
@@ -164,10 +176,12 @@ mod("ManaRegenPercent", "BASE", num,{ type = "Condition", var = "OnConsecratedGr
 ["装备和技能石的属性需求提高 (%d+)%%"] = function(num) return { mod("GlobalAttributeRequirements", "INC", num) } end,
 ["攻击和法术总暴击率额外降低 (%d+)%%"] = function(num) return { mod("CritChance", "MORE", -num) } end,
 ["获得 (%d+) 级的主动技能【(.+)】，且可被此道具上的技能石辅助"] = function(num, _, skill) return extraSkill(skill, num) end, --备注：grants level (%d+) (.+)
+["获得 (%d+) 级【(.+)】"] = function(num, _, skill) return extraSkill(skill, num) end,
 ["造成的异常状态持续时间缩短 (%d+)%%"] = function(num) return { mod("EnemyShockDuration", "INC", -num),mod("EnemyFreezeDuration", "INC", -num),mod("EnemyChillDuration", "INC", -num),mod("EnemyIgniteDuration", "INC", -num),mod("EnemyBleedDuration", "INC", -num),mod("EnemyPoisonDuration", "INC", -num)} end,
 ["造成的异常状态持续时间延长 (%d+)%%"] = function(num) return { mod("EnemyShockDuration", "INC", num),mod("EnemyFreezeDuration", "INC", -num),mod("EnemyChillDuration", "INC", -num),mod("EnemyIgniteDuration", "INC", -num),mod("EnemyBleedDuration", "INC", -num),mod("EnemyPoisonDuration", "INC", -num)} end,
 ["([%d%.]+) 每秒生命回复"] = function(num) return {  mod("LifeRegenPercent", "BASE", num)  } end,
 ["([%d%.]+) 每秒魔力回复"] = function(num) return {  mod("ManaRegenPercent", "BASE", num)  } end,
+["每秒 ([%d%.]+)%% 魔力回复"]= function(num) return {  mod("ManaRegenPercent", "BASE", num )  } end,
 ["物理攻击伤害的 ([%d%.]+)%% 转化为魔力偷取"]= function(num) return {  mod("PhysicalDamageManaLeech", "BASE", num,nil, ModFlag.Attack)  } end, 
 ["【(.+)】的魔力保留降低 ([%d%.]+)%%"] = function(_, skill_name, num) return { mod("ManaReserved", "INC",-num, { type = "SkillName", skillName =  skill_name or "Unknown"}) } end,
 ["药剂持续期间，有 (%d+)%% 几率冰冻"]= function(num) return {mod("EnemyFreezeChance", "BASE", num,{ type = "Condition", var = "UsingFlask" }) } end, 
@@ -331,5 +345,16 @@ mod("DodgeChance", "BASE", num2,{ type = "PerStat", stat = "Mana", div = num1, l
 mod("SpellDodgeChance", "BASE", num2,{ type = "PerStat", stat = "Mana", div = num1, limit = tonumber(num3), limitTotal = true }) } end, 
 ["拥有【鸟之斗魄】时每秒回复 (%d+) 生命"]= function(num) return {  mod("LifeRegen", "BASE", num,{ type = "Condition", var = "AffectedByAvian'sFlight" } )  } end,
 ["拥有【鸟之斗魄】时每秒回复 (%d+) 魔力"]= function(num) return {  mod("ManaRegen", "BASE", num,{ type = "Condition", var = "AffectedByAvian'sFlight" } )  } end,
+["每 (%d+) 点力量使最大能量护盾提高 %+(%d+)"]= function(_,num1,num2) return {  mod("EnergyShield", "BASE", num2,{ type = "PerStat", stat = "Str", div = num1 } )  } end,
+["此物品上的【(.+)技能石】由 (%d+) 级的 (.+) 辅助"] = function( _,_2,num, support) return { mod("ExtraSupport", "LIST", 
+	{ skillId = gemIdLookup[support] or gemIdLookup[support.."(辅)"] or support, level = num }, { type = "SocketedIn", slotName = "{SlotName}" }) } end, 
+["每 (%d+) 闪避值提高 (%d+)%% 移动速度，最多 (%d+)%%"]=function(_,num1,num2,num3) return {  
+mod("MovementSpeed", "INC", num2,{ type = "PerStat", stat = "Evasion", div = num1, limit = tonumber(num3), limitTotal = true }) } end, 
+["当你使用物品上的技能时，有 (%d+)%% 的几率触发 (%d+) 级的 【暗影姿态】"]
+ = function(_,num,levelnum) return{mod("ExtraSkill", "LIST", { skillId = "ShadeForm", level = levelnum}) }end, 
+["近期内你若未被击中，则受到的总伤害额外降低 (%d+)%%"]= function(num) return {  mod("DamageTaken", "MORE", -num, { type = "Condition", var = "BeenHitRecently", neg = true } )  } end, 
+["不再通过力量获得伤害加成，每 (%d+) 点力量会使近战伤害提高 (%d+)%%"] = function( _,perStr, num) return { mod("StrDmgBonusRatioOverride", "BASE", num / tonumber(perStr)) } end,
 
-
+["【(.+)】的增益效果提高 (%d+)%%"] = function(_, skill_name,num) return { mod("BuffEffect", "INC", num,{ type = "SkillName", skillName = skill_name } ) } end,
+	
+	

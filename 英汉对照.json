@@ -820,7 +820,6 @@
 { "en":"you have onslaught while not on low mana","cn":"低魔时获得【猛攻】"}
 { "en":"lose ([%d%.]+) mana per second","cn":"每秒失去 ([%d%.]+) 魔力"}
 { "en":"you have no life regeneration","cn":"无法回复生命"}
-
 { "en":"on shocked ground","cn":"在感电地面上的"}
 { "en":"on chilled ground","cn":"在冰缓地面上"}
 { "en":"on burning ground","cn":"在燃烧地面上的"}
@@ -830,3 +829,26 @@
 { "en":"projectiles pierce (%d+) additional targets while you have phasing","cn":"处于【迷踪】状态时，投射物穿透 (%d+) 个额外目标"}
 { "en":"against enemies on low life","cn":"对低血敌人，"}
 { "en":"for each type of abyssa?l? jewel affecting you","cn":"每种影响你的【深渊珠宝】可使"}
+{ "en":"^projectile attack skills [hd][ae][va][el] ","cn":"投射物攻击技能的"}
+{ "en":"against cursed enemies","cn":"已被诅咒的敌人"}
+{ "en":"socketed [%a+]* ?gems a?r?e? ?supported by level (%d+) (.+)","cn":"此物品上的【(.+)技能石】由 (%d+) 级的 (.+) 辅助"}
+{ "en":"aspect of the cat reserves no mana","cn":"【猫之势】不保留魔力值"}
+{ "en":"([%+%-]%d+) seconds to cat's stealth duration","cn":"【猫之隐匿】的持续时间 ([%+%-]%d+) 秒"}
+{ "en":"you have phasing while you have cat's stealth","cn":"拥有【猫之隐匿】时获得【迷踪】状态"}
+{ "en":"evasion rating is increased by uncapped cold resistance","cn":"闪避值将随绝对冰霜抗性提高"}
+{ "en":"chance to block attacks and spells","cn":"攻击及法术格挡率"}
+{ "en":"with ranged weapons","cn":"远程武器攻击的"}
+{ "en":"has no attribute requirements","cn":"穿戴对人物属性无需求"}
+{ "en":"enemies affected by your spider's webs have (%-%d+)%% to all resistances","cn":"受你至少 1 层蜘蛛网影响的敌人，所有抗性 (%-%d+)%%"}
+{ "en":"aspect of the spider area of effect","cn":"【蛛之势】的范围效果"}
+{ "en":"for each equipped corrupted item","cn":"每装备 1 个被腐化的物品，"}
+{ "en":"your spells are disabled","cn":"你的法术被禁用了"}
+{ "en":"per abyssa?l? jewel affecting you","cn":"每个影响你的【深渊珠宝】可使"}
+{ "en":"your maximum resistances are (%d+)%%","cn":"你的最大抗性为 (%d+)%%"}
+{ "en":"mana reservation of herald skills is always (%d+)%%","cn":"捷光环的魔力保留总是 (%d+)%%"}
+{ "en":"chaos damage taken","cn":"承受的混沌伤害"}
+{ "en":"chaos damage taken over time","cn":"受到的持续性混沌伤害"}
+{ "en":"fire damage taken","cn":"受到的火焰伤害"}
+{ "en":"aspect of the avian buff effect","cn":"【鸟之势】增益效果"}
+{ "en":"if you[' ]h?a?ve shocked an enemy recently","cn":"近期内你若感电任意敌人，则"}
+{ "en":"cannot block spells","cn":"无法格挡法术"}

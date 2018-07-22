@@ -67,7 +67,7 @@
 ["法术格挡几率"] = "SpellBlockChance", --备注：to block spells
 ["护甲值"] = "Armour", --备注：armour
 ["免疫流血"] = "AvoidBleed", 
-
+["被击中后中毒"] = "PoisonChance", --备注：to poison on hit
 	
 	
 	
