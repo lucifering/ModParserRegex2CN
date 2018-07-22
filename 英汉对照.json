@@ -852,3 +852,26 @@
 { "en":"aspect of the avian buff effect","cn":"【鸟之势】增益效果"}
 { "en":"if you[' ]h?a?ve shocked an enemy recently","cn":"近期内你若感电任意敌人，则"}
 { "en":"cannot block spells","cn":"无法格挡法术"}
+{ "en":"ignited enemies burn (%d+)%% slower","cn":"被点燃敌人的燃烧减缓 (%d+)%%"}
+{ "en":"the effect of chill on you is reversed","cn":"你身上的冰缓效果颠倒"}
+{ "en":"if your other ring is an elder item","cn":"若你的其他戒指中有【裂界之器】，则"}
+{ "en":"if your other ring is a shaper item","cn":"若你的其他戒指中有【塑界之器】，则"}
+{ "en":"for each unique item you have equipped","cn":"你每装备一个传奇装备，"}
+{ "en":"effect of chill on you","cn":"你受到的冰缓效果"}
+{ "en":"against shocked enemies","cn":"对感电敌人的击中"}
+{ "en":"per red socket","cn":"每个红色插槽"}
+{ "en":"per blue socket","cn":"每个蓝色插槽"}
+{ "en":"per green socket","cn":"每个绿色插槽"}
+{ "en":"per white socket","cn":"每个白色插槽会使"}
+{ "en":"socketed gems reserve no mana","cn":"此物品上的技能石无魔力保留"}
+{ "en":"^right ring slot: ","cn":"^右戒指栏位："}
+{ "en":"^left ring slot: ","cn":"^左戒指栏位："}
+{ "en":"on melee hit","cn":"近战攻击击中后"}
+{ "en":"spells have an additional projectile","cn":"法术可以额外发射 1 个投射物"}
+{ "en":"your lightning damage can ignite","cn":"你的闪电伤害可以造成点燃"}
+
+
+
+
+
+
