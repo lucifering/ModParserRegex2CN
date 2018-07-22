@@ -30,9 +30,11 @@
 ["每级获得每秒回复 (%d+) 生命"] = function(num) return {  mod("LifeRegen", "BASE", num, { type = "Multiplier", var = "Level" })  } end,  
 ["击败敌人回复 %+(%d+) 生命"] = function(num) return {  mod("LifeOnKill", "BASE", num)  } end,  
 ["击败敌人回复 %+(%d+) 魔力"] = function(num) return {  mod("ManaOnKill", "BASE", num)  } end,  
+
 ["闪电伤害击中时有 ([%+%-]?%d+)%% 几率使敌人受到感电效果影响"] =function(num) return {  mod("EnemyShockChance", "BASE", num)  } end,  --   "EnemyShockChance", --备注：to shock
 ["火焰伤害击中时有 ([%+%-]?%d+)%% 几率点燃敌人"] =function(num) return {  mod("EnemyIgniteChance", "BASE", num)  } end,  --   "EnemyShockChance", --备注：to shock
 ["法杖攻击 ([%+%-]?%d+)%% 暴击伤害加成"] = function(num) return {  mod("CritMultiplier", "BASE", num,nil, ModFlag.Wand)  } end,
+["获得额外闪电伤害， 其数值等同于物理伤害的 ([%d%.]+)%%"] = function(num) return {  mod("PhysicalDamageGainAsLightning", "BASE", num)  } end, --备注：^gain ([%d%.]+)%% of
 ["获得额外闪电伤害， 其数值等同于法杖物理伤害的 ([%d%.]+)%%"] = function(num) return {  mod("PhysicalDamageGainAsLightning", "BASE", num,nil, ModFlag.Wand)  } end, --备注：^gain ([%d%.]+)%% of
 ["获得额外火焰伤害， 其数值等同于法杖物理伤害的 ([%d%.]+)%%"] = function(num) return {  mod("PhysicalDamageGainAsFire", "BASE", num,nil, ModFlag.Wand)  } end,
 ["获得额外冰霜伤害， 其数值等同于法杖物理伤害的 ([%d%.]+)%%"] = function(num) return {  mod("PhysicalDamageGainAsCold", "BASE", num,nil, ModFlag.Wand)  } end,
@@ -277,19 +279,19 @@ mod("LifeRegenPercent", "BASE", num2,{ type = "StatThreshold", stat = "EnergyShi
 ["药剂持续期间，获得额外混沌伤害，其数值等同于 (%d+)%% 物理伤害"]= function(num) return {  mod("PhysicalDamageGainAsChaos", "BASE", num,{ type = "Condition", var = "UsingFlask" })  } end,
 ["药剂持续期间，获得额外混沌伤害，其数值等同于 (%d+)%% 火焰、冰霜、闪电伤害"]= function(num) return {  mod("ElementalDamageGainAsChaos", "BASE", num,{ type = "Condition", var = "UsingFlask" })  } end,
 ["近期内你若打出过暴击，则每有 1 个暴击球，就会每秒受到 (%d+) 闪电伤害"]= function(num) return {  mod("LightningDegen", "BASE", num,{ type = "Multiplier", var = "PowerCharge" },{ type = "Condition", var = "CritRecently" }) } end, 
-	["该武器击中致盲敌人时，附加 (%d+) %- (%d+) 基础火焰伤害"]= function(_,num1,num2) return { 
-	 mod("FireMin", "BASE", num1,nil,bor(ModFlag.Hit,ModFlag.Spell,ModFlag.Attack), { type = "Condition", var = "MainHandAttack" } ,{ type = "ActorCondition", actor = "enemy", var = "Blinded" }),
-	 mod("FireMax", "BASE", num2,nil,bor(ModFlag.Hit,ModFlag.Spell,ModFlag.Attack), { type = "Condition", var = "MainHandAttack" } ,{ type = "ActorCondition", actor = "enemy", var = "Blinded" })  } end, 
+["该武器击中致盲敌人时，附加 (%d+) %- (%d+) 基础火焰伤害"]= function(_,num1,num2) return { 
+	 mod("FireMin", "BASE", num1,nil,bor(ModFlag.Hit,ModFlag.Spell,ModFlag.Attack), { type = "Condition", var = "{Hand}Attack" } ,{ type = "ActorCondition", actor = "enemy", var = "Blinded" }),
+	 mod("FireMax", "BASE", num2,nil,bor(ModFlag.Hit,ModFlag.Spell,ModFlag.Attack), { type = "Condition", var = "{Hand}Attack" } ,{ type = "ActorCondition", actor = "enemy", var = "Blinded" })  } end, 
 ["人物等级每到达 (%d+) 级，该插槽内的【主动技能石】等级 %+(%d+)"] = function(div, _,num )return { mod("GemProperty", "LIST", { keyword = "active_skill", key = "level", value = num }, { type = "SocketedIn", slotName = "{SlotName}" }, { type = "Multiplier", var = "Level", div = tonumber(div) }) } end,
 ["玩家等级每提高 (%d+) 级，该武器攻击时便附加 (%d+) %- (%d+) 物理伤害"]= function(_,level,num1,num2) return {
-mod("PhysicalMin", "BASE", num1,nil,ModFlag.Attack,{ type = "Condition", var = "MainHandAttack" },{ type = "Multiplier", var = "Level", div = level } ) ,
-mod("PhysicalMax", "BASE", num2,nil,ModFlag.Attack,{ type = "Condition", var = "MainHandAttack" },{ type = "Multiplier", var = "Level", div = level } ) } end,
+mod("PhysicalMin", "BASE", num1,nil,ModFlag.Attack,{ type = "Condition", var = "{Hand}Attack" },{ type = "Multiplier", var = "Level", div = level } ) ,
+mod("PhysicalMax", "BASE", num2,nil,ModFlag.Attack,{ type = "Condition", var = "{Hand}Attack" },{ type = "Multiplier", var = "Level", div = level } ) } end,
 ["召唤生物击中时有 ([%d%.]+)%% 几率使目标中毒"]= function(num) return { mod("MinionModifier", "LIST", { mod = mod("PoisonChance", "BASE", num) })  } end,	
 ["召唤生物对中毒的敌人造成伤害的 ([%d%.]+)%% 转化为生命偷取"] = function(num) return { mod("MinionModifier", "LIST", { mod = mod("DamageLifeLeech", "BASE", num,nil, ModFlag.Hit,{ type = "ActorCondition", actor = "enemy", var = "Poisoned"}) })  } end,
 ["获得额外火焰伤害，其数值等同于 (%d+)%% 剑类物理伤害"]= function(num) return {  mod("PhysicalDamageGainAsFire", "BASE", num,nil, ModFlag.Sword )  } end,
-["该武器对被点燃敌人的击中伤害提高 (%d+)%%"]= function(num) return {  mod("Damage", "INC", num,nil,ModFlag.Hit,{ type = "Condition", var = "MainHandAttack" } ,{ type = "ActorCondition", actor = "enemy", var = "Ignited" })  } end,
-["该武器对被冰冻敌人的击中伤害提高 (%d+)%%"]= function(num) return {  mod("Damage", "INC", num,nil,ModFlag.Hit,{ type = "Condition", var = "MainHandAttack" } ,{ type = "ActorCondition", actor = "enemy", var = "Frozen" })  } end,
-["该武器对被感电敌人的击中伤害提高 (%d+)%%"]= function(num) return {  mod("Damage", "INC", num,nil,ModFlag.Hit,{ type = "Condition", var = "MainHandAttack" } ,{ type = "ActorCondition", actor = "enemy", var = "Shocked" })  } end,
+["该武器对被点燃敌人的击中伤害提高 (%d+)%%"]= function(num) return {  mod("Damage", "INC", num,nil,ModFlag.Hit,{ type = "Condition", var = "{Hand}Attack" } ,{ type = "ActorCondition", actor = "enemy", var = "Ignited" })  } end,
+["该武器对被冰冻敌人的击中伤害提高 (%d+)%%"]= function(num) return {  mod("Damage", "INC", num,nil,ModFlag.Hit,{ type = "Condition", var = "{Hand}Attack" } ,{ type = "ActorCondition", actor = "enemy", var = "Frozen" })  } end,
+["该武器对被感电敌人的击中伤害提高 (%d+)%%"]= function(num) return {  mod("Damage", "INC", num,nil,ModFlag.Hit,{ type = "Condition", var = "{Hand}Attack" } ,{ type = "ActorCondition", actor = "enemy", var = "Shocked" })  } end,
 ["近期内你若使用过移动技能，技能可以额外发射 (%d+) 个投射物"]= function(num) return {  mod("ProjectileCount", "BASE", num, { type = "Condition", var = "UsedMovementSkillRecently" })  } end,
 ["近期内你若被击中，技能可以额外发射 (%d+) 个投射物"]= function(num) return {  mod("ProjectileCount", "BASE", num, { type = "Condition", var = "BeenHitRecently" })  } end,
 ["武器上的每个红色插槽使物理伤害提高 (%d+)%%"]= function(num) return {  mod("PhysicalDamage", "INC", num,nil, ModFlag.Weapon, { type = "Multiplier", var = "RedSocketIn{SlotName}" })  } end,
@@ -373,3 +375,15 @@ mod("MovementSpeed", "INC", num2,{ type = "PerStat", stat = "Evasion", div = num
 ["在奉献地面上时有 (%d+)%% 额外格挡率"]= function(num) return {  mod("BlockChance", "BASE", num,{ type = "Condition", var = "OnConsecratedGround"})  } end,
 ["右戒指栏位：每秒回复 (%d+)%% 能量护盾"]=function(num) return {  mod("EnergyShieldRegenPercent", "BASE", num,{ type = "SlotNumber", num = 2 })  } end,
 ["左戒指栏位：每秒回复 (%d+) 魔力"]=function(num) return {  mod("ManaRegen", "BASE", num,{ type = "SlotNumber", num = 1 })  } end,
+["魔卫的物理总伤害额外提高 (%d+)%%"] = function(num) return { mod("MinionModifier", "LIST", { mod = mod("PhysicalDamage", "MORE", num, { type = "SkillName", skillName = "魔卫复苏" } )})  } end, 
+["异灵魔侍获得【火之化身】"] = { mod("MinionModifier", "LIST", { mod = mod("Keystone", "LIST", "火之化身") }, { type = "SkillName", skillName = "召唤魔侍" }) },
+["此物品上的技能石额外造成 (%d+) %- (%d+) 火焰伤害"] = function(_,num1,num2) return { 
+ mod("FireMin", "BASE", num1,{ type = "SocketedIn", slotName = "{SlotName}" } ), 
+ mod("FireMax", "BASE", num2,{ type = "SocketedIn", slotName = "{SlotName}" } ) } end,
+["每 (%d+)%% 的攻击格挡率会使法术伤害提高 (%d+)%%"]=function(_,num1,num2) return {  mod("SpellDamage", "INC", num2, { type = "PerStat", stat = "BlockChance", div = num1 })  } end,
+["生命偷取会套用于能量护盾"] = { flag("GhostReaver") },
+
+["中毒 (%d+) 层以上的敌人被该武器攻击击中时，该武器附加 (%d+) %- (%d+) 混沌伤害"] = function(_,num1,num2,num3) return {
+ mod("ChaosMin", "BASE", num2, { type = "Condition", var = "{Hand}Attack" } ,{ type = "MultiplierThreshold", actor = "enemy", var = "PoisonStack", threshold = num1 } ), 
+ mod("ChaosMax", "BASE", num3, { type = "Condition", var = "{Hand}Attack" } ,{ type = "MultiplierThreshold", actor = "enemy", var = "PoisonStack", threshold = num1 } ) 
+  } end,

@@ -26,3 +26,5 @@
 ["魔卫"] = { addToMinion = true, addToMinionTag = { type = "SkillName", skillName = "魔卫复苏" } }, --备注：zombie
 ["魔侍的"] = { addToMinion = true, addToMinionTag = { type = "SkillName", skillName = "召唤魔侍" } }, --备注：skeleton
 ["移动技能的"] = { keywordFlags = KeywordFlag.Movement }, --备注：with movement skills
+
+

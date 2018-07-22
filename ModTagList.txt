@@ -1,3 +1,5 @@
+["每 (%d+)%% 的攻击格挡率会使"] = function(num) return { tag = { type = "PerStat", stat = "BlockChance", div = num } } end,
+
 ["持盾牌时，"] = { tag = { type = "Condition", var = "UsingShield" } }, --备注：while holding a shield
 	["你的副手未装备武器时，"] = { tag = { type = "Condition", var = "OffHandIsEmpty" } }, --备注：while your off hand is empty
 	["双持时，"] = { tag = { type = "Condition", var = "DualWielding" } }, --备注：while dual wielding
@@ -117,3 +119,7 @@
 ["若你有至少 (%d+) 点力量，则"] = function(num) return { tag = { type = "StatThreshold", stat = "Str", threshold = num } } end, --备注：w?h?i[lf]e? you have at least (%d+) intelligence
 ["近期内你若被击中，则"] = { tag = { type = "Condition", var = "BeenHitRecently" } },
 ["击中点燃敌人时"] = { tag = { type = "ActorCondition", actor = "enemy", var = "Ignited" }, keywordFlags = KeywordFlag.Hit }, 
+["在主手时，"] = { tag = { type = "SlotNumber", num = 1 } }, --备注：when in main hand
+["在副手时，"] = { tag = { type = "SlotNumber", num = 2 } }, --备注：when in off hand
+["每 (%d+) 力量 "] = function(num) return { tag = { type = "PerStat", stat = "Str", div = num } } end, --备注：per (%d+) strength
+["使用此武器攻击时，"] = { tag = { type = "Condition", var = "{Hand}Attack" } }, 

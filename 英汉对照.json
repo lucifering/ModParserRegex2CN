@@ -869,9 +869,13 @@
 { "en":"on melee hit","cn":"近战攻击击中后"}
 { "en":"spells have an additional projectile","cn":"法术可以额外发射 1 个投射物"}
 { "en":"your lightning damage can ignite","cn":"你的闪电伤害可以造成点燃"}
-
-
-
-
-
-
+{ "en":"against frozen enemies","cn":"对被冰冻敌人的击中"}
+{ "en":"summoned skeletons take ([%d%.]+)%% of their maximum life per second as fire damage","cn":"异灵魔侍每秒将其最大生命的 ([%d%.]+)%% 转化为火焰伤害"}
+{ "en":"against hindered enemies","cn":"对被干扰敌人的"}
+{ "en":"chaos skill effect duration","cn":"混沌技能效果持续时间"}
+{ "en":"gain life from leech instantly from hits with this weapon","cn":"使用此武器击中敌人立即获得生命偷取"}
+{ "en":"(%d+)%% increased minion damage if you have hit recently","cn":"近期内你若造成过伤害，则召唤生物伤害提高 (%d+)%%"}
+{ "en":"increases and reductions to minion damage also affects? you","cn":"召唤生物伤害提高或降低，将同样套用于自身"}
+{ "en":"critical strikes do not always freeze","cn":"暴击不会必定造成冰冻"}
+{ "en":"skills chain an additional time while at maximum frenzy charges","cn":"当你拥有最大数量的狂怒球时，技能额外连锁弹射 1 次"}
+ 
