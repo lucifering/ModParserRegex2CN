@@ -254,12 +254,12 @@ mod("EnemyFreezeEffech", "INC", num,nil,ModFlag.Ailment,{ type = "Multiplier", v
 ["被击中时承受额外 ([%+%-]?%d+) 火焰伤害"] = function(num) return {  mod("FireDamageTakenWhenHit", "BASE", num,nil,nil,KeywordFlag.Fire)  } end,
 ["每拥有 1 个暴击球，有 (%d+)%% 几率造成中毒"]= function(num) return { mod("PoisonChance", "BASE", num,{ type = "Multiplier", var = "PowerCharge" } ) } end,
 ["当暴击球达到上限时，获得等同 (%d+)%% 物理伤害的混沌伤害"] = function(num) return {  mod("PhysicalDamageGainAsChaos", "BASE", num,{ type = "StatThreshold", stat = "PowerCharges", thresholdStat = "PowerChargesMax" } )  } end,
-["你拥有至少 (%d+) 个【深海屏障】时，格挡几率额外提高 (%d+)%%"] = function(num1,num2) return {  mod("BlockChance", "BASE", num2,{ type = "StatThreshold", stat = "CrabBarriers", threshold = num1} )  } end,
+["你拥有至少 (%d+) 个【深海屏障】时，格挡几率额外提高 (%d+)%%"] = function(num1,_,num2) return {  mod("BlockChance", "BASE", num2,{ type = "StatThreshold", stat = "CrabBarriers", threshold = num1} )  } end,
 ["每 (%d+) 点力量可使魔卫召唤上限额外提高 1 个"]= function(num) return {  mod("ActiveZombieLimit", "BASE", 1,{ type = "PerStat", stat = "Str", div = num })  } end,
 ["召唤愤怒狂灵的最大数量减少 (%d+)%%"]= function(num) return {  mod("ActiveRagingSpiritLimit", "INC", -num)  } end,
-["每有 (%d+) 层能量护盾可每秒回复 ([%d%.]+)%% 生命"]= function(num1,num2) return {  mod("LifeRegenPercent", "BASE", num2,{ type = "PerStat", stat = "EnergyShield", div = num1 })  } end,
+["每有 (%d+) 层能量护盾可每秒回复 ([%d%.]+)%% 生命"]= function(_,num1,num2) return {  mod("LifeRegenPercent", "BASE", num2,{ type = "PerStat", stat = "EnergyShield", div = num1 })  } end,
 ["移动时获得额外 (%d+)%% 物理伤害减免"]= function(num) return {  mod("PhysicalDamageReduction", "BASE", num,{ type = "Condition", var = "Moving" } )  } end, 
-["若你至少拥有 (%d+) 层能量护盾，则每秒回复 (%d+) 生命"]= function(num1,num2) return { 
+["若你至少拥有 (%d+) 层能量护盾，则每秒回复 (%d+) 生命"]= function(num1,_,num2) return { 
 mod("LifeRegenPercent", "BASE", num2,{ type = "StatThreshold", stat = "EnergyShield", threshold = num1 })  } end,
 ["血魔法"] = { mod("Mana", "MORE", -100), flag("BloodMagic") },
 ["近距离用弓击中后的总伤害额外提高 (%d+)%%"] = function(num) return {  mod("Damage", "MORE", num,nil,bor(ModFlag.Bow, ModFlag.Hit) , { type = "Condition", var = "AtCloseRange" } )  } end,
